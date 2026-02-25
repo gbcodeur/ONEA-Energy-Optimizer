@@ -4,6 +4,11 @@
 Système d'optimisation énergétique pour l'ONEA (Office National de l'Eau et de l'Assainissement).
 Ce projet utilise l'IA pour réduire la consommation électrique, optimiser le pompage et détecter les anomalies.
 
+<img width="1902" height="951" alt="image" src="https://github.com/user-attachments/assets/0c11a404-337b-4944-8a26-4ab66b68abe4" />
+
+<img width="1816" height="607" alt="image" src="https://github.com/user-attachments/assets/eb1fffb2-f33c-4a27-9fdf-a57b6527526d" />
+
+
 ## Modules
 1. **Prévision énergétique** - Prédiction de la consommation sur 24h
 2. **Optimisation du pompage** - Planning intelligent basé sur les heures creuses
