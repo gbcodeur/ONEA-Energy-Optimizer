@@ -1,0 +1,194 @@
+[
+  {
+    "date": "2026-02-26",
+    "hour": 0,
+    "temp_ext_predicted": 20,
+    "humidity_predicted": 48.6,
+    "energy_predicted": 115.91,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 1,
+    "temp_ext_predicted": 20.3,
+    "humidity_predicted": 38.5,
+    "energy_predicted": 124.82,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 2,
+    "temp_ext_predicted": 20,
+    "humidity_predicted": 34.7,
+    "energy_predicted": 130.8,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 3,
+    "temp_ext_predicted": 20,
+    "humidity_predicted": 39.2,
+    "energy_predicted": 122.24,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 4,
+    "temp_ext_predicted": 21.4,
+    "humidity_predicted": 32.2,
+    "energy_predicted": 116.84,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 5,
+    "temp_ext_predicted": 20,
+    "humidity_predicted": 37.4,
+    "energy_predicted": 115.79,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 6,
+    "temp_ext_predicted": 20,
+    "humidity_predicted": 49.2,
+    "energy_predicted": 161.29,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 7,
+    "temp_ext_predicted": 26.7,
+    "humidity_predicted": 24.6,
+    "energy_predicted": 159.94,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 8,
+    "temp_ext_predicted": 26.6,
+    "humidity_predicted": 38.3,
+    "energy_predicted": 159.4,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 9,
+    "temp_ext_predicted": 27.5,
+    "humidity_predicted": 29.3,
+    "energy_predicted": 113.88,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 10,
+    "temp_ext_predicted": 26.1,
+    "humidity_predicted": 36.4,
+    "energy_predicted": 114.7,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 11,
+    "temp_ext_predicted": 25.8,
+    "humidity_predicted": 23.9,
+    "energy_predicted": 111.93,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 12,
+    "temp_ext_predicted": 32.2,
+    "humidity_predicted": 17.2,
+    "energy_predicted": 115.79,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 13,
+    "temp_ext_predicted": 30.4,
+    "humidity_predicted": 33.6,
+    "energy_predicted": 115.65,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 14,
+    "temp_ext_predicted": 32.2,
+    "humidity_predicted": 28.3,
+    "energy_predicted": 114.22,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 15,
+    "temp_ext_predicted": 32.8,
+    "humidity_predicted": 19.9,
+    "energy_predicted": 129.97,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 16,
+    "temp_ext_predicted": 32.3,
+    "humidity_predicted": 25.0,
+    "energy_predicted": 110.53,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 17,
+    "temp_ext_predicted": 26.2,
+    "humidity_predicted": 30.6,
+    "energy_predicted": 121.63,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 18,
+    "temp_ext_predicted": 26.3,
+    "humidity_predicted": 26.0,
+    "energy_predicted": 170.55,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 19,
+    "temp_ext_predicted": 24.7,
+    "humidity_predicted": 34.5,
+    "energy_predicted": 169.41,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 20,
+    "temp_ext_predicted": 24.8,
+    "humidity_predicted": 28.4,
+    "energy_predicted": 170.08,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 21,
+    "temp_ext_predicted": 23.3,
+    "humidity_predicted": 19.6,
+    "energy_predicted": 177.22,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 22,
+    "temp_ext_predicted": 26.2,
+    "humidity_predicted": 19.3,
+    "energy_predicted": 130.91,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 23,
+    "temp_ext_predicted": 26.3,
+    "humidity_predicted": 32.6,
+    "energy_predicted": 131.61,
+    "heat_alert": "NON"
+  }
+]

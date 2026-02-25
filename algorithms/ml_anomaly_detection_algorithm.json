@@ -1,0 +1,217 @@
+{
+  "algorithm_name": "Isolation Forest - Détection Anomalies ML",
+  "algorithm_type": "Machine Learning Non-supervisé",
+  "version": "1.0",
+  "created_date": "2026-02-25",
+  "purpose": "Compléter la détection par règles en découvrant des patterns anormaux non anticipés",
+  
+  "description": "Isolation Forest est un algorithme de détection d'anomalies qui isole les observations en construisant des arbres de décision aléatoires. Les points anormaux sont plus faciles à isoler que les points normaux, car ils nécessitent moins de divisions pour être séparés du reste des données.",
+  
+  "input_format": {
+    "type": "array",
+    "structure": [
+      {
+        "field": "flow",
+        "type": "float",
+        "unit": "m³/h",
+        "description": "Débit d'eau pompé"
+      },
+      {
+        "field": "energy",
+        "type": "float",
+        "unit": "kWh",
+        "description": "Consommation énergétique"
+      },
+      {
+        "field": "level",
+        "type": "float",
+        "unit": "%",
+        "description": "Niveau du réservoir"
+      },
+      {
+        "field": "hour",
+        "type": "integer",
+        "description": "Heure de la journée (0-23)"
+      }
+    ]
+  },
+  
+  "output_format": {
+    "type": "array",
+    "structure": [
+      {
+        "field": "prediction",
+        "type": "integer",
+        "values": [-1, 1],
+        "description": "-1 = anomalie, 1 = normal"
+      },
+      {
+        "field": "anomaly_score",
+        "type": "float",
+        "description": "Score d'anomalie (plus négatif = plus anormal)"
+      },
+      {
+        "field": "subtype",
+        "type": "string",
+        "description": "Type d'anomalie déduit post-hoc (interprétabilité)"
+      }
+    ]
+  },
+  
+  "parameters": {
+    "n_estimators": {
+      "value": 100,
+      "description": "Nombre d'arbres dans la forêt",
+      "justification": "100 arbres offrent bon équilibre précision/performance"
+    },
+    "contamination": {
+      "value": 0.1,
+      "description": "Proportion attendue d'anomalies",
+      "justification": "On s'attend à environ 10% de points anormaux dans les données"
+    },
+    "random_state": {
+      "value": 42,
+      "description": "Graine aléatoire pour reproductibilité"
+    },
+    "max_samples": {
+      "value": "auto",
+      "description": "Nombre d'échantillons pour entraîner chaque arbre"
+    }
+  },
+  
+  "logic": {
+    "step1": "Entraînement sur données historiques 'normales' (30 jours)",
+    "step2": "Pour chaque point de données actuel:",
+    "step2a": "  - Construire 100 arbres de décision aléatoires",
+    "step2b": "  - Pour chaque arbre, mesurer combien de divisions sont nécessaires pour isoler le point",
+    "step2c": "  - Points anormaux nécessitent MOINS de divisions (plus faciles à isoler)",
+    "step2d": "  - Points normaux nécessitent PLUS de divisions (au cœur de la distribution)",
+    "step3": "Calculer score d'anomalie moyen sur les 100 arbres",
+    "step4": "Si score < seuil (contamination 10%) → Marquer comme anomalie",
+    "step5": "Interpréter le type d'anomalie pour l'opérateur (post-hoc)",
+    "step6": "Retourner liste d'anomalies ML détectées"
+  },
+  
+  "interpretation_rules": {
+    "rule1": {
+      "condition": "energy/flow > 1.2",
+      "interpretation": "Surconsommation énergétique",
+      "action": "Vérifier efficacité des pompes"
+    },
+    "rule2": {
+      "condition": "energy/flow < 0.5",
+      "interpretation": "Sous-consommation énergétique",
+      "action": "Vérifier capteurs d'énergie"
+    },
+    "rule3": {
+      "condition": "flow > 200 AND level < 35",
+      "interpretation": "Fort pompage mais niveau bas (fuite possible)",
+      "action": "Inspection urgente du réseau"
+    },
+    "rule4": {
+      "condition": "flow < 80 AND level > 85",
+      "interpretation": "Faible pompage mais niveau haut (sur-stockage)",
+      "action": "Ajuster planning de pompage"
+    },
+    "rule5": {
+      "condition": "energy > 150 AND flow < 100",
+      "interpretation": "Forte consommation pour faible débit (inefficacité)",
+      "action": "Audit énergétique nécessaire"
+    },
+    "default": {
+      "interpretation": "Pattern inhabituel détecté",
+      "action": "Analyse approfondie recommandée"
+    }
+  },
+  
+  "advantages": {
+    "advantage1": "Découvre des anomalies non anticipées (patterns cachés)",
+    "advantage2": "Ne nécessite pas de labellisation des données (non-supervisé)",
+    "advantage3": "Fonctionne bien même avec peu d'anomalies dans les données",
+    "advantage4": "Rapide en prédiction (arbres simples)",
+    "advantage5": "Robuste au bruit dans les données"
+  },
+  
+  "limitations": {
+    "limitation1": "Moins explicable que les règles (boîte noire relative)",
+    "limitation2": "Nécessite tuning du paramètre 'contamination'",
+    "limitation3": "Peut générer faux positifs si seuil trop bas",
+    "limitation4": "Ne détecte pas anomalies globales (seulement points isolés)"
+  },
+  
+  "integration_with_rules": {
+    "approach": "Détection hybride à 2 niveaux",
+    "level1": {
+      "name": "Règles expertes",
+      "role": "Détection anomalies connues (fuites, niveaux critiques)",
+      "strength": "Explicabilité, sécurité, fiabilité"
+    },
+    "level2": {
+      "name": "Machine Learning (Isolation Forest)",
+      "role": "Détection patterns inhabituels non anticipés",
+      "strength": "Découverte, adaptation, couverture large"
+    },
+    "combined_benefit": "Le système capture TOUT: anomalies connues (règles) + anomalies inconnues (ML)"
+  },
+  
+  "performance_expected": {
+    "detection_rate": "85-95%",
+    "false_positive_rate": "5-15%",
+    "processing_time": "< 1 seconde pour 24h de données",
+    "update_frequency": "Quotidienne (réentraînement avec nouvelles données)",
+    "note": "Performance s'améliore avec le temps (plus de données historiques)"
+  },
+  
+  "implementation_details": {
+    "library": "scikit-learn 1.3+",
+    "class": "sklearn.ensemble.IsolationForest",
+    "training_data_size": "30 jours × 24 heures = 720 points",
+    "feature_engineering": "Aucun preprocessing nécessaire (Isolation Forest robuste)",
+    "deployment": "Modèle ré-entraîné chaque nuit avec nouvelles données"
+  },
+  
+  "best_practices": {
+    "practice1": "Toujours combiner avec règles explicites pour systèmes critiques",
+    "practice2": "Réviser manuellement les anomalies ML les premiers mois",
+    "practice3": "Ajuster 'contamination' basé sur retour terrain",
+    "practice4": "Logger tous les cas pour amélioration continue",
+    "practice5": "Former les opérateurs à interpréter scores ML"
+  },
+  
+  "references": {
+    "paper1": "Liu et al. (2008) - Isolation Forest (Original paper)",
+    "paper2": "scikit-learn documentation - IsolationForest",
+    "paper3": "Industrial Anomaly Detection Best Practices (IEEE, 2021)",
+    "standard": "ISO 55000 - Asset Management (condition-based maintenance)"
+  },
+  
+  "deployment_roadmap": {
+    "phase1_hackathon": {
+      "duration": "Actuel",
+      "status": "✓ Implémenté",
+      "features": [
+        "Isolation Forest de base",
+        "Interprétation post-hoc",
+        "Intégration dashboard"
+      ]
+    },
+    "phase2_pilot": {
+      "duration": "3 mois",
+      "status": "À venir",
+      "features": [
+        "Calibration avec données ONEA réelles",
+        "Ajustement paramètre contamination",
+        "Validation taux faux positifs"
+      ]
+    },
+    "phase3_production": {
+      "duration": "6-12 mois",
+      "status": "Futur",
+      "features": [
+        "Autoencoder pour anomalies temporelles",
+        "One-Class SVM en complément",
+        "Ensemble de modèles ML"
+      ]
+    }
+  }
+}

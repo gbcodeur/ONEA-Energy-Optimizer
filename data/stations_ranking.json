@@ -1,0 +1,240 @@
+{
+  "by_energy_consumption": [
+    {
+      "rank": 1,
+      "station_id": "STATION_01",
+      "station_name": "Ouagadougou Centre",
+      "total_energy_kwh": 40625.78,
+      "category": "TRES_ENERGIVORE"
+    },
+    {
+      "rank": 2,
+      "station_id": "STATION_04",
+      "station_name": "Bobo-Dioulasso",
+      "total_energy_kwh": 35923.92,
+      "category": "TRES_ENERGIVORE"
+    },
+    {
+      "rank": 3,
+      "station_id": "STATION_02",
+      "station_name": "Ouaga Nord",
+      "total_energy_kwh": 31471.85,
+      "category": "ENERGIVORE"
+    },
+    {
+      "rank": 4,
+      "station_id": "STATION_03",
+      "station_name": "Ouaga Sud",
+      "total_energy_kwh": 27895.25,
+      "category": "ENERGIVORE"
+    },
+    {
+      "rank": 5,
+      "station_id": "STATION_05",
+      "station_name": "Koudougou",
+      "total_energy_kwh": 23297.54,
+      "category": "NORMAL"
+    },
+    {
+      "rank": 6,
+      "station_id": "STATION_06",
+      "station_name": "Banfora",
+      "total_energy_kwh": 21141.93,
+      "category": "NORMAL"
+    }
+  ],
+  "by_cost": [
+    {
+      "rank": 1,
+      "station_id": "STATION_01",
+      "station_name": "Ouagadougou Centre",
+      "total_cost_fcfa": 3046933.84
+    },
+    {
+      "rank": 2,
+      "station_id": "STATION_04",
+      "station_name": "Bobo-Dioulasso",
+      "total_cost_fcfa": 2694294.26
+    },
+    {
+      "rank": 3,
+      "station_id": "STATION_02",
+      "station_name": "Ouaga Nord",
+      "total_cost_fcfa": 2360388.52
+    },
+    {
+      "rank": 4,
+      "station_id": "STATION_03",
+      "station_name": "Ouaga Sud",
+      "total_cost_fcfa": 2092143.41
+    },
+    {
+      "rank": 5,
+      "station_id": "STATION_05",
+      "station_name": "Koudougou",
+      "total_cost_fcfa": 1747315.46
+    },
+    {
+      "rank": 6,
+      "station_id": "STATION_06",
+      "station_name": "Banfora",
+      "total_cost_fcfa": 1585644.77
+    }
+  ],
+  "by_efficiency": [
+    {
+      "rank": 1,
+      "station_id": "STATION_05",
+      "station_name": "Koudougou",
+      "efficiency_score": 86.4,
+      "category": "EXCELLENT"
+    },
+    {
+      "rank": 2,
+      "station_id": "STATION_03",
+      "station_name": "Ouaga Sud",
+      "efficiency_score": 85.3,
+      "category": "EXCELLENT"
+    },
+    {
+      "rank": 3,
+      "station_id": "STATION_04",
+      "station_name": "Bobo-Dioulasso",
+      "efficiency_score": 85.3,
+      "category": "BON"
+    },
+    {
+      "rank": 4,
+      "station_id": "STATION_01",
+      "station_name": "Ouagadougou Centre",
+      "efficiency_score": 84.4,
+      "category": "BON"
+    },
+    {
+      "rank": 5,
+      "station_id": "STATION_02",
+      "station_name": "Ouaga Nord",
+      "efficiency_score": 84.4,
+      "category": "A_AMELIORER"
+    },
+    {
+      "rank": 6,
+      "station_id": "STATION_06",
+      "station_name": "Banfora",
+      "efficiency_score": 82.9,
+      "category": "A_AMELIORER"
+    }
+  ],
+  "by_anomalies": [
+    {
+      "rank": 1,
+      "station_id": "STATION_02",
+      "station_name": "Ouaga Nord",
+      "anomaly_count": 22,
+      "priority": "URGENTE"
+    },
+    {
+      "rank": 2,
+      "station_id": "STATION_04",
+      "station_name": "Bobo-Dioulasso",
+      "anomaly_count": 19,
+      "priority": "URGENTE"
+    },
+    {
+      "rank": 3,
+      "station_id": "STATION_05",
+      "station_name": "Koudougou",
+      "anomaly_count": 15,
+      "priority": "MOYENNE"
+    },
+    {
+      "rank": 4,
+      "station_id": "STATION_01",
+      "station_name": "Ouagadougou Centre",
+      "anomaly_count": 13,
+      "priority": "MOYENNE"
+    },
+    {
+      "rank": 5,
+      "station_id": "STATION_03",
+      "station_name": "Ouaga Sud",
+      "anomaly_count": 13,
+      "priority": "FAIBLE"
+    },
+    {
+      "rank": 6,
+      "station_id": "STATION_06",
+      "station_name": "Banfora",
+      "anomaly_count": 11,
+      "priority": "FAIBLE"
+    }
+  ],
+  "detailed_data": [
+    {
+      "id": "STATION_01",
+      "name": "Ouagadougou Centre",
+      "capacity_m3h": 500,
+      "total_energy_kwh": 40625.78,
+      "total_flow_m3": 42508.27,
+      "total_cost_fcfa": 3046933.84,
+      "avg_energy_per_m3": 0.956,
+      "anomaly_count": 13,
+      "efficiency_score": 84.4
+    },
+    {
+      "id": "STATION_02",
+      "name": "Ouaga Nord",
+      "capacity_m3h": 400,
+      "total_energy_kwh": 31471.85,
+      "total_flow_m3": 32909.54,
+      "total_cost_fcfa": 2360388.52,
+      "avg_energy_per_m3": 0.956,
+      "anomaly_count": 22,
+      "efficiency_score": 84.4
+    },
+    {
+      "id": "STATION_03",
+      "name": "Ouaga Sud",
+      "capacity_m3h": 350,
+      "total_energy_kwh": 27895.25,
+      "total_flow_m3": 29452.75,
+      "total_cost_fcfa": 2092143.41,
+      "avg_energy_per_m3": 0.947,
+      "anomaly_count": 13,
+      "efficiency_score": 85.3
+    },
+    {
+      "id": "STATION_04",
+      "name": "Bobo-Dioulasso",
+      "capacity_m3h": 450,
+      "total_energy_kwh": 35923.92,
+      "total_flow_m3": 37949.83,
+      "total_cost_fcfa": 2694294.26,
+      "avg_energy_per_m3": 0.947,
+      "anomaly_count": 19,
+      "efficiency_score": 85.3
+    },
+    {
+      "id": "STATION_05",
+      "name": "Koudougou",
+      "capacity_m3h": 300,
+      "total_energy_kwh": 23297.54,
+      "total_flow_m3": 24899.76,
+      "total_cost_fcfa": 1747315.46,
+      "avg_energy_per_m3": 0.936,
+      "anomaly_count": 15,
+      "efficiency_score": 86.4
+    },
+    {
+      "id": "STATION_06",
+      "name": "Banfora",
+      "capacity_m3h": 250,
+      "total_energy_kwh": 21141.93,
+      "total_flow_m3": 21763.96,
+      "total_cost_fcfa": 1585644.77,
+      "avg_energy_per_m3": 0.971,
+      "anomaly_count": 11,
+      "efficiency_score": 82.9
+    }
+  ]
+}

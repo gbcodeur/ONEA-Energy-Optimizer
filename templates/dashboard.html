@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONEA Energy Optimizer - Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <h1>⚡ ONEA Energy Optimizer</h1>
+                <p>Système d'optimisation énergétique</p>
+            </div>
+        </header>
+
+        <!-- KPI Cards -->
+        <div class="kpi-section">
+            <div class="kpi-card">
+                <div class="kpi-icon">⚡</div>
+                <div class="kpi-content">
+                    <div class="kpi-label">Énergie (24h)</div>
+                    <div class="kpi-value" id="kpi-energy">-- kWh</div>
+                </div>
+            </div>
+
+            <div class="kpi-card">
+                <div class="kpi-icon">💰</div>
+                <div class="kpi-content">
+                    <div class="kpi-label">Coût (24h)</div>
+                    <div class="kpi-value" id="kpi-cost">-- FCFA</div>
+                </div>
+            </div>
+
+            <div class="kpi-card">
+                <div class="kpi-icon">⚠️</div>
+                <div class="kpi-content">
+                    <div class="kpi-label">Anomalies</div>
+                    <div class="kpi-value" id="kpi-anomalies">--</div>
+                    <div class="kpi-sublabel" id="kpi-critical">-- critiques</div>
+                </div>
+            </div>
+
+            <div class="kpi-card">
+                <div class="kpi-icon">🏭</div>
+                <div class="kpi-content">
+                    <div class="kpi-label">Station #1</div>
+                    <div class="kpi-value" id="kpi-station">--</div>
+                    <div class="kpi-sublabel" id="kpi-station-energy">-- kWh</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Section -->
+        <div class="charts-section">
+            <!-- Prévisions -->
+            <div class="chart-container">
+                <h2>📊 Prévisions Énergétiques (24h)</h2>
+                <canvas id="predictionsChart"></canvas>
+            </div>
+
+            <!-- Planning Pompage -->
+            <div class="chart-container">
+                <h2>🔄 Planning de Pompage Optimisé</h2>
+                <canvas id="scheduleChart"></canvas>
+            </div>
+
+            <!-- Anomalies -->
+            <div class="chart-container">
+                <h2>⚠️ Anomalies Détectées</h2>
+                <div id="anomalies-list"></div>
+            </div>
+
+            <!-- Classement Stations -->
+            <div class="chart-container">
+                <h2>🏆 Classement des Stations</h2>
+                <canvas id="rankingChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>ONEA Energy Optimizer - Hackathon 2026</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='charts.js') }}"></script>
+</body>
+</html>

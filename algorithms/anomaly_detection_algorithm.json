@@ -1,0 +1,251 @@
+{
+  "algorithm_name": "Détection d'Anomalies et Fuites ONEA",
+  "type": "Système Expert basé sur Règles",
+  "version": "1.0",
+  "description": "Algorithme de détection des anomalies opérationnelles et des fuites dans le système de pompage et distribution",
+  
+  "input_data": {
+    "current_record": {
+      "flow": "débit actuel (m3/h)",
+      "energy": "énergie consommée (kWh)",
+      "level": "niveau réservoir (%)",
+      "hour": "heure (0-23)",
+      "date": "date (YYYY-MM-DD)"
+    },
+    "previous_record": {
+      "level": "niveau précédent pour calcul variation"
+    }
+  },
+  
+  "regles_detection": {
+    "REGLE_1_CONSO_ANORMALE": {
+      "nom": "Consommation énergétique anormale",
+      "condition": "abs(energy - expected_energy) > 30",
+      "calcul_expected": "flow × 0.8",
+      "seuil": 30,
+      "unit": "kWh",
+      "severite": 2,
+      "description": "Écart important entre énergie consommée et énergie théorique",
+      "causes_possibles": [
+        "Pompe défaillante ou usée",
+        "Problème électrique",
+        "Capteur énergie défectueux",
+        "Rendement pompe dégradé"
+      ],
+      "actions": [
+        "Vérifier état des pompes",
+        "Contrôler capteurs énergie",
+        "Planifier maintenance"
+      ]
+    },
+    
+    "REGLE_2_NIVEAU_BAS": {
+      "nom": "Niveau réservoir critique bas",
+      "condition": "level < 40",
+      "seuil": 40,
+      "unit": "%",
+      "severite": 3,
+      "description": "Niveau du réservoir dangereusement bas",
+      "causes_possibles": [
+        "Pompage insuffisant",
+        "Demande exceptionnelle",
+        "Fuite importante",
+        "Panne pompe"
+      ],
+      "actions": [
+        "URGENCE: Augmenter pompage immédiatement",
+        "Vérifier présence de fuites",
+        "Alerter équipe technique",
+        "Activer pompes de secours si disponibles"
+      ]
+    },
+    
+    "REGLE_3_NIVEAU_HAUT": {
+      "nom": "Niveau réservoir trop élevé",
+      "condition": "level > 90",
+      "seuil": 90,
+      "unit": "%",
+      "severite": 1,
+      "description": "Niveau du réservoir proche de la capacité maximale",
+      "causes_possibles": [
+        "Pompage excessif",
+        "Demande plus faible que prévu",
+        "Erreur planification"
+      ],
+      "actions": [
+        "Réduire le pompage",
+        "Vérifier consommation réelle",
+        "Ajuster planning"
+      ]
+    },
+    
+    "REGLE_4_VARIATION_BRUTALE": {
+      "nom": "Variation brutale du niveau",
+      "condition": "abs(level - previous_level) > 15",
+      "seuil": 15,
+      "unit": "%/h",
+      "severite": 2,
+      "description": "Changement trop rapide du niveau du réservoir",
+      "causes_possibles": [
+        "Fuite soudaine",
+        "Vanne défectueuse",
+        "Incident sur réseau",
+        "Capteur niveau défaillant"
+      ],
+      "actions": [
+        "Inspection immédiate réservoir",
+        "Vérifier vannes et conduites",
+        "Contrôler capteur niveau",
+        "Rechercher fuites visibles"
+      ]
+    },
+    
+    "REGLE_5_POMPAGE_HEURE_POINTE": {
+      "nom": "Pompage important aux heures de pointe",
+      "condition": "hour >= 18 AND hour <= 22 AND flow > 200",
+      "seuil_hour": [18, 22],
+      "seuil_flow": 200,
+      "unit": "m3/h",
+      "severite": 1,
+      "description": "Pompage élevé durant les heures les plus coûteuses",
+      "causes_possibles": [
+        "Planning non optimisé",
+        "Demande imprévue",
+        "Niveau bas forcé le pompage"
+      ],
+      "actions": [
+        "Revoir planning de pompage",
+        "Anticiper pompage heures creuses",
+        "Augmenter capacité réservoir si récurrent"
+      ]
+    },
+    
+    "REGLE_6_DEBIT_FAIBLE": {
+      "nom": "Débit anormalement faible",
+      "condition": "flow < 70",
+      "seuil": 70,
+      "unit": "m3/h",
+      "severite": 2,
+      "description": "Débit très en dessous de la normale",
+      "causes_possibles": [
+        "Panne pompe",
+        "Obstruction conduite",
+        "Vanne partiellement fermée",
+        "Problème alimentation électrique"
+      ],
+      "actions": [
+        "Vérifier état pompes",
+        "Inspecter conduites",
+        "Contrôler vannes",
+        "Vérifier alimentation électrique"
+      ]
+    },
+    
+    "REGLE_7_FUITE_PROBABLE": {
+      "nom": "Détection probable de fuite",
+      "condition": "flow > 0 AND flow constant (±5%) pendant 3h+ AND level en baisse continue",
+      "description": "Débit constant avec baisse continue du niveau indique une fuite",
+      "severite": 3,
+      "causes_possibles": [
+        "Fuite sur canalisation",
+        "Fuite au réservoir",
+        "Vanne défectueuse laissant passer l'eau"
+      ],
+      "actions": [
+        "URGENCE: Inspection réseau complète",
+        "Localiser la fuite (capteurs, inspection visuelle)",
+        "Isoler section si possible",
+        "Réparation immédiate",
+        "Alerter direction"
+      ],
+      "note": "Cette règle nécessite historique sur 3h minimum"
+    }
+  },
+  
+  "scoring_severite": {
+    "calcul": "Somme des sévérités de toutes les règles déclenchées",
+    "classification": {
+      "FAIBLE": {
+        "score": 1,
+        "couleur": "bleu",
+        "action": "Surveillance renforcée"
+      },
+      "MOYENNE": {
+        "score": [2, 3],
+        "couleur": "orange",
+        "action": "Planifier intervention sous 24-48h"
+      },
+      "CRITIQUE": {
+        "score": ">=4",
+        "couleur": "rouge",
+        "action": "Intervention immédiate requise"
+      }
+    }
+  },
+  
+  "logic": {
+    "step1": "Pour chaque enregistrement de données:",
+    "step2": "  - Appliquer toutes les règles de détection",
+    "step3": "  - Calculer les métriques (expected_energy, variations, etc.)",
+    "step4": "  - Pour chaque règle déclenchée:",
+    "step4a": "    * Ajouter l'alerte à la liste",
+    "step4b": "    * Incrémenter le score de sévérité",
+    "step5": "  - Classifier la sévérité (FAIBLE/MOYENNE/CRITIQUE)",
+    "step6": "  - Si score > 0, créer une anomalie",
+    "step7": "Trier les anomalies par sévérité décroissante",
+    "step8": "Retourner liste d'anomalies en JSON"
+  },
+  
+  "output_format": {
+    "type": "JSON array",
+    "fields": [
+      "date",
+      "hour",
+      "flow (m3/h)",
+      "energy (kWh)",
+      "level (%)",
+      "alerts (array of alert names)",
+      "severity_score (integer)",
+      "severity (CRITIQUE/MOYENNE/FAIBLE)"
+    ]
+  },
+  
+  "seuils_ajustables": {
+    "note": "Les seuils peuvent être ajustés selon les retours terrain",
+    "calibration": "Recommandé après 30 jours d'exploitation",
+    "parameters": [
+      "energy_diff_threshold (actuellement 30)",
+      "level_low_threshold (actuellement 40)",
+      "level_high_threshold (actuellement 90)",
+      "level_variation_threshold (actuellement 15)",
+      "flow_low_threshold (actuellement 70)"
+    ]
+  },
+  
+  "extensions_futures": {
+    "machine_learning": "Remplacer règles par modèle ML (Isolation Forest, Autoencoder)",
+    "correlation_analysis": "Détecter anomalies par corrélation inhabituelle entre variables",
+    "seasonal_patterns": "Apprendre patterns saisonniers pour meilleure détection",
+    "predictive_maintenance": "Prévoir pannes avant qu'elles surviennent"
+  },
+  
+  "integration": {
+    "alerting": {
+      "email": "Envoyer email pour anomalies CRITIQUES",
+      "sms": "Envoyer SMS pour anomalies CRITIQUES",
+      "dashboard": "Afficher sur dashboard temps réel"
+    },
+    "ticketing": {
+      "automatic": "Créer ticket maintenance automatiquement",
+      "priority": "Selon niveau sévérité"
+    }
+  },
+  
+  "implementation": {
+    "language": "Python 3.x",
+    "libraries": ["numpy", "json"],
+    "file": "modules/module3_anomalies.py",
+    "execution_frequency": "continue (temps réel) ou horaire",
+    "data_retention": "Garder historique anomalies 12 mois minimum"
+  }
+}

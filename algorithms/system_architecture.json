@@ -1,0 +1,272 @@
+{
+  "system_name": "ONEA Energy Optimizer",
+  "version": "1.0",
+  "description": "Système complet d'optimisation énergétique basé sur l'Intelligence Artificielle pour l'ONEA",
+  "date": "Février 2026",
+  "author": "Hackathon ONEA 2026",
+  
+  "architecture": {
+    "type": "Modulaire",
+    "components": 5,
+    "philosophy": "Chaque module peut fonctionner indépendamment mais est optimisé pour l'intégration"
+  },
+  
+  "modules": {
+    "module1_prediction": {
+      "name": "Prévision Énergétique",
+      "type": "Machine Learning",
+      "algorithm_file": "algorithms/prediction_algorithm.json",
+      "implementation": "modules/module1_prediction.py",
+      "inputs": [
+        "Données historiques (30 jours minimum)",
+        "Features: hour, day_of_week, flow, level"
+      ],
+      "outputs": [
+        "Prévisions 24h (data/predictions.json)",
+        "Modèle ML entraîné (models/energy_model.pkl)"
+      ],
+      "execution": "Quotidienne à 00h00",
+      "dependencies": []
+    },
+    
+    "module2_optimization": {
+      "name": "Optimisation du Pompage",
+      "type": "Optimisation Heuristique",
+      "algorithm_file": "algorithms/optimization_algorithm.json",
+      "implementation": "modules/module2_optimization.py",
+      "inputs": [
+        "Prévisions module 1 (data/predictions.json)",
+        "Tarifs électriques (heures creuses/normales/pointe)",
+        "Niveau réservoir actuel"
+      ],
+      "outputs": [
+        "Planning pompage 24h (data/pump_schedule.json)"
+      ],
+      "execution": "Quotidienne à 00h15 (après module 1)",
+      "dependencies": ["module1_prediction"]
+    },
+    
+    "module3_anomalies": {
+      "name": "Détection d'Anomalies et Fuites",
+      "type": "Système Expert",
+      "algorithm_file": "algorithms/anomaly_detection_algorithm.json",
+      "implementation": "modules/module3_anomalies.py",
+      "inputs": [
+        "Données historiques (data/historical_data.json)",
+        "Seuils configurables"
+      ],
+      "outputs": [
+        "Liste anomalies (data/anomalies.json)",
+        "Alertes temps réel"
+      ],
+      "execution": "Continue (temps réel) ou horaire",
+      "dependencies": []
+    },
+    
+    "module4_ranking": {
+      "name": "Classement des Stations",
+      "type": "Analyse Comparative",
+      "algorithm_file": "algorithms/ranking_algorithm.json",
+      "implementation": "modules/module4_ranking.py",
+      "inputs": [
+        "Données multi-stations (7 jours)",
+        "Anomalies détectées"
+      ],
+      "outputs": [
+        "Classements multi-critères (data/stations_ranking.json)",
+        "Plan d'action prioritaire"
+      ],
+      "execution": "Hebdomadaire (dimanche 23h00)",
+      "dependencies": ["module3_anomalies"]
+    },
+    
+    "module5_dashboard": {
+      "name": "Dashboard Web",
+      "type": "Visualisation et Pilotage",
+      "implementation": "app.py + templates/ + static/",
+      "inputs": [
+        "Tous les JSON générés par modules 1-4",
+        "API endpoints Flask"
+      ],
+      "outputs": [
+        "Interface web interactive",
+        "KPI temps réel",
+        "Graphiques Chart.js"
+      ],
+      "execution": "Continue (serveur web)",
+      "dependencies": ["tous les modules"]
+    }
+  },
+  
+  "data_flow": {
+    "description": "Flux de données entre modules",
+    "sequence": [
+      {
+        "step": 1,
+        "module": "module1_prediction",
+        "action": "Génère données historiques et prévisions 24h",
+        "output": "predictions.json"
+      },
+      {
+        "step": 2,
+        "module": "module2_optimization",
+        "action": "Utilise prévisions pour créer planning pompage optimisé",
+        "input": "predictions.json",
+        "output": "pump_schedule.json"
+      },
+      {
+        "step": 3,
+        "module": "module3_anomalies",
+        "action": "Analyse données historiques pour détecter anomalies",
+        "input": "historical_data.json",
+        "output": "anomalies.json"
+      },
+      {
+        "step": 4,
+        "module": "module4_ranking",
+        "action": "Compare performances des 6 stations",
+        "input": "multi-stations data + anomalies.json",
+        "output": "stations_ranking.json"
+      },
+      {
+        "step": 5,
+        "module": "module5_dashboard",
+        "action": "Visualise tous les résultats sur interface web",
+        "input": "tous les JSON",
+        "output": "Interface web accessible"
+      }
+    ]
+  },
+  
+  "technical_stack": {
+    "backend": {
+      "language": "Python 3.8+",
+      "framework": "Flask 3.0.0",
+      "libraries": [
+        "numpy 1.24.3",
+        "pandas 2.0.3",
+        "scikit-learn 1.3.0",
+        "joblib 1.3.2"
+      ]
+    },
+    "frontend": {
+      "html": "HTML5",
+      "css": "CSS3 (responsive)",
+      "javascript": "Vanilla JS + Chart.js 4.4.0"
+    },
+    "data_storage": {
+      "format": "JSON",
+      "location": "data/ directory",
+      "backup": "Recommandé quotidien"
+    },
+    "models": {
+      "format": "Pickle (.pkl)",
+      "location": "models/ directory",
+      "versioning": "Recommandé"
+    }
+  },
+  
+  "deployment": {
+    "development": {
+      "command": "python app.py",
+      "host": "localhost",
+      "port": 5000,
+      "debug": true
+    },
+    "production": {
+      "server": "Gunicorn ou uWSGI recommandé",
+      "reverse_proxy": "Nginx recommandé",
+      "ssl": "Recommandé pour sécurité",
+      "monitoring": "Logs + alertes"
+    }
+  },
+  
+  "gains_attendus": {
+    "energetiques": {
+      "reduction_consommation": "10-15%",
+      "reduction_pics": "20-30%",
+      "optimisation_repartition": "Oui"
+    },
+    "financiers": {
+      "economies_facture": "15-25%",
+      "exemple_24h": "67,500 FCFA/jour/station",
+      "exemple_mensuel": "2,025,000 FCFA/mois/station",
+      "exemple_annuel": "24,300,000 FCFA/an/station",
+      "6_stations_annuel": "145,800,000 FCFA/an"
+    },
+    "operationnels": {
+      "detection_anomalies": "Automatique et rapide",
+      "temps_reaction": "< 15 minutes",
+      "visibilite": "Dashboard temps réel",
+      "decisions": "Basées sur données et IA"
+    }
+  },
+  
+  "scalability": {
+    "stations": "De 1 à 100+ stations",
+    "data_volume": "Optimisé pour big data",
+    "geographic": "Multi-sites (Ouaga, Bobo, etc.)",
+    "features": "Extensible (météo, maintenance prédictive, etc.)"
+  },
+  
+  "security": {
+    "authentication": "À implémenter pour production",
+    "authorization": "Contrôle d'accès par rôles recommandé",
+    "data_encryption": "SSL/TLS recommandé",
+    "audit_logs": "Traçabilité des actions"
+  },
+  
+  "compliance": {
+    "data_privacy": "Données ONEA confidentielles",
+    "license": "Propriété participants, exploitation ONEA sous licence libre",
+    "standards": "Adapté contexte Burkina Faso"
+  },
+  
+  "roadmap": {
+    "phase1_pilote": {
+      "duration": "3 mois",
+      "stations": "2-3 stations test",
+      "objective": "Validation gains réels"
+    },
+    "phase2_deploiement": {
+      "duration": "6 mois",
+      "stations": "Toutes stations prioritaires",
+      "objective": "Couverture complète"
+    },
+    "phase3_evolution": {
+      "duration": "Continu",
+      "features": [
+        "Maintenance prédictive",
+        "Intégration météo",
+        "Application mobile",
+        "IA conversationnelle",
+        "Jumeaux numériques"
+      ]
+    }
+  },
+  
+  "support": {
+    "documentation": [
+      "README.md",
+      "DOCUMENTATION.md",
+      "GUIDE_INSTALLATION.md",
+      "RECOMMANDATIONS.md",
+      "PITCH_HACKATHON.md"
+    ],
+    "training": "Formation 3 jours recommandée",
+    "maintenance": "Support continu recommandé"
+  },
+  
+  "success_metrics": {
+    "kpi_techniques": [
+      "Précision prévisions (MAPE < 10%)",
+      "Disponibilité système (> 99%)",
+      "Taux détection anomalies (> 95%)"
+    ],
+    "kpi_business": [
+      "Réduction coûts (15-25%)",
+      "ROI (18-24 mois)",
+      "Satisfaction utilisateurs"
+    ]
+  }
+}

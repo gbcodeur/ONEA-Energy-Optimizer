@@ -1,0 +1,17 @@
+{
+  "detection_date": "2026-02-25 12:21:05",
+  "rule_based": {
+    "count": 48,
+    "types": {
+      "CONSO_ANORMALE": 1,
+      "VARIATION_BRUTALE": 23,
+      "POMPAGE_HEURE_POINTE": 36,
+      "NIVEAU_BAS": 1
+    }
+  },
+  "ml_based": {
+    "count": 48,
+    "method": "Isolation Forest"
+  },
+  "total_anomalies": 96
+}

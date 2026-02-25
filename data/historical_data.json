@@ -1,0 +1,7202 @@
+[
+  {
+    "date": "2026-01-26",
+    "hour": 0,
+    "day_of_week": 0,
+    "temp_ext": 21.3,
+    "humidity": 45.7,
+    "flow": 149.39,
+    "energy": 134.51,
+    "level": 57.88
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 1,
+    "day_of_week": 0,
+    "temp_ext": 20.4,
+    "humidity": 41.8,
+    "flow": 150.08,
+    "energy": 126.8,
+    "level": 62.05
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 2,
+    "day_of_week": 0,
+    "temp_ext": 23.7,
+    "humidity": 48.3,
+    "flow": 147.37,
+    "energy": 118.74,
+    "level": 64.98
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 3,
+    "day_of_week": 0,
+    "temp_ext": 21.7,
+    "humidity": 47.1,
+    "flow": 150.43,
+    "energy": 119.42,
+    "level": 55.03
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 4,
+    "day_of_week": 0,
+    "temp_ext": 20.8,
+    "humidity": 46.8,
+    "flow": 112.63,
+    "energy": 77.28,
+    "level": 58.25
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 5,
+    "day_of_week": 0,
+    "temp_ext": 20.7,
+    "humidity": 38.0,
+    "flow": 159.54,
+    "energy": 107.37,
+    "level": 60.5
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 6,
+    "day_of_week": 0,
+    "temp_ext": 21.7,
+    "humidity": 28.7,
+    "flow": 204.91,
+    "energy": 167.99,
+    "level": 89.68
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 7,
+    "day_of_week": 0,
+    "temp_ext": 30.1,
+    "humidity": 17.0,
+    "flow": 205.94,
+    "energy": 147.93,
+    "level": 74.21
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 8,
+    "day_of_week": 0,
+    "temp_ext": 28.1,
+    "humidity": 16.8,
+    "flow": 195.05,
+    "energy": 164.6,
+    "level": 83.63
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 9,
+    "day_of_week": 0,
+    "temp_ext": 27.5,
+    "humidity": 24.2,
+    "flow": 160.48,
+    "energy": 132.35,
+    "level": 73.98
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 10,
+    "day_of_week": 0,
+    "temp_ext": 30.0,
+    "humidity": 22.4,
+    "flow": 153.07,
+    "energy": 115.73,
+    "level": 70.43
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 11,
+    "day_of_week": 0,
+    "temp_ext": 29.9,
+    "humidity": 26.0,
+    "flow": 164.57,
+    "energy": 129.32,
+    "level": 79.61
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 12,
+    "day_of_week": 0,
+    "temp_ext": 34.3,
+    "humidity": 37.2,
+    "flow": 143.06,
+    "energy": 100.48,
+    "level": 69.84
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 13,
+    "day_of_week": 0,
+    "temp_ext": 33.5,
+    "humidity": 17.5,
+    "flow": 135.61,
+    "energy": 107.01,
+    "level": 69.56
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 14,
+    "day_of_week": 0,
+    "temp_ext": 35.1,
+    "humidity": 18.6,
+    "flow": 138.77,
+    "energy": 116.74,
+    "level": 56.84
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 15,
+    "day_of_week": 0,
+    "temp_ext": 34.4,
+    "humidity": 36.2,
+    "flow": 120.15,
+    "energy": 90.97,
+    "level": 60.62
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 16,
+    "day_of_week": 0,
+    "temp_ext": 32.8,
+    "humidity": 23.5,
+    "flow": 162.9,
+    "energy": 121.64,
+    "level": 63.56
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 17,
+    "day_of_week": 0,
+    "temp_ext": 27.6,
+    "humidity": 27.6,
+    "flow": 158.61,
+    "energy": 129.63,
+    "level": 59.91
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 18,
+    "day_of_week": 0,
+    "temp_ext": 27.1,
+    "humidity": 25.1,
+    "flow": 229.29,
+    "energy": 184.51,
+    "level": 70.57
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 19,
+    "day_of_week": 0,
+    "temp_ext": 26.4,
+    "humidity": 29.9,
+    "flow": 206.92,
+    "energy": 165.86,
+    "level": 51.72
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 20,
+    "day_of_week": 0,
+    "temp_ext": 25.8,
+    "humidity": 35.2,
+    "flow": 222.65,
+    "energy": 180.82,
+    "level": 59.42
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 21,
+    "day_of_week": 0,
+    "temp_ext": 25.4,
+    "humidity": 21.6,
+    "flow": 239.03,
+    "energy": 192.96,
+    "level": 51.32
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 22,
+    "day_of_week": 0,
+    "temp_ext": 27.1,
+    "humidity": 24.0,
+    "flow": 128.24,
+    "energy": 96.26,
+    "level": 43.9
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 23,
+    "day_of_week": 0,
+    "temp_ext": 29.2,
+    "humidity": 23.9,
+    "flow": 151.73,
+    "energy": 124.81,
+    "level": 48.19
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 0,
+    "day_of_week": 1,
+    "temp_ext": 23.0,
+    "humidity": 52.5,
+    "flow": 166.95,
+    "energy": 132.35,
+    "level": 63.71
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 1,
+    "day_of_week": 1,
+    "temp_ext": 21.9,
+    "humidity": 26.7,
+    "flow": 186.24,
+    "energy": 152.83,
+    "level": 69.64
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 2,
+    "day_of_week": 1,
+    "temp_ext": 21.1,
+    "humidity": 48.1,
+    "flow": 136.69,
+    "energy": 101.13,
+    "level": 61.22
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 3,
+    "day_of_week": 1,
+    "temp_ext": 23.6,
+    "humidity": 21.3,
+    "flow": 145.36,
+    "energy": 109.18,
+    "level": 57.49
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 4,
+    "day_of_week": 1,
+    "temp_ext": 23.3,
+    "humidity": 26.1,
+    "flow": 168.78,
+    "energy": 139.42,
+    "level": 55.97
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 5,
+    "day_of_week": 1,
+    "temp_ext": 24.0,
+    "humidity": 29.7,
+    "flow": 110.87,
+    "energy": 80.73,
+    "level": 60.67
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 6,
+    "day_of_week": 1,
+    "temp_ext": 23.0,
+    "humidity": 46.4,
+    "flow": 193.36,
+    "energy": 161.03,
+    "level": 75.69
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 7,
+    "day_of_week": 1,
+    "temp_ext": 28.4,
+    "humidity": 33.3,
+    "flow": 218.28,
+    "energy": 169.41,
+    "level": 62.32
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 8,
+    "day_of_week": 1,
+    "temp_ext": 29.3,
+    "humidity": 28.5,
+    "flow": 213.68,
+    "energy": 170.43,
+    "level": 81.49
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 9,
+    "day_of_week": 1,
+    "temp_ext": 28.1,
+    "humidity": 29.6,
+    "flow": 175.64,
+    "energy": 153.26,
+    "level": 75.99
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 10,
+    "day_of_week": 1,
+    "temp_ext": 29.9,
+    "humidity": 24.4,
+    "flow": 167.61,
+    "energy": 142.81,
+    "level": 74.75
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 11,
+    "day_of_week": 1,
+    "temp_ext": 28.6,
+    "humidity": 24.0,
+    "flow": 127.37,
+    "energy": 105.55,
+    "level": 74.82
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 12,
+    "day_of_week": 1,
+    "temp_ext": 34.2,
+    "humidity": 17.2,
+    "flow": 128.9,
+    "energy": 98.5,
+    "level": 82.4
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 13,
+    "day_of_week": 1,
+    "temp_ext": 32.3,
+    "humidity": 37.0,
+    "flow": 143.15,
+    "energy": 125.6,
+    "level": 63.08
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 14,
+    "day_of_week": 1,
+    "temp_ext": 34.2,
+    "humidity": 21.9,
+    "flow": 136.29,
+    "energy": 97.33,
+    "level": 58.26
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 15,
+    "day_of_week": 1,
+    "temp_ext": 33.8,
+    "humidity": 26.2,
+    "flow": 138.68,
+    "energy": 121.38,
+    "level": 67.32
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 16,
+    "day_of_week": 1,
+    "temp_ext": 33.3,
+    "humidity": 36.5,
+    "flow": 144.22,
+    "energy": 122.11,
+    "level": 63.9
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 17,
+    "day_of_week": 1,
+    "temp_ext": 25.3,
+    "humidity": 37.1,
+    "flow": 126.63,
+    "energy": 105.66,
+    "level": 66.56
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 18,
+    "day_of_week": 1,
+    "temp_ext": 26.9,
+    "humidity": 21.1,
+    "flow": 198.73,
+    "energy": 158.45,
+    "level": 61.46
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 19,
+    "day_of_week": 1,
+    "temp_ext": 28.4,
+    "humidity": 27.6,
+    "flow": 234.02,
+    "energy": 193.76,
+    "level": 65.11
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 20,
+    "day_of_week": 1,
+    "temp_ext": 26.1,
+    "humidity": 35.8,
+    "flow": 239.55,
+    "energy": 175.64,
+    "level": 55.48
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 21,
+    "day_of_week": 1,
+    "temp_ext": 28.3,
+    "humidity": 35.6,
+    "flow": 217.16,
+    "energy": 176.43,
+    "level": 61.23
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 22,
+    "day_of_week": 1,
+    "temp_ext": 29.1,
+    "humidity": 19.6,
+    "flow": 153.99,
+    "energy": 108.82,
+    "level": 56.23
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 23,
+    "day_of_week": 1,
+    "temp_ext": 27.0,
+    "humidity": 37.1,
+    "flow": 96.39,
+    "energy": 76.83,
+    "level": 61.59
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 0,
+    "day_of_week": 2,
+    "temp_ext": 22.6,
+    "humidity": 30.5,
+    "flow": 153.98,
+    "energy": 124.96,
+    "level": 54.55
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 1,
+    "day_of_week": 2,
+    "temp_ext": 20.2,
+    "humidity": 38.1,
+    "flow": 178.87,
+    "energy": 161.39,
+    "level": 56.9
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 2,
+    "day_of_week": 2,
+    "temp_ext": 20.9,
+    "humidity": 35.1,
+    "flow": 186.57,
+    "energy": 163.81,
+    "level": 67.32
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 3,
+    "day_of_week": 2,
+    "temp_ext": 21.8,
+    "humidity": 35.9,
+    "flow": 166.25,
+    "energy": 127.31,
+    "level": 54.94
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 4,
+    "day_of_week": 2,
+    "temp_ext": 21.9,
+    "humidity": 23.9,
+    "flow": 144.15,
+    "energy": 113.98,
+    "level": 50.45
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 5,
+    "day_of_week": 2,
+    "temp_ext": 20.8,
+    "humidity": 53.4,
+    "flow": 164.29,
+    "energy": 124.68,
+    "level": 63.07
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 6,
+    "day_of_week": 2,
+    "temp_ext": 20.3,
+    "humidity": 30.6,
+    "flow": 187.44,
+    "energy": 173.52,
+    "level": 73.3
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 7,
+    "day_of_week": 2,
+    "temp_ext": 28.7,
+    "humidity": 22.8,
+    "flow": 194.33,
+    "energy": 141.54,
+    "level": 70.36
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 8,
+    "day_of_week": 2,
+    "temp_ext": 29.6,
+    "humidity": 26.1,
+    "flow": 181.02,
+    "energy": 148.31,
+    "level": 77.87
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 9,
+    "day_of_week": 2,
+    "temp_ext": 28.6,
+    "humidity": 19.5,
+    "flow": 136.77,
+    "energy": 101.62,
+    "level": 84.69
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 10,
+    "day_of_week": 2,
+    "temp_ext": 30.1,
+    "humidity": 29.5,
+    "flow": 168.11,
+    "energy": 141.56,
+    "level": 72.6
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 11,
+    "day_of_week": 2,
+    "temp_ext": 29.3,
+    "humidity": 30.8,
+    "flow": 187.64,
+    "energy": 140.08,
+    "level": 71.65
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 12,
+    "day_of_week": 2,
+    "temp_ext": 32.4,
+    "humidity": 32.1,
+    "flow": 138.95,
+    "energy": 98.74,
+    "level": 74.11
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 13,
+    "day_of_week": 2,
+    "temp_ext": 34.3,
+    "humidity": 18.6,
+    "flow": 146.76,
+    "energy": 126.82,
+    "level": 64.16
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 14,
+    "day_of_week": 2,
+    "temp_ext": 33.5,
+    "humidity": 27.9,
+    "flow": 151.56,
+    "energy": 130.48,
+    "level": 66.0
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 15,
+    "day_of_week": 2,
+    "temp_ext": 33.8,
+    "humidity": 31.7,
+    "flow": 165.0,
+    "energy": 128.53,
+    "level": 69.31
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 16,
+    "day_of_week": 2,
+    "temp_ext": 32.4,
+    "humidity": 26.3,
+    "flow": 146.77,
+    "energy": 121.0,
+    "level": 67.06
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 17,
+    "day_of_week": 2,
+    "temp_ext": 26.0,
+    "humidity": 21.9,
+    "flow": 155.76,
+    "energy": 120.59,
+    "level": 67.81
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 18,
+    "day_of_week": 2,
+    "temp_ext": 26.3,
+    "humidity": 24.5,
+    "flow": 211.03,
+    "energy": 165.81,
+    "level": 61.32
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 19,
+    "day_of_week": 2,
+    "temp_ext": 25.3,
+    "humidity": 16.4,
+    "flow": 236.89,
+    "energy": 193.16,
+    "level": 47.71
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 20,
+    "day_of_week": 2,
+    "temp_ext": 26.5,
+    "humidity": 31.1,
+    "flow": 199.68,
+    "energy": 151.19,
+    "level": 59.77
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 21,
+    "day_of_week": 2,
+    "temp_ext": 26.0,
+    "humidity": 39.5,
+    "flow": 218.14,
+    "energy": 170.36,
+    "level": 48.45
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 22,
+    "day_of_week": 2,
+    "temp_ext": 25.3,
+    "humidity": 33.5,
+    "flow": 171.3,
+    "energy": 127.05,
+    "level": 49.27
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 23,
+    "day_of_week": 2,
+    "temp_ext": 26.3,
+    "humidity": 18.7,
+    "flow": 178.71,
+    "energy": 141.0,
+    "level": 54.96
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 0,
+    "day_of_week": 3,
+    "temp_ext": 23.7,
+    "humidity": 46.2,
+    "flow": 147.56,
+    "energy": 124.91,
+    "level": 50.05
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 1,
+    "day_of_week": 3,
+    "temp_ext": 23.5,
+    "humidity": 50.7,
+    "flow": 151.85,
+    "energy": 127.76,
+    "level": 63.98
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 2,
+    "day_of_week": 3,
+    "temp_ext": 21.3,
+    "humidity": 50.7,
+    "flow": 141.36,
+    "energy": 121.63,
+    "level": 62.34
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 3,
+    "day_of_week": 3,
+    "temp_ext": 22.3,
+    "humidity": 29.9,
+    "flow": 156.27,
+    "energy": 108.11,
+    "level": 70.69
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 4,
+    "day_of_week": 3,
+    "temp_ext": 23.0,
+    "humidity": 32.1,
+    "flow": 140.67,
+    "energy": 120.63,
+    "level": 56.0
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 5,
+    "day_of_week": 3,
+    "temp_ext": 22.2,
+    "humidity": 30.4,
+    "flow": 171.69,
+    "energy": 142.84,
+    "level": 61.78
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 6,
+    "day_of_week": 3,
+    "temp_ext": 20.6,
+    "humidity": 22.6,
+    "flow": 211.39,
+    "energy": 149.26,
+    "level": 69.79
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 7,
+    "day_of_week": 3,
+    "temp_ext": 29.3,
+    "humidity": 22.0,
+    "flow": 199.02,
+    "energy": 161.87,
+    "level": 78.15
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 8,
+    "day_of_week": 3,
+    "temp_ext": 28.3,
+    "humidity": 32.6,
+    "flow": 203.93,
+    "energy": 169.74,
+    "level": 72.58
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 9,
+    "day_of_week": 3,
+    "temp_ext": 30.0,
+    "humidity": 26.2,
+    "flow": 175.6,
+    "energy": 137.37,
+    "level": 74.16
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 10,
+    "day_of_week": 3,
+    "temp_ext": 28.1,
+    "humidity": 25.2,
+    "flow": 128.48,
+    "energy": 96.57,
+    "level": 71.1
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 11,
+    "day_of_week": 3,
+    "temp_ext": 30.1,
+    "humidity": 16.9,
+    "flow": 199.3,
+    "energy": 152.69,
+    "level": 74.71
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 12,
+    "day_of_week": 3,
+    "temp_ext": 34.6,
+    "humidity": 26.1,
+    "flow": 137.35,
+    "energy": 100.47,
+    "level": 76.7
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 13,
+    "day_of_week": 3,
+    "temp_ext": 34.4,
+    "humidity": 31.3,
+    "flow": 138.85,
+    "energy": 108.42,
+    "level": 67.3
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 14,
+    "day_of_week": 3,
+    "temp_ext": 32.8,
+    "humidity": 36.0,
+    "flow": 162.55,
+    "energy": 135.99,
+    "level": 70.72
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 15,
+    "day_of_week": 3,
+    "temp_ext": 34.0,
+    "humidity": 38.0,
+    "flow": 167.93,
+    "energy": 131.71,
+    "level": 56.68
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 16,
+    "day_of_week": 3,
+    "temp_ext": 32.4,
+    "humidity": 38.6,
+    "flow": 118.99,
+    "energy": 86.3,
+    "level": 62.88
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 17,
+    "day_of_week": 3,
+    "temp_ext": 26.0,
+    "humidity": 15.4,
+    "flow": 137.8,
+    "energy": 110.69,
+    "level": 63.36
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 18,
+    "day_of_week": 3,
+    "temp_ext": 27.6,
+    "humidity": 36.2,
+    "flow": 217.49,
+    "energy": 169.44,
+    "level": 66.54
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 19,
+    "day_of_week": 3,
+    "temp_ext": 28.5,
+    "humidity": 23.2,
+    "flow": 189.2,
+    "energy": 155.46,
+    "level": 59.07
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 20,
+    "day_of_week": 3,
+    "temp_ext": 25.9,
+    "humidity": 26.0,
+    "flow": 219.55,
+    "energy": 179.08,
+    "level": 57.14
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 21,
+    "day_of_week": 3,
+    "temp_ext": 26.3,
+    "humidity": 33.8,
+    "flow": 221.65,
+    "energy": 186.24,
+    "level": 68.42
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 22,
+    "day_of_week": 3,
+    "temp_ext": 27.9,
+    "humidity": 27.8,
+    "flow": 129.3,
+    "energy": 106.97,
+    "level": 57.18
+  },
+  {
+    "date": "2026-01-29",
+    "hour": 23,
+    "day_of_week": 3,
+    "temp_ext": 28.6,
+    "humidity": 32.3,
+    "flow": 153.97,
+    "energy": 138.05,
+    "level": 56.76
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 0,
+    "day_of_week": 4,
+    "temp_ext": 24.9,
+    "humidity": 38.9,
+    "flow": 147.09,
+    "energy": 112.73,
+    "level": 61.75
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 1,
+    "day_of_week": 4,
+    "temp_ext": 25.5,
+    "humidity": 39.4,
+    "flow": 134.15,
+    "energy": 116.02,
+    "level": 60.42
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 2,
+    "day_of_week": 4,
+    "temp_ext": 23.6,
+    "humidity": 49.0,
+    "flow": 176.21,
+    "energy": 138.97,
+    "level": 62.78
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 3,
+    "day_of_week": 4,
+    "temp_ext": 23.8,
+    "humidity": 28.7,
+    "flow": 161.65,
+    "energy": 135.18,
+    "level": 57.11
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 4,
+    "day_of_week": 4,
+    "temp_ext": 23.9,
+    "humidity": 46.2,
+    "flow": 154.99,
+    "energy": 134.55,
+    "level": 64.66
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 5,
+    "day_of_week": 4,
+    "temp_ext": 25.6,
+    "humidity": 43.2,
+    "flow": 167.52,
+    "energy": 120.26,
+    "level": 54.49
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 6,
+    "day_of_week": 4,
+    "temp_ext": 24.2,
+    "humidity": 43.6,
+    "flow": 198.04,
+    "energy": 144.67,
+    "level": 65.44
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 7,
+    "day_of_week": 4,
+    "temp_ext": 31.2,
+    "humidity": 29.3,
+    "flow": 199.83,
+    "energy": 171.05,
+    "level": 73.56
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 8,
+    "day_of_week": 4,
+    "temp_ext": 30.2,
+    "humidity": 28.6,
+    "flow": 196.29,
+    "energy": 174.36,
+    "level": 70.31
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 9,
+    "day_of_week": 4,
+    "temp_ext": 31.6,
+    "humidity": 27.9,
+    "flow": 161.57,
+    "energy": 131.89,
+    "level": 75.59
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 10,
+    "day_of_week": 4,
+    "temp_ext": 29.1,
+    "humidity": 28.7,
+    "flow": 148.78,
+    "energy": 116.92,
+    "level": 70.24
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 11,
+    "day_of_week": 4,
+    "temp_ext": 31.3,
+    "humidity": 33.1,
+    "flow": 154.36,
+    "energy": 119.54,
+    "level": 72.26
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 12,
+    "day_of_week": 4,
+    "temp_ext": 36.0,
+    "humidity": 17.3,
+    "flow": 156.28,
+    "energy": 144.07,
+    "level": 79.42
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 13,
+    "day_of_week": 4,
+    "temp_ext": 35.9,
+    "humidity": 29.1,
+    "flow": 168.88,
+    "energy": 121.83,
+    "level": 66.2
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 14,
+    "day_of_week": 4,
+    "temp_ext": 35.0,
+    "humidity": 15.7,
+    "flow": 144.59,
+    "energy": 105.65,
+    "level": 64.46
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 15,
+    "day_of_week": 4,
+    "temp_ext": 34.6,
+    "humidity": 25.2,
+    "flow": 158.49,
+    "energy": 124.62,
+    "level": 74.96
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 16,
+    "day_of_week": 4,
+    "temp_ext": 34.3,
+    "humidity": 31.7,
+    "flow": 172.87,
+    "energy": 151.79,
+    "level": 65.04
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 17,
+    "day_of_week": 4,
+    "temp_ext": 27.6,
+    "humidity": 21.1,
+    "flow": 138.33,
+    "energy": 93.08,
+    "level": 67.4
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 18,
+    "day_of_week": 4,
+    "temp_ext": 29.2,
+    "humidity": 36.2,
+    "flow": 236.89,
+    "energy": 196.18,
+    "level": 66.59
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 19,
+    "day_of_week": 4,
+    "temp_ext": 27.1,
+    "humidity": 15.2,
+    "flow": 210.3,
+    "energy": 163.83,
+    "level": 48.94
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 20,
+    "day_of_week": 4,
+    "temp_ext": 30.3,
+    "humidity": 23.8,
+    "flow": 236.62,
+    "energy": 190.25,
+    "level": 49.67
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 21,
+    "day_of_week": 4,
+    "temp_ext": 28.6,
+    "humidity": 38.8,
+    "flow": 202.66,
+    "energy": 158.77,
+    "level": 61.2
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 22,
+    "day_of_week": 4,
+    "temp_ext": 30.6,
+    "humidity": 15.2,
+    "flow": 128.51,
+    "energy": 93.53,
+    "level": 58.68
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 23,
+    "day_of_week": 4,
+    "temp_ext": 28.0,
+    "humidity": 28.4,
+    "flow": 163.92,
+    "energy": 138.19,
+    "level": 54.37
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 0,
+    "day_of_week": 5,
+    "temp_ext": 23.8,
+    "humidity": 32.2,
+    "flow": 174.92,
+    "energy": 130.21,
+    "level": 59.09
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 1,
+    "day_of_week": 5,
+    "temp_ext": 25.0,
+    "humidity": 29.7,
+    "flow": 104.89,
+    "energy": 82.09,
+    "level": 64.27
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 2,
+    "day_of_week": 5,
+    "temp_ext": 24.5,
+    "humidity": 40.4,
+    "flow": 161.97,
+    "energy": 143.29,
+    "level": 62.18
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 3,
+    "day_of_week": 5,
+    "temp_ext": 25.8,
+    "humidity": 45.8,
+    "flow": 131.06,
+    "energy": 108.04,
+    "level": 60.45
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 4,
+    "day_of_week": 5,
+    "temp_ext": 25.7,
+    "humidity": 26.2,
+    "flow": 130.29,
+    "energy": 99.21,
+    "level": 66.93
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 5,
+    "day_of_week": 5,
+    "temp_ext": 26.7,
+    "humidity": 30.5,
+    "flow": 185.78,
+    "energy": 159.76,
+    "level": 61.73
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 6,
+    "day_of_week": 5,
+    "temp_ext": 26.2,
+    "humidity": 41.1,
+    "flow": 198.27,
+    "energy": 152.56,
+    "level": 73.75
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 7,
+    "day_of_week": 5,
+    "temp_ext": 30.2,
+    "humidity": 35.4,
+    "flow": 184.58,
+    "energy": 146.51,
+    "level": 66.57
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 8,
+    "day_of_week": 5,
+    "temp_ext": 30.7,
+    "humidity": 35.2,
+    "flow": 202.44,
+    "energy": 162.6,
+    "level": 80.71
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 9,
+    "day_of_week": 5,
+    "temp_ext": 32.8,
+    "humidity": 17.4,
+    "flow": 156.82,
+    "energy": 116.23,
+    "level": 77.22
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 10,
+    "day_of_week": 5,
+    "temp_ext": 31.6,
+    "humidity": 25.0,
+    "flow": 140.72,
+    "energy": 128.57,
+    "level": 80.9
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 11,
+    "day_of_week": 5,
+    "temp_ext": 31.1,
+    "humidity": 21.0,
+    "flow": 147.62,
+    "energy": 118.46,
+    "level": 66.53
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 12,
+    "day_of_week": 5,
+    "temp_ext": 36.6,
+    "humidity": 19.7,
+    "flow": 143.77,
+    "energy": 109.72,
+    "level": 65.48
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 13,
+    "day_of_week": 5,
+    "temp_ext": 37.9,
+    "humidity": 31.9,
+    "flow": 185.65,
+    "energy": 133.83,
+    "level": 65.74
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 14,
+    "day_of_week": 5,
+    "temp_ext": 37.4,
+    "humidity": 30.3,
+    "flow": 171.64,
+    "energy": 134.12,
+    "level": 61.94
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 15,
+    "day_of_week": 5,
+    "temp_ext": 36.8,
+    "humidity": 38.3,
+    "flow": 147.5,
+    "energy": 97.14,
+    "level": 66.8
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 16,
+    "day_of_week": 5,
+    "temp_ext": 36.1,
+    "humidity": 19.0,
+    "flow": 140.14,
+    "energy": 104.43,
+    "level": 64.01
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 17,
+    "day_of_week": 5,
+    "temp_ext": 31.9,
+    "humidity": 17.4,
+    "flow": 139.25,
+    "energy": 95.89,
+    "level": 57.57
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 18,
+    "day_of_week": 5,
+    "temp_ext": 31.7,
+    "humidity": 28.0,
+    "flow": 233.56,
+    "energy": 196.5,
+    "level": 75.7
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 19,
+    "day_of_week": 5,
+    "temp_ext": 30.2,
+    "humidity": 24.0,
+    "flow": 214.68,
+    "energy": 169.98,
+    "level": 54.49
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 20,
+    "day_of_week": 5,
+    "temp_ext": 30.0,
+    "humidity": 19.4,
+    "flow": 195.85,
+    "energy": 155.54,
+    "level": 51.02
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 21,
+    "day_of_week": 5,
+    "temp_ext": 30.4,
+    "humidity": 18.9,
+    "flow": 240.25,
+    "energy": 187.6,
+    "level": 60.16
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 22,
+    "day_of_week": 5,
+    "temp_ext": 31.3,
+    "humidity": 38.0,
+    "flow": 134.94,
+    "energy": 92.26,
+    "level": 55.8
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 23,
+    "day_of_week": 5,
+    "temp_ext": 30.7,
+    "humidity": 20.3,
+    "flow": 186.61,
+    "energy": 165.09,
+    "level": 54.33
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 0,
+    "day_of_week": 6,
+    "temp_ext": 20.5,
+    "humidity": 40.2,
+    "flow": 121.89,
+    "energy": 81.07,
+    "level": 49.23
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 1,
+    "day_of_week": 6,
+    "temp_ext": 21.6,
+    "humidity": 51.7,
+    "flow": 151.18,
+    "energy": 111.56,
+    "level": 59.01
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 2,
+    "day_of_week": 6,
+    "temp_ext": 20.7,
+    "humidity": 38.3,
+    "flow": 158.87,
+    "energy": 129.13,
+    "level": 61.48
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 3,
+    "day_of_week": 6,
+    "temp_ext": 22.6,
+    "humidity": 47.2,
+    "flow": 176.89,
+    "energy": 143.06,
+    "level": 64.42
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 4,
+    "day_of_week": 6,
+    "temp_ext": 21.5,
+    "humidity": 42.6,
+    "flow": 162.09,
+    "energy": 128.13,
+    "level": 58.13
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 5,
+    "day_of_week": 6,
+    "temp_ext": 20.9,
+    "humidity": 39.3,
+    "flow": 157.94,
+    "energy": 122.39,
+    "level": 56.65
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 6,
+    "day_of_week": 6,
+    "temp_ext": 20.7,
+    "humidity": 46.4,
+    "flow": 188.76,
+    "energy": 166.76,
+    "level": 69.96
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 7,
+    "day_of_week": 6,
+    "temp_ext": 27.8,
+    "humidity": 38.3,
+    "flow": 192.08,
+    "energy": 155.71,
+    "level": 83.52
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 8,
+    "day_of_week": 6,
+    "temp_ext": 30.0,
+    "humidity": 16.8,
+    "flow": 205.73,
+    "energy": 172.86,
+    "level": 75.95
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 9,
+    "day_of_week": 6,
+    "temp_ext": 30.1,
+    "humidity": 21.0,
+    "flow": 153.77,
+    "energy": 122.94,
+    "level": 76.96
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 10,
+    "day_of_week": 6,
+    "temp_ext": 28.0,
+    "humidity": 34.7,
+    "flow": 151.11,
+    "energy": 136.68,
+    "level": 85.72
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 11,
+    "day_of_week": 6,
+    "temp_ext": 28.1,
+    "humidity": 26.7,
+    "flow": 149.54,
+    "energy": 137.48,
+    "level": 76.78
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 12,
+    "day_of_week": 6,
+    "temp_ext": 34.0,
+    "humidity": 18.3,
+    "flow": 165.4,
+    "energy": 133.18,
+    "level": 76.16
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 13,
+    "day_of_week": 6,
+    "temp_ext": 32.8,
+    "humidity": 15.1,
+    "flow": 163.22,
+    "energy": 138.52,
+    "level": 62.33
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 14,
+    "day_of_week": 6,
+    "temp_ext": 34.4,
+    "humidity": 17.2,
+    "flow": 145.96,
+    "energy": 129.19,
+    "level": 60.91
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 15,
+    "day_of_week": 6,
+    "temp_ext": 33.3,
+    "humidity": 22.7,
+    "flow": 121.57,
+    "energy": 78.53,
+    "level": 68.96
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 16,
+    "day_of_week": 6,
+    "temp_ext": 33.4,
+    "humidity": 33.0,
+    "flow": 172.4,
+    "energy": 121.45,
+    "level": 62.1
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 17,
+    "day_of_week": 6,
+    "temp_ext": 28.1,
+    "humidity": 22.3,
+    "flow": 147.16,
+    "energy": 113.94,
+    "level": 61.42
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 18,
+    "day_of_week": 6,
+    "temp_ext": 28.7,
+    "humidity": 25.2,
+    "flow": 220.62,
+    "energy": 175.24,
+    "level": 68.12
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 19,
+    "day_of_week": 6,
+    "temp_ext": 28.1,
+    "humidity": 36.5,
+    "flow": 215.55,
+    "energy": 173.62,
+    "level": 62.36
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 20,
+    "day_of_week": 6,
+    "temp_ext": 26.4,
+    "humidity": 26.8,
+    "flow": 208.98,
+    "energy": 172.71,
+    "level": 57.71
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 21,
+    "day_of_week": 6,
+    "temp_ext": 26.7,
+    "humidity": 19.8,
+    "flow": 230.53,
+    "energy": 183.03,
+    "level": 61.76
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 22,
+    "day_of_week": 6,
+    "temp_ext": 27.3,
+    "humidity": 30.6,
+    "flow": 142.29,
+    "energy": 109.56,
+    "level": 53.26
+  },
+  {
+    "date": "2026-02-01",
+    "hour": 23,
+    "day_of_week": 6,
+    "temp_ext": 25.2,
+    "humidity": 18.1,
+    "flow": 135.22,
+    "energy": 114.9,
+    "level": 52.04
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 0,
+    "day_of_week": 0,
+    "temp_ext": 21.1,
+    "humidity": 53.1,
+    "flow": 152.89,
+    "energy": 111.57,
+    "level": 68.73
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 1,
+    "day_of_week": 0,
+    "temp_ext": 20,
+    "humidity": 40.8,
+    "flow": 151.66,
+    "energy": 127.41,
+    "level": 52.11
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 2,
+    "day_of_week": 0,
+    "temp_ext": 22.5,
+    "humidity": 43.8,
+    "flow": 182.21,
+    "energy": 154.73,
+    "level": 51.89
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 3,
+    "day_of_week": 0,
+    "temp_ext": 20,
+    "humidity": 28.9,
+    "flow": 124.58,
+    "energy": 91.87,
+    "level": 54.57
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 4,
+    "day_of_week": 0,
+    "temp_ext": 20,
+    "humidity": 38.4,
+    "flow": 168.4,
+    "energy": 126.25,
+    "level": 54.84
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 5,
+    "day_of_week": 0,
+    "temp_ext": 21.3,
+    "humidity": 45.1,
+    "flow": 148.61,
+    "energy": 104.88,
+    "level": 61.52
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 6,
+    "day_of_week": 0,
+    "temp_ext": 22.6,
+    "humidity": 21.9,
+    "flow": 196.79,
+    "energy": 169.71,
+    "level": 70.91
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 7,
+    "day_of_week": 0,
+    "temp_ext": 25.7,
+    "humidity": 32.0,
+    "flow": 214.09,
+    "energy": 172.04,
+    "level": 73.45
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 8,
+    "day_of_week": 0,
+    "temp_ext": 28.1,
+    "humidity": 23.8,
+    "flow": 195.47,
+    "energy": 159.55,
+    "level": 79.22
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 9,
+    "day_of_week": 0,
+    "temp_ext": 25.9,
+    "humidity": 32.3,
+    "flow": 180.65,
+    "energy": 157.63,
+    "level": 77.8
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 10,
+    "day_of_week": 0,
+    "temp_ext": 26.0,
+    "humidity": 20.9,
+    "flow": 97.75,
+    "energy": 78.77,
+    "level": 87.92
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 11,
+    "day_of_week": 0,
+    "temp_ext": 27.4,
+    "humidity": 22.9,
+    "flow": 165.37,
+    "energy": 108.94,
+    "level": 81.61
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 12,
+    "day_of_week": 0,
+    "temp_ext": 32.6,
+    "humidity": 30.5,
+    "flow": 130.13,
+    "energy": 117.52,
+    "level": 63.52
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 13,
+    "day_of_week": 0,
+    "temp_ext": 32.4,
+    "humidity": 38.5,
+    "flow": 140.79,
+    "energy": 101.76,
+    "level": 63.52
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 14,
+    "day_of_week": 0,
+    "temp_ext": 33.6,
+    "humidity": 35.3,
+    "flow": 130.53,
+    "energy": 114.75,
+    "level": 68.0
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 15,
+    "day_of_week": 0,
+    "temp_ext": 31.7,
+    "humidity": 34.6,
+    "flow": 142.32,
+    "energy": 100.36,
+    "level": 51.61
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 16,
+    "day_of_week": 0,
+    "temp_ext": 30.8,
+    "humidity": 18.2,
+    "flow": 147.6,
+    "energy": 125.72,
+    "level": 67.2
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 17,
+    "day_of_week": 0,
+    "temp_ext": 25.2,
+    "humidity": 36.0,
+    "flow": 123.88,
+    "energy": 92.21,
+    "level": 67.28
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 18,
+    "day_of_week": 0,
+    "temp_ext": 27.3,
+    "humidity": 36.8,
+    "flow": 228.21,
+    "energy": 194.9,
+    "level": 71.01
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 19,
+    "day_of_week": 0,
+    "temp_ext": 27.4,
+    "humidity": 27.5,
+    "flow": 214.09,
+    "energy": 167.2,
+    "level": 62.22
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 20,
+    "day_of_week": 0,
+    "temp_ext": 25.3,
+    "humidity": 17.2,
+    "flow": 226.62,
+    "energy": 185.12,
+    "level": 47.82
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 21,
+    "day_of_week": 0,
+    "temp_ext": 23.9,
+    "humidity": 40.0,
+    "flow": 222.66,
+    "energy": 174.92,
+    "level": 56.24
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 22,
+    "day_of_week": 0,
+    "temp_ext": 26.7,
+    "humidity": 38.3,
+    "flow": 147.63,
+    "energy": 133.27,
+    "level": 60.81
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 23,
+    "day_of_week": 0,
+    "temp_ext": 23.7,
+    "humidity": 26.5,
+    "flow": 193.91,
+    "energy": 139.08,
+    "level": 41.99
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 0,
+    "day_of_week": 1,
+    "temp_ext": 26.5,
+    "humidity": 35.4,
+    "flow": 149.31,
+    "energy": 93.46,
+    "level": 58.5
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 1,
+    "day_of_week": 1,
+    "temp_ext": 23.2,
+    "humidity": 39.8,
+    "flow": 133.78,
+    "energy": 104.1,
+    "level": 59.9
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 2,
+    "day_of_week": 1,
+    "temp_ext": 23.9,
+    "humidity": 48.4,
+    "flow": 160.1,
+    "energy": 124.14,
+    "level": 55.28
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 3,
+    "day_of_week": 1,
+    "temp_ext": 24.8,
+    "humidity": 43.3,
+    "flow": 149.23,
+    "energy": 110.92,
+    "level": 59.73
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 4,
+    "day_of_week": 1,
+    "temp_ext": 25.2,
+    "humidity": 45.6,
+    "flow": 173.11,
+    "energy": 132.45,
+    "level": 62.13
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 5,
+    "day_of_week": 1,
+    "temp_ext": 25.6,
+    "humidity": 41.3,
+    "flow": 157.83,
+    "energy": 125.25,
+    "level": 62.09
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 6,
+    "day_of_week": 1,
+    "temp_ext": 25.0,
+    "humidity": 46.9,
+    "flow": 191.07,
+    "energy": 139.81,
+    "level": 82.85
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 7,
+    "day_of_week": 1,
+    "temp_ext": 32.0,
+    "humidity": 20.8,
+    "flow": 218.91,
+    "energy": 177.14,
+    "level": 71.0
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 8,
+    "day_of_week": 1,
+    "temp_ext": 30.8,
+    "humidity": 34.3,
+    "flow": 218.52,
+    "energy": 161.68,
+    "level": 75.54
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 9,
+    "day_of_week": 1,
+    "temp_ext": 31.0,
+    "humidity": 15.9,
+    "flow": 160.2,
+    "energy": 134.49,
+    "level": 87.28
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 10,
+    "day_of_week": 1,
+    "temp_ext": 31.1,
+    "humidity": 39.4,
+    "flow": 130.13,
+    "energy": 102.7,
+    "level": 80.63
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 11,
+    "day_of_week": 1,
+    "temp_ext": 31.2,
+    "humidity": 25.9,
+    "flow": 158.91,
+    "energy": 144.27,
+    "level": 80.52
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 12,
+    "day_of_week": 1,
+    "temp_ext": 34.6,
+    "humidity": 33.9,
+    "flow": 166.54,
+    "energy": 166.16,
+    "level": 72.78
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 13,
+    "day_of_week": 1,
+    "temp_ext": 36.2,
+    "humidity": 33.8,
+    "flow": 162.18,
+    "energy": 137.71,
+    "level": 55.05
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 14,
+    "day_of_week": 1,
+    "temp_ext": 36.2,
+    "humidity": 34.8,
+    "flow": 149.13,
+    "energy": 132.81,
+    "level": 63.31
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 15,
+    "day_of_week": 1,
+    "temp_ext": 37.2,
+    "humidity": 19.1,
+    "flow": 157.6,
+    "energy": 134.16,
+    "level": 68.93
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 16,
+    "day_of_week": 1,
+    "temp_ext": 36.3,
+    "humidity": 38.8,
+    "flow": 179.27,
+    "energy": 129.94,
+    "level": 67.24
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 17,
+    "day_of_week": 1,
+    "temp_ext": 30.3,
+    "humidity": 17.0,
+    "flow": 107.07,
+    "energy": 91.14,
+    "level": 67.4
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 18,
+    "day_of_week": 1,
+    "temp_ext": 29.0,
+    "humidity": 19.4,
+    "flow": 230.36,
+    "energy": 166.42,
+    "level": 64.03
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 19,
+    "day_of_week": 1,
+    "temp_ext": 28.3,
+    "humidity": 31.3,
+    "flow": 201.25,
+    "energy": 180.46,
+    "level": 46.41
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 20,
+    "day_of_week": 1,
+    "temp_ext": 30.4,
+    "humidity": 28.0,
+    "flow": 242.36,
+    "energy": 190.18,
+    "level": 57.68
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 21,
+    "day_of_week": 1,
+    "temp_ext": 31.4,
+    "humidity": 34.7,
+    "flow": 230.56,
+    "energy": 173.31,
+    "level": 54.65
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 22,
+    "day_of_week": 1,
+    "temp_ext": 29.5,
+    "humidity": 24.6,
+    "flow": 142.56,
+    "energy": 108.07,
+    "level": 39.73
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 23,
+    "day_of_week": 1,
+    "temp_ext": 31.5,
+    "humidity": 36.2,
+    "flow": 145.39,
+    "energy": 122.45,
+    "level": 45.86
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 0,
+    "day_of_week": 2,
+    "temp_ext": 27.0,
+    "humidity": 31.9,
+    "flow": 159.67,
+    "energy": 141.51,
+    "level": 53.76
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 1,
+    "day_of_week": 2,
+    "temp_ext": 28.8,
+    "humidity": 36.4,
+    "flow": 160.86,
+    "energy": 142.3,
+    "level": 60.1
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 2,
+    "day_of_week": 2,
+    "temp_ext": 26.5,
+    "humidity": 33.3,
+    "flow": 177.08,
+    "energy": 145.44,
+    "level": 57.36
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 3,
+    "day_of_week": 2,
+    "temp_ext": 28.9,
+    "humidity": 46.0,
+    "flow": 135.49,
+    "energy": 115.3,
+    "level": 65.67
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 4,
+    "day_of_week": 2,
+    "temp_ext": 26.1,
+    "humidity": 43.3,
+    "flow": 152.08,
+    "energy": 139.55,
+    "level": 52.36
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 5,
+    "day_of_week": 2,
+    "temp_ext": 27.9,
+    "humidity": 37.4,
+    "flow": 142.58,
+    "energy": 111.94,
+    "level": 56.97
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 6,
+    "day_of_week": 2,
+    "temp_ext": 25.7,
+    "humidity": 34.6,
+    "flow": 203.79,
+    "energy": 169.5,
+    "level": 81.5
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 7,
+    "day_of_week": 2,
+    "temp_ext": 32.1,
+    "humidity": 33.4,
+    "flow": 213.15,
+    "energy": 173.98,
+    "level": 71.2
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 8,
+    "day_of_week": 2,
+    "temp_ext": 33.3,
+    "humidity": 36.9,
+    "flow": 195.89,
+    "energy": 166.54,
+    "level": 73.97
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 9,
+    "day_of_week": 2,
+    "temp_ext": 33.5,
+    "humidity": 16.9,
+    "flow": 150.13,
+    "energy": 106.36,
+    "level": 69.8
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 10,
+    "day_of_week": 2,
+    "temp_ext": 34.3,
+    "humidity": 30.1,
+    "flow": 113.14,
+    "energy": 76.35,
+    "level": 76.49
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 11,
+    "day_of_week": 2,
+    "temp_ext": 33.2,
+    "humidity": 21.2,
+    "flow": 170.47,
+    "energy": 132.67,
+    "level": 75.75
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 12,
+    "day_of_week": 2,
+    "temp_ext": 38.6,
+    "humidity": 25.4,
+    "flow": 157.77,
+    "energy": 120.87,
+    "level": 77.77
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 13,
+    "day_of_week": 2,
+    "temp_ext": 37.6,
+    "humidity": 34.8,
+    "flow": 153.64,
+    "energy": 124.65,
+    "level": 60.49
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 14,
+    "day_of_week": 2,
+    "temp_ext": 37.4,
+    "humidity": 31.0,
+    "flow": 135.92,
+    "energy": 104.32,
+    "level": 56.84
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 15,
+    "day_of_week": 2,
+    "temp_ext": 37.0,
+    "humidity": 36.2,
+    "flow": 127.14,
+    "energy": 98.34,
+    "level": 64.15
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 16,
+    "day_of_week": 2,
+    "temp_ext": 37.4,
+    "humidity": 28.1,
+    "flow": 108.39,
+    "energy": 88.46,
+    "level": 70.36
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 17,
+    "day_of_week": 2,
+    "temp_ext": 31.8,
+    "humidity": 22.1,
+    "flow": 170.87,
+    "energy": 151.69,
+    "level": 70.08
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 18,
+    "day_of_week": 2,
+    "temp_ext": 30.7,
+    "humidity": 20.1,
+    "flow": 216.79,
+    "energy": 177.79,
+    "level": 60.58
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 19,
+    "day_of_week": 2,
+    "temp_ext": 30.2,
+    "humidity": 22.0,
+    "flow": 196.17,
+    "energy": 153.13,
+    "level": 55.76
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 20,
+    "day_of_week": 2,
+    "temp_ext": 31.0,
+    "humidity": 21.7,
+    "flow": 212.45,
+    "energy": 174.19,
+    "level": 60.71
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 21,
+    "day_of_week": 2,
+    "temp_ext": 32.9,
+    "humidity": 30.6,
+    "flow": 235.92,
+    "energy": 193.64,
+    "level": 54.81
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 22,
+    "day_of_week": 2,
+    "temp_ext": 33.9,
+    "humidity": 27.2,
+    "flow": 163.16,
+    "energy": 138.76,
+    "level": 61.23
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 23,
+    "day_of_week": 2,
+    "temp_ext": 33.3,
+    "humidity": 28.0,
+    "flow": 154.49,
+    "energy": 120.79,
+    "level": 61.68
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 0,
+    "day_of_week": 3,
+    "temp_ext": 21.9,
+    "humidity": 24.4,
+    "flow": 146.65,
+    "energy": 125.5,
+    "level": 52.09
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 1,
+    "day_of_week": 3,
+    "temp_ext": 24.1,
+    "humidity": 46.1,
+    "flow": 155.63,
+    "energy": 121.34,
+    "level": 60.35
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 2,
+    "day_of_week": 3,
+    "temp_ext": 23.3,
+    "humidity": 45.0,
+    "flow": 128.65,
+    "energy": 93.27,
+    "level": 62.82
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 3,
+    "day_of_week": 3,
+    "temp_ext": 23.6,
+    "humidity": 30.1,
+    "flow": 168.66,
+    "energy": 135.24,
+    "level": 60.33
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 4,
+    "day_of_week": 3,
+    "temp_ext": 21.7,
+    "humidity": 50.0,
+    "flow": 166.73,
+    "energy": 132.15,
+    "level": 60.53
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 5,
+    "day_of_week": 3,
+    "temp_ext": 23.0,
+    "humidity": 34.2,
+    "flow": 134.91,
+    "energy": 114.58,
+    "level": 60.53
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 6,
+    "day_of_week": 3,
+    "temp_ext": 24.2,
+    "humidity": 43.6,
+    "flow": 180.51,
+    "energy": 139.06,
+    "level": 71.96
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 7,
+    "day_of_week": 3,
+    "temp_ext": 29.9,
+    "humidity": 17.7,
+    "flow": 195.42,
+    "energy": 157.1,
+    "level": 76.02
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 8,
+    "day_of_week": 3,
+    "temp_ext": 28.5,
+    "humidity": 38.5,
+    "flow": 189.75,
+    "energy": 158.11,
+    "level": 74.36
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 9,
+    "day_of_week": 3,
+    "temp_ext": 30.2,
+    "humidity": 17.1,
+    "flow": 150.67,
+    "energy": 118.25,
+    "level": 75.03
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 10,
+    "day_of_week": 3,
+    "temp_ext": 30.1,
+    "humidity": 26.1,
+    "flow": 150.11,
+    "energy": 123.74,
+    "level": 77.84
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 11,
+    "day_of_week": 3,
+    "temp_ext": 27.9,
+    "humidity": 20.1,
+    "flow": 156.44,
+    "energy": 100.54,
+    "level": 73.16
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 12,
+    "day_of_week": 3,
+    "temp_ext": 34.7,
+    "humidity": 15.6,
+    "flow": 138.14,
+    "energy": 113.82,
+    "level": 78.37
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 13,
+    "day_of_week": 3,
+    "temp_ext": 35.3,
+    "humidity": 24.5,
+    "flow": 138.52,
+    "energy": 121.78,
+    "level": 65.48
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 14,
+    "day_of_week": 3,
+    "temp_ext": 33.9,
+    "humidity": 39.7,
+    "flow": 146.4,
+    "energy": 119.28,
+    "level": 61.23
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 15,
+    "day_of_week": 3,
+    "temp_ext": 34.0,
+    "humidity": 33.2,
+    "flow": 142.38,
+    "energy": 95.04,
+    "level": 65.8
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 16,
+    "day_of_week": 3,
+    "temp_ext": 35.6,
+    "humidity": 26.6,
+    "flow": 140.68,
+    "energy": 106.18,
+    "level": 69.67
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 17,
+    "day_of_week": 3,
+    "temp_ext": 27.1,
+    "humidity": 29.8,
+    "flow": 148.51,
+    "energy": 110.75,
+    "level": 73.21
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 18,
+    "day_of_week": 3,
+    "temp_ext": 27.4,
+    "humidity": 18.3,
+    "flow": 214.05,
+    "energy": 172.36,
+    "level": 67.03
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 19,
+    "day_of_week": 3,
+    "temp_ext": 28.4,
+    "humidity": 31.7,
+    "flow": 215.07,
+    "energy": 170.43,
+    "level": 62.95
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 20,
+    "day_of_week": 3,
+    "temp_ext": 26.6,
+    "humidity": 27.9,
+    "flow": 220.57,
+    "energy": 160.51,
+    "level": 53.62
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 21,
+    "day_of_week": 3,
+    "temp_ext": 25.7,
+    "humidity": 16.3,
+    "flow": 215.02,
+    "energy": 186.11,
+    "level": 45.83
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 22,
+    "day_of_week": 3,
+    "temp_ext": 26.2,
+    "humidity": 23.2,
+    "flow": 173.81,
+    "energy": 134.82,
+    "level": 58.23
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 23,
+    "day_of_week": 3,
+    "temp_ext": 25.8,
+    "humidity": 25.8,
+    "flow": 147.67,
+    "energy": 111.17,
+    "level": 56.72
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 0,
+    "day_of_week": 4,
+    "temp_ext": 20.5,
+    "humidity": 28.0,
+    "flow": 146.69,
+    "energy": 101.68,
+    "level": 58.65
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 1,
+    "day_of_week": 4,
+    "temp_ext": 23.4,
+    "humidity": 43.7,
+    "flow": 164.38,
+    "energy": 137.82,
+    "level": 55.52
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 2,
+    "day_of_week": 4,
+    "temp_ext": 22.5,
+    "humidity": 38.6,
+    "flow": 165.97,
+    "energy": 131.9,
+    "level": 60.98
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 3,
+    "day_of_week": 4,
+    "temp_ext": 23.2,
+    "humidity": 24.6,
+    "flow": 131.55,
+    "energy": 98.16,
+    "level": 57.35
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 4,
+    "day_of_week": 4,
+    "temp_ext": 23.1,
+    "humidity": 54.4,
+    "flow": 142.91,
+    "energy": 118.41,
+    "level": 62.25
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 5,
+    "day_of_week": 4,
+    "temp_ext": 23.5,
+    "humidity": 31.7,
+    "flow": 145.09,
+    "energy": 110.87,
+    "level": 60.14
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 6,
+    "day_of_week": 4,
+    "temp_ext": 20.2,
+    "humidity": 39.4,
+    "flow": 195.75,
+    "energy": 160.89,
+    "level": 78.2
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 7,
+    "day_of_week": 4,
+    "temp_ext": 29.7,
+    "humidity": 35.6,
+    "flow": 199.9,
+    "energy": 150.53,
+    "level": 78.79
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 8,
+    "day_of_week": 4,
+    "temp_ext": 28.2,
+    "humidity": 20.0,
+    "flow": 202.12,
+    "energy": 144.36,
+    "level": 70.71
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 9,
+    "day_of_week": 4,
+    "temp_ext": 30.0,
+    "humidity": 18.3,
+    "flow": 142.07,
+    "energy": 91.08,
+    "level": 77.04
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 10,
+    "day_of_week": 4,
+    "temp_ext": 27.6,
+    "humidity": 19.1,
+    "flow": 161.61,
+    "energy": 119.28,
+    "level": 73.16
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 11,
+    "day_of_week": 4,
+    "temp_ext": 28.8,
+    "humidity": 17.9,
+    "flow": 108.1,
+    "energy": 75.67,
+    "level": 79.39
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 12,
+    "day_of_week": 4,
+    "temp_ext": 33.1,
+    "humidity": 25.2,
+    "flow": 110.65,
+    "energy": 109.17,
+    "level": 82.07
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 13,
+    "day_of_week": 4,
+    "temp_ext": 32.5,
+    "humidity": 17.3,
+    "flow": 160.91,
+    "energy": 120.23,
+    "level": 72.56
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 14,
+    "day_of_week": 4,
+    "temp_ext": 35.0,
+    "humidity": 15.5,
+    "flow": 128.57,
+    "energy": 115.81,
+    "level": 56.47
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 15,
+    "day_of_week": 4,
+    "temp_ext": 34.1,
+    "humidity": 38.8,
+    "flow": 168.31,
+    "energy": 122.88,
+    "level": 62.08
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 16,
+    "day_of_week": 4,
+    "temp_ext": 32.7,
+    "humidity": 23.1,
+    "flow": 122.34,
+    "energy": 105.6,
+    "level": 61.04
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 17,
+    "day_of_week": 4,
+    "temp_ext": 28.7,
+    "humidity": 34.9,
+    "flow": 129.72,
+    "energy": 124.55,
+    "level": 67.34
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 18,
+    "day_of_week": 4,
+    "temp_ext": 25.3,
+    "humidity": 30.3,
+    "flow": 253.7,
+    "energy": 202.74,
+    "level": 62.49
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 19,
+    "day_of_week": 4,
+    "temp_ext": 25.8,
+    "humidity": 38.0,
+    "flow": 210.81,
+    "energy": 181.68,
+    "level": 50.83
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 20,
+    "day_of_week": 4,
+    "temp_ext": 27.5,
+    "humidity": 15.7,
+    "flow": 214.52,
+    "energy": 177.85,
+    "level": 55.17
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 21,
+    "day_of_week": 4,
+    "temp_ext": 27.9,
+    "humidity": 33.6,
+    "flow": 219.1,
+    "energy": 177.96,
+    "level": 63.46
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 22,
+    "day_of_week": 4,
+    "temp_ext": 28.0,
+    "humidity": 26.8,
+    "flow": 157.81,
+    "energy": 120.89,
+    "level": 46.58
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 23,
+    "day_of_week": 4,
+    "temp_ext": 25.6,
+    "humidity": 16.7,
+    "flow": 142.07,
+    "energy": 103.8,
+    "level": 49.99
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 0,
+    "day_of_week": 5,
+    "temp_ext": 24.4,
+    "humidity": 51.4,
+    "flow": 134.35,
+    "energy": 120.06,
+    "level": 59.2
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 1,
+    "day_of_week": 5,
+    "temp_ext": 21.7,
+    "humidity": 27.3,
+    "flow": 160.77,
+    "energy": 136.1,
+    "level": 59.5
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 2,
+    "day_of_week": 5,
+    "temp_ext": 21.0,
+    "humidity": 34.0,
+    "flow": 174.67,
+    "energy": 148.21,
+    "level": 68.55
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 3,
+    "day_of_week": 5,
+    "temp_ext": 22.0,
+    "humidity": 45.9,
+    "flow": 142.3,
+    "energy": 129.22,
+    "level": 54.7
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 4,
+    "day_of_week": 5,
+    "temp_ext": 22.3,
+    "humidity": 41.6,
+    "flow": 175.32,
+    "energy": 132.5,
+    "level": 61.64
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 5,
+    "day_of_week": 5,
+    "temp_ext": 23.2,
+    "humidity": 35.4,
+    "flow": 152.11,
+    "energy": 120.16,
+    "level": 57.25
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 6,
+    "day_of_week": 5,
+    "temp_ext": 23.2,
+    "humidity": 46.9,
+    "flow": 183.43,
+    "energy": 141.01,
+    "level": 67.63
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 7,
+    "day_of_week": 5,
+    "temp_ext": 27.9,
+    "humidity": 16.8,
+    "flow": 204.12,
+    "energy": 156.57,
+    "level": 69.06
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 8,
+    "day_of_week": 5,
+    "temp_ext": 28.9,
+    "humidity": 20.8,
+    "flow": 196.53,
+    "energy": 159.8,
+    "level": 84.35
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 9,
+    "day_of_week": 5,
+    "temp_ext": 28.6,
+    "humidity": 22.6,
+    "flow": 168.96,
+    "energy": 155.25,
+    "level": 70.09
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 10,
+    "day_of_week": 5,
+    "temp_ext": 29.7,
+    "humidity": 28.8,
+    "flow": 157.06,
+    "energy": 120.34,
+    "level": 78.98
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 11,
+    "day_of_week": 5,
+    "temp_ext": 29.6,
+    "humidity": 23.2,
+    "flow": 155.78,
+    "energy": 120.66,
+    "level": 67.21
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 12,
+    "day_of_week": 5,
+    "temp_ext": 35.1,
+    "humidity": 30.4,
+    "flow": 177.99,
+    "energy": 164.58,
+    "level": 71.3
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 13,
+    "day_of_week": 5,
+    "temp_ext": 35.6,
+    "humidity": 22.2,
+    "flow": 135.96,
+    "energy": 108.84,
+    "level": 63.68
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 14,
+    "day_of_week": 5,
+    "temp_ext": 33.4,
+    "humidity": 36.6,
+    "flow": 137.1,
+    "energy": 112.66,
+    "level": 70.49
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 15,
+    "day_of_week": 5,
+    "temp_ext": 33.8,
+    "humidity": 33.6,
+    "flow": 129.92,
+    "energy": 93.05,
+    "level": 62.98
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 16,
+    "day_of_week": 5,
+    "temp_ext": 35.2,
+    "humidity": 35.2,
+    "flow": 141.46,
+    "energy": 117.94,
+    "level": 65.78
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 17,
+    "day_of_week": 5,
+    "temp_ext": 26.3,
+    "humidity": 36.2,
+    "flow": 135.18,
+    "energy": 86.52,
+    "level": 57.37
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 18,
+    "day_of_week": 5,
+    "temp_ext": 27.8,
+    "humidity": 15.9,
+    "flow": 218.15,
+    "energy": 167.71,
+    "level": 69.58
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 19,
+    "day_of_week": 5,
+    "temp_ext": 28.2,
+    "humidity": 36.6,
+    "flow": 220.54,
+    "energy": 198.93,
+    "level": 55.95
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 20,
+    "day_of_week": 5,
+    "temp_ext": 27.2,
+    "humidity": 18.9,
+    "flow": 223.25,
+    "energy": 190.67,
+    "level": 47.77
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 21,
+    "day_of_week": 5,
+    "temp_ext": 27.0,
+    "humidity": 17.2,
+    "flow": 224.05,
+    "energy": 189.23,
+    "level": 55.36
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 22,
+    "day_of_week": 5,
+    "temp_ext": 26.8,
+    "humidity": 30.3,
+    "flow": 141.24,
+    "energy": 94.49,
+    "level": 53.44
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 23,
+    "day_of_week": 5,
+    "temp_ext": 29.6,
+    "humidity": 18.4,
+    "flow": 170.22,
+    "energy": 125.68,
+    "level": 46.99
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 0,
+    "day_of_week": 6,
+    "temp_ext": 25.7,
+    "humidity": 31.7,
+    "flow": 130.35,
+    "energy": 101.23,
+    "level": 66.55
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 1,
+    "day_of_week": 6,
+    "temp_ext": 25.4,
+    "humidity": 41.8,
+    "flow": 160.18,
+    "energy": 102.66,
+    "level": 62.69
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 2,
+    "day_of_week": 6,
+    "temp_ext": 26.0,
+    "humidity": 23.8,
+    "flow": 133.49,
+    "energy": 110.2,
+    "level": 46.21
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 3,
+    "day_of_week": 6,
+    "temp_ext": 26.8,
+    "humidity": 44.5,
+    "flow": 181.11,
+    "energy": 154.65,
+    "level": 58.72
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 4,
+    "day_of_week": 6,
+    "temp_ext": 27.8,
+    "humidity": 41.2,
+    "flow": 144.66,
+    "energy": 131.15,
+    "level": 55.4
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 5,
+    "day_of_week": 6,
+    "temp_ext": 24.6,
+    "humidity": 21.3,
+    "flow": 148.3,
+    "energy": 126.38,
+    "level": 57.1
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 6,
+    "day_of_week": 6,
+    "temp_ext": 27.5,
+    "humidity": 41.7,
+    "flow": 212.58,
+    "energy": 166.23,
+    "level": 68.44
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 7,
+    "day_of_week": 6,
+    "temp_ext": 33.4,
+    "humidity": 36.4,
+    "flow": 208.87,
+    "energy": 178.9,
+    "level": 73.95
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 8,
+    "day_of_week": 6,
+    "temp_ext": 32.3,
+    "humidity": 38.9,
+    "flow": 205.67,
+    "energy": 161.56,
+    "level": 74.44
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 9,
+    "day_of_week": 6,
+    "temp_ext": 33.1,
+    "humidity": 30.8,
+    "flow": 122.43,
+    "energy": 102.68,
+    "level": 85.16
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 10,
+    "day_of_week": 6,
+    "temp_ext": 32.0,
+    "humidity": 17.5,
+    "flow": 130.0,
+    "energy": 114.56,
+    "level": 64.62
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 11,
+    "day_of_week": 6,
+    "temp_ext": 33.6,
+    "humidity": 27.4,
+    "flow": 181.14,
+    "energy": 142.37,
+    "level": 83.26
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 12,
+    "day_of_week": 6,
+    "temp_ext": 36.9,
+    "humidity": 16.0,
+    "flow": 167.13,
+    "energy": 126.8,
+    "level": 66.9
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 13,
+    "day_of_week": 6,
+    "temp_ext": 39.2,
+    "humidity": 27.0,
+    "flow": 158.84,
+    "energy": 120.53,
+    "level": 71.94
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 14,
+    "day_of_week": 6,
+    "temp_ext": 37.8,
+    "humidity": 30.0,
+    "flow": 147.73,
+    "energy": 109.9,
+    "level": 67.31
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 15,
+    "day_of_week": 6,
+    "temp_ext": 36.3,
+    "humidity": 15.0,
+    "flow": 137.98,
+    "energy": 102.45,
+    "level": 52.67
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 16,
+    "day_of_week": 6,
+    "temp_ext": 37.1,
+    "humidity": 19.4,
+    "flow": 138.12,
+    "energy": 120.25,
+    "level": 67.93
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 17,
+    "day_of_week": 6,
+    "temp_ext": 33.1,
+    "humidity": 34.1,
+    "flow": 140.04,
+    "energy": 122.6,
+    "level": 72.19
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 18,
+    "day_of_week": 6,
+    "temp_ext": 31.8,
+    "humidity": 35.1,
+    "flow": 207.88,
+    "energy": 161.85,
+    "level": 64.14
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 19,
+    "day_of_week": 6,
+    "temp_ext": 31.8,
+    "humidity": 30.3,
+    "flow": 218.72,
+    "energy": 178.79,
+    "level": 61.62
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 20,
+    "day_of_week": 6,
+    "temp_ext": 30.0,
+    "humidity": 39.8,
+    "flow": 192.78,
+    "energy": 147.96,
+    "level": 57.85
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 21,
+    "day_of_week": 6,
+    "temp_ext": 30.5,
+    "humidity": 25.3,
+    "flow": 224.45,
+    "energy": 169.52,
+    "level": 53.7
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 22,
+    "day_of_week": 6,
+    "temp_ext": 31.6,
+    "humidity": 32.6,
+    "flow": 128.46,
+    "energy": 86.26,
+    "level": 61.37
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 23,
+    "day_of_week": 6,
+    "temp_ext": 31.3,
+    "humidity": 35.2,
+    "flow": 194.17,
+    "energy": 154.08,
+    "level": 56.61
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 0,
+    "day_of_week": 0,
+    "temp_ext": 21.1,
+    "humidity": 28.2,
+    "flow": 165.54,
+    "energy": 128.77,
+    "level": 60.63
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 1,
+    "day_of_week": 0,
+    "temp_ext": 20.4,
+    "humidity": 40.7,
+    "flow": 147.93,
+    "energy": 111.73,
+    "level": 70.41
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 2,
+    "day_of_week": 0,
+    "temp_ext": 21.2,
+    "humidity": 45.2,
+    "flow": 166.07,
+    "energy": 131.5,
+    "level": 58.06
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 3,
+    "day_of_week": 0,
+    "temp_ext": 21.8,
+    "humidity": 33.4,
+    "flow": 141.11,
+    "energy": 114.1,
+    "level": 52.66
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 4,
+    "day_of_week": 0,
+    "temp_ext": 21.5,
+    "humidity": 43.1,
+    "flow": 165.94,
+    "energy": 116.59,
+    "level": 58.74
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 5,
+    "day_of_week": 0,
+    "temp_ext": 20.2,
+    "humidity": 46.2,
+    "flow": 143.92,
+    "energy": 115.15,
+    "level": 63.08
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 6,
+    "day_of_week": 0,
+    "temp_ext": 23.2,
+    "humidity": 31.0,
+    "flow": 197.76,
+    "energy": 170.03,
+    "level": 79.28
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 7,
+    "day_of_week": 0,
+    "temp_ext": 28.5,
+    "humidity": 26.9,
+    "flow": 196.89,
+    "energy": 170.57,
+    "level": 83.89
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 8,
+    "day_of_week": 0,
+    "temp_ext": 28.4,
+    "humidity": 26.4,
+    "flow": 205.83,
+    "energy": 157.52,
+    "level": 84.61
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 9,
+    "day_of_week": 0,
+    "temp_ext": 30.0,
+    "humidity": 32.3,
+    "flow": 147.62,
+    "energy": 129.06,
+    "level": 70.87
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 10,
+    "day_of_week": 0,
+    "temp_ext": 29.5,
+    "humidity": 33.7,
+    "flow": 138.35,
+    "energy": 117.0,
+    "level": 78.81
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 11,
+    "day_of_week": 0,
+    "temp_ext": 29.0,
+    "humidity": 32.2,
+    "flow": 157.95,
+    "energy": 120.0,
+    "level": 74.63
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 12,
+    "day_of_week": 0,
+    "temp_ext": 32.4,
+    "humidity": 24.4,
+    "flow": 131.46,
+    "energy": 98.12,
+    "level": 73.98
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 13,
+    "day_of_week": 0,
+    "temp_ext": 32.1,
+    "humidity": 26.6,
+    "flow": 139.74,
+    "energy": 112.41,
+    "level": 60.88
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 14,
+    "day_of_week": 0,
+    "temp_ext": 33.6,
+    "humidity": 34.4,
+    "flow": 139.31,
+    "energy": 98.4,
+    "level": 63.2
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 15,
+    "day_of_week": 0,
+    "temp_ext": 32.3,
+    "humidity": 27.8,
+    "flow": 114.02,
+    "energy": 87.11,
+    "level": 62.39
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 16,
+    "day_of_week": 0,
+    "temp_ext": 34.8,
+    "humidity": 19.2,
+    "flow": 133.79,
+    "energy": 108.71,
+    "level": 66.51
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 17,
+    "day_of_week": 0,
+    "temp_ext": 28.6,
+    "humidity": 31.7,
+    "flow": 129.36,
+    "energy": 106.35,
+    "level": 62.08
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 18,
+    "day_of_week": 0,
+    "temp_ext": 26.9,
+    "humidity": 23.0,
+    "flow": 221.05,
+    "energy": 167.0,
+    "level": 65.7
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 19,
+    "day_of_week": 0,
+    "temp_ext": 28.1,
+    "humidity": 25.8,
+    "flow": 241.29,
+    "energy": 194.59,
+    "level": 59.09
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 20,
+    "day_of_week": 0,
+    "temp_ext": 26.8,
+    "humidity": 29.8,
+    "flow": 216.17,
+    "energy": 184.9,
+    "level": 55.36
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 21,
+    "day_of_week": 0,
+    "temp_ext": 28.5,
+    "humidity": 21.6,
+    "flow": 206.56,
+    "energy": 157.91,
+    "level": 57.32
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 22,
+    "day_of_week": 0,
+    "temp_ext": 26.6,
+    "humidity": 38.8,
+    "flow": 203.55,
+    "energy": 165.6,
+    "level": 61.98
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 23,
+    "day_of_week": 0,
+    "temp_ext": 27.1,
+    "humidity": 35.3,
+    "flow": 146.09,
+    "energy": 110.26,
+    "level": 55.83
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 0,
+    "day_of_week": 1,
+    "temp_ext": 23.7,
+    "humidity": 27.8,
+    "flow": 156.1,
+    "energy": 134.2,
+    "level": 58.48
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 1,
+    "day_of_week": 1,
+    "temp_ext": 21.0,
+    "humidity": 33.0,
+    "flow": 139.5,
+    "energy": 123.49,
+    "level": 63.57
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 2,
+    "day_of_week": 1,
+    "temp_ext": 20.9,
+    "humidity": 38.3,
+    "flow": 149.94,
+    "energy": 134.97,
+    "level": 65.01
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 3,
+    "day_of_week": 1,
+    "temp_ext": 23.4,
+    "humidity": 35.7,
+    "flow": 171.23,
+    "energy": 124.34,
+    "level": 59.37
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 4,
+    "day_of_week": 1,
+    "temp_ext": 21.3,
+    "humidity": 47.0,
+    "flow": 173.17,
+    "energy": 125.11,
+    "level": 57.58
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 5,
+    "day_of_week": 1,
+    "temp_ext": 23.2,
+    "humidity": 52.9,
+    "flow": 145.82,
+    "energy": 99.93,
+    "level": 68.2
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 6,
+    "day_of_week": 1,
+    "temp_ext": 22.7,
+    "humidity": 44.3,
+    "flow": 201.59,
+    "energy": 142.67,
+    "level": 76.8
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 7,
+    "day_of_week": 1,
+    "temp_ext": 30.0,
+    "humidity": 36.0,
+    "flow": 207.0,
+    "energy": 149.09,
+    "level": 62.98
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 8,
+    "day_of_week": 1,
+    "temp_ext": 29.8,
+    "humidity": 19.9,
+    "flow": 211.54,
+    "energy": 162.84,
+    "level": 79.22
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 9,
+    "day_of_week": 1,
+    "temp_ext": 27.4,
+    "humidity": 21.9,
+    "flow": 123.54,
+    "energy": 101.11,
+    "level": 66.07
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 10,
+    "day_of_week": 1,
+    "temp_ext": 28.9,
+    "humidity": 21.8,
+    "flow": 139.01,
+    "energy": 111.32,
+    "level": 75.19
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 11,
+    "day_of_week": 1,
+    "temp_ext": 28.4,
+    "humidity": 30.5,
+    "flow": 144.9,
+    "energy": 130.51,
+    "level": 76.21
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 12,
+    "day_of_week": 1,
+    "temp_ext": 34.5,
+    "humidity": 29.4,
+    "flow": 163.57,
+    "energy": 118.22,
+    "level": 67.57
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 13,
+    "day_of_week": 1,
+    "temp_ext": 33.5,
+    "humidity": 36.8,
+    "flow": 182.81,
+    "energy": 156.58,
+    "level": 61.46
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 14,
+    "day_of_week": 1,
+    "temp_ext": 35.1,
+    "humidity": 25.3,
+    "flow": 147.72,
+    "energy": 123.01,
+    "level": 63.89
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 15,
+    "day_of_week": 1,
+    "temp_ext": 35.0,
+    "humidity": 37.3,
+    "flow": 170.04,
+    "energy": 136.79,
+    "level": 57.27
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 16,
+    "day_of_week": 1,
+    "temp_ext": 34.8,
+    "humidity": 22.3,
+    "flow": 141.69,
+    "energy": 121.87,
+    "level": 71.78
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 17,
+    "day_of_week": 1,
+    "temp_ext": 28.1,
+    "humidity": 27.4,
+    "flow": 114.58,
+    "energy": 93.95,
+    "level": 69.73
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 18,
+    "day_of_week": 1,
+    "temp_ext": 29.0,
+    "humidity": 33.4,
+    "flow": 222.45,
+    "energy": 175.17,
+    "level": 65.5
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 19,
+    "day_of_week": 1,
+    "temp_ext": 29.3,
+    "humidity": 21.5,
+    "flow": 210.34,
+    "energy": 163.85,
+    "level": 55.28
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 20,
+    "day_of_week": 1,
+    "temp_ext": 28.3,
+    "humidity": 27.0,
+    "flow": 200.11,
+    "energy": 168.81,
+    "level": 48.11
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 21,
+    "day_of_week": 1,
+    "temp_ext": 26.0,
+    "humidity": 22.6,
+    "flow": 238.41,
+    "energy": 190.98,
+    "level": 58.02
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 22,
+    "day_of_week": 1,
+    "temp_ext": 26.8,
+    "humidity": 32.6,
+    "flow": 177.57,
+    "energy": 147.39,
+    "level": 49.69
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 23,
+    "day_of_week": 1,
+    "temp_ext": 26.9,
+    "humidity": 36.7,
+    "flow": 179.29,
+    "energy": 149.01,
+    "level": 56.5
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 0,
+    "day_of_week": 2,
+    "temp_ext": 23.4,
+    "humidity": 32.3,
+    "flow": 137.37,
+    "energy": 107.28,
+    "level": 61.1
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 1,
+    "day_of_week": 2,
+    "temp_ext": 24.6,
+    "humidity": 37.1,
+    "flow": 127.86,
+    "energy": 93.52,
+    "level": 61.47
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 2,
+    "day_of_week": 2,
+    "temp_ext": 23.9,
+    "humidity": 34.7,
+    "flow": 173.15,
+    "energy": 124.01,
+    "level": 56.49
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 3,
+    "day_of_week": 2,
+    "temp_ext": 21.6,
+    "humidity": 38.0,
+    "flow": 185.28,
+    "energy": 158.53,
+    "level": 64.75
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 4,
+    "day_of_week": 2,
+    "temp_ext": 23.8,
+    "humidity": 35.1,
+    "flow": 143.77,
+    "energy": 116.66,
+    "level": 68.76
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 5,
+    "day_of_week": 2,
+    "temp_ext": 21.1,
+    "humidity": 32.4,
+    "flow": 135.24,
+    "energy": 92.0,
+    "level": 55.86
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 6,
+    "day_of_week": 2,
+    "temp_ext": 22.1,
+    "humidity": 36.7,
+    "flow": 198.97,
+    "energy": 147.56,
+    "level": 79.56
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 7,
+    "day_of_week": 2,
+    "temp_ext": 27.9,
+    "humidity": 30.8,
+    "flow": 198.62,
+    "energy": 149.83,
+    "level": 84.8
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 8,
+    "day_of_week": 2,
+    "temp_ext": 29.9,
+    "humidity": 18.4,
+    "flow": 187.88,
+    "energy": 130.88,
+    "level": 75.81
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 9,
+    "day_of_week": 2,
+    "temp_ext": 30.7,
+    "humidity": 33.9,
+    "flow": 161.09,
+    "energy": 123.2,
+    "level": 89.8
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 10,
+    "day_of_week": 2,
+    "temp_ext": 29.2,
+    "humidity": 36.4,
+    "flow": 142.53,
+    "energy": 120.47,
+    "level": 83.72
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 11,
+    "day_of_week": 2,
+    "temp_ext": 29.3,
+    "humidity": 37.5,
+    "flow": 171.49,
+    "energy": 136.38,
+    "level": 76.65
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 12,
+    "day_of_week": 2,
+    "temp_ext": 33.3,
+    "humidity": 30.6,
+    "flow": 183.67,
+    "energy": 145.74,
+    "level": 71.22
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 13,
+    "day_of_week": 2,
+    "temp_ext": 34.1,
+    "humidity": 28.1,
+    "flow": 147.99,
+    "energy": 126.99,
+    "level": 69.85
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 14,
+    "day_of_week": 2,
+    "temp_ext": 35.3,
+    "humidity": 18.0,
+    "flow": 163.88,
+    "energy": 131.18,
+    "level": 59.63
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 15,
+    "day_of_week": 2,
+    "temp_ext": 33.7,
+    "humidity": 21.4,
+    "flow": 167.57,
+    "energy": 151.16,
+    "level": 61.15
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 16,
+    "day_of_week": 2,
+    "temp_ext": 33.4,
+    "humidity": 23.0,
+    "flow": 136.64,
+    "energy": 93.7,
+    "level": 66.89
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 17,
+    "day_of_week": 2,
+    "temp_ext": 28.8,
+    "humidity": 28.7,
+    "flow": 159.65,
+    "energy": 119.41,
+    "level": 63.13
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 18,
+    "day_of_week": 2,
+    "temp_ext": 26.5,
+    "humidity": 16.8,
+    "flow": 192.79,
+    "energy": 160.62,
+    "level": 66.58
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 19,
+    "day_of_week": 2,
+    "temp_ext": 27.7,
+    "humidity": 32.4,
+    "flow": 230.4,
+    "energy": 182.9,
+    "level": 51.03
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 20,
+    "day_of_week": 2,
+    "temp_ext": 28.8,
+    "humidity": 31.0,
+    "flow": 214.28,
+    "energy": 162.62,
+    "level": 55.28
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 21,
+    "day_of_week": 2,
+    "temp_ext": 25.8,
+    "humidity": 25.8,
+    "flow": 245.92,
+    "energy": 198.58,
+    "level": 46.35
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 22,
+    "day_of_week": 2,
+    "temp_ext": 29.2,
+    "humidity": 38.2,
+    "flow": 102.84,
+    "energy": 76.91,
+    "level": 53.57
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 23,
+    "day_of_week": 2,
+    "temp_ext": 28.6,
+    "humidity": 29.8,
+    "flow": 151.51,
+    "energy": 114.78,
+    "level": 52.72
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 0,
+    "day_of_week": 3,
+    "temp_ext": 25.0,
+    "humidity": 26.2,
+    "flow": 116.22,
+    "energy": 85.05,
+    "level": 60.54
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 1,
+    "day_of_week": 3,
+    "temp_ext": 22.4,
+    "humidity": 28.6,
+    "flow": 147.34,
+    "energy": 120.46,
+    "level": 58.55
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 2,
+    "day_of_week": 3,
+    "temp_ext": 23.5,
+    "humidity": 32.2,
+    "flow": 124.53,
+    "energy": 94.73,
+    "level": 56.49
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 3,
+    "day_of_week": 3,
+    "temp_ext": 22.4,
+    "humidity": 26.2,
+    "flow": 155.17,
+    "energy": 130.45,
+    "level": 61.55
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 4,
+    "day_of_week": 3,
+    "temp_ext": 24.2,
+    "humidity": 37.4,
+    "flow": 116.14,
+    "energy": 83.89,
+    "level": 61.8
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 5,
+    "day_of_week": 3,
+    "temp_ext": 25.1,
+    "humidity": 47.7,
+    "flow": 143.05,
+    "energy": 124.05,
+    "level": 67.35
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 6,
+    "day_of_week": 3,
+    "temp_ext": 24.0,
+    "humidity": 48.0,
+    "flow": 195.57,
+    "energy": 156.71,
+    "level": 76.43
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 7,
+    "day_of_week": 3,
+    "temp_ext": 29.6,
+    "humidity": 22.5,
+    "flow": 190.34,
+    "energy": 134.97,
+    "level": 63.66
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 8,
+    "day_of_week": 3,
+    "temp_ext": 30.6,
+    "humidity": 34.7,
+    "flow": 209.95,
+    "energy": 147.11,
+    "level": 75.62
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 9,
+    "day_of_week": 3,
+    "temp_ext": 31.6,
+    "humidity": 21.9,
+    "flow": 169.01,
+    "energy": 131.37,
+    "level": 74.31
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 10,
+    "day_of_week": 3,
+    "temp_ext": 30.8,
+    "humidity": 39.7,
+    "flow": 145.36,
+    "energy": 96.14,
+    "level": 72.55
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 11,
+    "day_of_week": 3,
+    "temp_ext": 30.1,
+    "humidity": 27.1,
+    "flow": 126.66,
+    "energy": 113.28,
+    "level": 74.94
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 12,
+    "day_of_week": 3,
+    "temp_ext": 34.4,
+    "humidity": 33.0,
+    "flow": 183.99,
+    "energy": 142.0,
+    "level": 70.58
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 13,
+    "day_of_week": 3,
+    "temp_ext": 35.3,
+    "humidity": 38.8,
+    "flow": 170.93,
+    "energy": 115.5,
+    "level": 59.43
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 14,
+    "day_of_week": 3,
+    "temp_ext": 34.8,
+    "humidity": 28.0,
+    "flow": 107.29,
+    "energy": 79.85,
+    "level": 67.99
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 15,
+    "day_of_week": 3,
+    "temp_ext": 36.5,
+    "humidity": 24.5,
+    "flow": 185.58,
+    "energy": 139.78,
+    "level": 70.08
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 16,
+    "day_of_week": 3,
+    "temp_ext": 36.5,
+    "humidity": 26.4,
+    "flow": 166.52,
+    "energy": 118.31,
+    "level": 59.77
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 17,
+    "day_of_week": 3,
+    "temp_ext": 28.2,
+    "humidity": 24.9,
+    "flow": 113.81,
+    "energy": 95.72,
+    "level": 66.66
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 18,
+    "day_of_week": 3,
+    "temp_ext": 29.9,
+    "humidity": 25.8,
+    "flow": 188.96,
+    "energy": 157.63,
+    "level": 61.66
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 19,
+    "day_of_week": 3,
+    "temp_ext": 30.4,
+    "humidity": 17.7,
+    "flow": 222.43,
+    "energy": 173.71,
+    "level": 51.32
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 20,
+    "day_of_week": 3,
+    "temp_ext": 28.9,
+    "humidity": 30.7,
+    "flow": 211.11,
+    "energy": 158.88,
+    "level": 58.67
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 21,
+    "day_of_week": 3,
+    "temp_ext": 28.4,
+    "humidity": 24.4,
+    "flow": 208.01,
+    "energy": 176.37,
+    "level": 59.27
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 22,
+    "day_of_week": 3,
+    "temp_ext": 28.7,
+    "humidity": 33.5,
+    "flow": 132.48,
+    "energy": 110.19,
+    "level": 47.91
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 23,
+    "day_of_week": 3,
+    "temp_ext": 29.5,
+    "humidity": 39.9,
+    "flow": 148.34,
+    "energy": 103.97,
+    "level": 57.14
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 0,
+    "day_of_week": 4,
+    "temp_ext": 24.7,
+    "humidity": 41.3,
+    "flow": 135.01,
+    "energy": 96.8,
+    "level": 62.8
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 1,
+    "day_of_week": 4,
+    "temp_ext": 22.9,
+    "humidity": 39.5,
+    "flow": 176.37,
+    "energy": 140.63,
+    "level": 58.62
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 2,
+    "day_of_week": 4,
+    "temp_ext": 23.5,
+    "humidity": 39.8,
+    "flow": 158.3,
+    "energy": 136.69,
+    "level": 61.05
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 3,
+    "day_of_week": 4,
+    "temp_ext": 24.2,
+    "humidity": 27.4,
+    "flow": 146.68,
+    "energy": 133.05,
+    "level": 59.52
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 4,
+    "day_of_week": 4,
+    "temp_ext": 22.5,
+    "humidity": 48.0,
+    "flow": 171.07,
+    "energy": 143.84,
+    "level": 57.85
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 5,
+    "day_of_week": 4,
+    "temp_ext": 24.0,
+    "humidity": 30.0,
+    "flow": 146.26,
+    "energy": 120.78,
+    "level": 67.8
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 6,
+    "day_of_week": 4,
+    "temp_ext": 23.3,
+    "humidity": 30.8,
+    "flow": 214.85,
+    "energy": 167.94,
+    "level": 67.63
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 7,
+    "day_of_week": 4,
+    "temp_ext": 29.2,
+    "humidity": 38.9,
+    "flow": 194.07,
+    "energy": 148.21,
+    "level": 68.65
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 8,
+    "day_of_week": 4,
+    "temp_ext": 30.2,
+    "humidity": 22.0,
+    "flow": 208.18,
+    "energy": 179.04,
+    "level": 70.34
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 9,
+    "day_of_week": 4,
+    "temp_ext": 31.8,
+    "humidity": 20.2,
+    "flow": 137.18,
+    "energy": 97.72,
+    "level": 72.21
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 10,
+    "day_of_week": 4,
+    "temp_ext": 30.8,
+    "humidity": 16.1,
+    "flow": 113.68,
+    "energy": 98.82,
+    "level": 67.27
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 11,
+    "day_of_week": 4,
+    "temp_ext": 31.0,
+    "humidity": 38.3,
+    "flow": 143.08,
+    "energy": 113.24,
+    "level": 77.79
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 12,
+    "day_of_week": 4,
+    "temp_ext": 36.2,
+    "humidity": 16.0,
+    "flow": 178.95,
+    "energy": 142.13,
+    "level": 73.78
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 13,
+    "day_of_week": 4,
+    "temp_ext": 34.4,
+    "humidity": 26.2,
+    "flow": 173.35,
+    "energy": 159.02,
+    "level": 70.57
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 14,
+    "day_of_week": 4,
+    "temp_ext": 34.3,
+    "humidity": 25.9,
+    "flow": 152.19,
+    "energy": 119.57,
+    "level": 79.37
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 15,
+    "day_of_week": 4,
+    "temp_ext": 36.4,
+    "humidity": 18.7,
+    "flow": 176.67,
+    "energy": 131.85,
+    "level": 63.51
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 16,
+    "day_of_week": 4,
+    "temp_ext": 36.9,
+    "humidity": 26.7,
+    "flow": 169.23,
+    "energy": 143.56,
+    "level": 67.92
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 17,
+    "day_of_week": 4,
+    "temp_ext": 28.3,
+    "humidity": 22.7,
+    "flow": 154.47,
+    "energy": 129.37,
+    "level": 66.91
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 18,
+    "day_of_week": 4,
+    "temp_ext": 27.6,
+    "humidity": 36.8,
+    "flow": 222.98,
+    "energy": 175.66,
+    "level": 62.39
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 19,
+    "day_of_week": 4,
+    "temp_ext": 28.3,
+    "humidity": 33.8,
+    "flow": 192.53,
+    "energy": 142.16,
+    "level": 49.58
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 20,
+    "day_of_week": 4,
+    "temp_ext": 29.2,
+    "humidity": 39.0,
+    "flow": 214.26,
+    "energy": 167.62,
+    "level": 65.32
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 21,
+    "day_of_week": 4,
+    "temp_ext": 31.0,
+    "humidity": 39.7,
+    "flow": 234.04,
+    "energy": 173.25,
+    "level": 60.64
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 22,
+    "day_of_week": 4,
+    "temp_ext": 27.9,
+    "humidity": 25.4,
+    "flow": 130.66,
+    "energy": 127.43,
+    "level": 59.69
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 23,
+    "day_of_week": 4,
+    "temp_ext": 28.9,
+    "humidity": 20.6,
+    "flow": 169.72,
+    "energy": 137.6,
+    "level": 51.05
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 0,
+    "day_of_week": 5,
+    "temp_ext": 23.4,
+    "humidity": 43.8,
+    "flow": 139.27,
+    "energy": 103.48,
+    "level": 55.27
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 1,
+    "day_of_week": 5,
+    "temp_ext": 20,
+    "humidity": 50.0,
+    "flow": 152.77,
+    "energy": 122.27,
+    "level": 50.08
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 2,
+    "day_of_week": 5,
+    "temp_ext": 22.2,
+    "humidity": 33.2,
+    "flow": 106.53,
+    "energy": 83.13,
+    "level": 52.48
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 3,
+    "day_of_week": 5,
+    "temp_ext": 22.4,
+    "humidity": 30.8,
+    "flow": 157.91,
+    "energy": 116.08,
+    "level": 65.75
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 4,
+    "day_of_week": 5,
+    "temp_ext": 20.4,
+    "humidity": 30.4,
+    "flow": 125.92,
+    "energy": 95.82,
+    "level": 52.16
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 5,
+    "day_of_week": 5,
+    "temp_ext": 22.7,
+    "humidity": 30.6,
+    "flow": 172.27,
+    "energy": 132.3,
+    "level": 57.84
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 6,
+    "day_of_week": 5,
+    "temp_ext": 22.4,
+    "humidity": 24.4,
+    "flow": 192.23,
+    "energy": 144.95,
+    "level": 76.58
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 7,
+    "day_of_week": 5,
+    "temp_ext": 26.7,
+    "humidity": 31.8,
+    "flow": 212.72,
+    "energy": 161.56,
+    "level": 69.97
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 8,
+    "day_of_week": 5,
+    "temp_ext": 29.2,
+    "humidity": 15.1,
+    "flow": 193.31,
+    "energy": 166.61,
+    "level": 80.25
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 9,
+    "day_of_week": 5,
+    "temp_ext": 29.1,
+    "humidity": 28.0,
+    "flow": 173.19,
+    "energy": 152.68,
+    "level": 71.58
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 10,
+    "day_of_week": 5,
+    "temp_ext": 26.9,
+    "humidity": 20.8,
+    "flow": 183.12,
+    "energy": 150.37,
+    "level": 67.46
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 11,
+    "day_of_week": 5,
+    "temp_ext": 29.5,
+    "humidity": 25.2,
+    "flow": 156.77,
+    "energy": 111.91,
+    "level": 80.89
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 12,
+    "day_of_week": 5,
+    "temp_ext": 33.2,
+    "humidity": 36.3,
+    "flow": 119.49,
+    "energy": 94.27,
+    "level": 73.35
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 13,
+    "day_of_week": 5,
+    "temp_ext": 33.3,
+    "humidity": 35.6,
+    "flow": 126.32,
+    "energy": 85.65,
+    "level": 54.07
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 14,
+    "day_of_week": 5,
+    "temp_ext": 32.7,
+    "humidity": 23.2,
+    "flow": 175.11,
+    "energy": 155.41,
+    "level": 67.24
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 15,
+    "day_of_week": 5,
+    "temp_ext": 31.7,
+    "humidity": 39.2,
+    "flow": 155.84,
+    "energy": 123.94,
+    "level": 63.01
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 16,
+    "day_of_week": 5,
+    "temp_ext": 34.5,
+    "humidity": 35.5,
+    "flow": 152.77,
+    "energy": 92.45,
+    "level": 65.27
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 17,
+    "day_of_week": 5,
+    "temp_ext": 27.2,
+    "humidity": 25.5,
+    "flow": 170.19,
+    "energy": 135.83,
+    "level": 65.99
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 18,
+    "day_of_week": 5,
+    "temp_ext": 28.3,
+    "humidity": 30.6,
+    "flow": 224.0,
+    "energy": 182.85,
+    "level": 73.15
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 19,
+    "day_of_week": 5,
+    "temp_ext": 26.7,
+    "humidity": 25.2,
+    "flow": 226.72,
+    "energy": 178.58,
+    "level": 52.44
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 20,
+    "day_of_week": 5,
+    "temp_ext": 28.3,
+    "humidity": 31.6,
+    "flow": 217.78,
+    "energy": 169.58,
+    "level": 57.09
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 21,
+    "day_of_week": 5,
+    "temp_ext": 25.1,
+    "humidity": 35.9,
+    "flow": 236.5,
+    "energy": 180.25,
+    "level": 60.42
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 22,
+    "day_of_week": 5,
+    "temp_ext": 27.8,
+    "humidity": 16.3,
+    "flow": 184.53,
+    "energy": 153.47,
+    "level": 59.3
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 23,
+    "day_of_week": 5,
+    "temp_ext": 27.0,
+    "humidity": 19.0,
+    "flow": 147.98,
+    "energy": 118.94,
+    "level": 53.92
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 0,
+    "day_of_week": 6,
+    "temp_ext": 20,
+    "humidity": 30.1,
+    "flow": 158.41,
+    "energy": 127.35,
+    "level": 59.57
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 1,
+    "day_of_week": 6,
+    "temp_ext": 20,
+    "humidity": 42.2,
+    "flow": 150.49,
+    "energy": 139.44,
+    "level": 59.04
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 2,
+    "day_of_week": 6,
+    "temp_ext": 22.1,
+    "humidity": 26.1,
+    "flow": 153.96,
+    "energy": 121.39,
+    "level": 64.62
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 3,
+    "day_of_week": 6,
+    "temp_ext": 20.6,
+    "humidity": 31.6,
+    "flow": 165.92,
+    "energy": 120.89,
+    "level": 69.96
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 4,
+    "day_of_week": 6,
+    "temp_ext": 20,
+    "humidity": 44.2,
+    "flow": 147.87,
+    "energy": 131.93,
+    "level": 52.73
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 5,
+    "day_of_week": 6,
+    "temp_ext": 21.7,
+    "humidity": 37.6,
+    "flow": 138.88,
+    "energy": 109.6,
+    "level": 60.37
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 6,
+    "day_of_week": 6,
+    "temp_ext": 22.0,
+    "humidity": 38.5,
+    "flow": 208.05,
+    "energy": 162.85,
+    "level": 67.52
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 7,
+    "day_of_week": 6,
+    "temp_ext": 27.0,
+    "humidity": 39.8,
+    "flow": 195.06,
+    "energy": 137.69,
+    "level": 63.85
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 8,
+    "day_of_week": 6,
+    "temp_ext": 28.4,
+    "humidity": 36.2,
+    "flow": 202.07,
+    "energy": 142.33,
+    "level": 65.52
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 9,
+    "day_of_week": 6,
+    "temp_ext": 29.0,
+    "humidity": 29.6,
+    "flow": 129.47,
+    "energy": 96.24,
+    "level": 65.96
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 10,
+    "day_of_week": 6,
+    "temp_ext": 28.0,
+    "humidity": 15.3,
+    "flow": 175.71,
+    "energy": 137.94,
+    "level": 70.82
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 11,
+    "day_of_week": 6,
+    "temp_ext": 28.1,
+    "humidity": 31.0,
+    "flow": 149.35,
+    "energy": 115.98,
+    "level": 75.25
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 12,
+    "day_of_week": 6,
+    "temp_ext": 33.8,
+    "humidity": 24.4,
+    "flow": 128.88,
+    "energy": 115.77,
+    "level": 67.62
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 13,
+    "day_of_week": 6,
+    "temp_ext": 32.3,
+    "humidity": 39.9,
+    "flow": 142.85,
+    "energy": 127.59,
+    "level": 56.72
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 14,
+    "day_of_week": 6,
+    "temp_ext": 33.9,
+    "humidity": 15.8,
+    "flow": 108.79,
+    "energy": 70.85,
+    "level": 71.24
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 15,
+    "day_of_week": 6,
+    "temp_ext": 31.8,
+    "humidity": 37.3,
+    "flow": 121.18,
+    "energy": 98.04,
+    "level": 54.93
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 16,
+    "day_of_week": 6,
+    "temp_ext": 32.9,
+    "humidity": 17.4,
+    "flow": 156.49,
+    "energy": 117.31,
+    "level": 59.55
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 17,
+    "day_of_week": 6,
+    "temp_ext": 26.9,
+    "humidity": 15.1,
+    "flow": 156.38,
+    "energy": 130.27,
+    "level": 60.27
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 18,
+    "day_of_week": 6,
+    "temp_ext": 24.7,
+    "humidity": 32.1,
+    "flow": 221.78,
+    "energy": 177.14,
+    "level": 60.29
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 19,
+    "day_of_week": 6,
+    "temp_ext": 25.5,
+    "humidity": 26.3,
+    "flow": 205.98,
+    "energy": 168.16,
+    "level": 54.93
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 20,
+    "day_of_week": 6,
+    "temp_ext": 25.4,
+    "humidity": 17.6,
+    "flow": 230.2,
+    "energy": 175.13,
+    "level": 57.07
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 21,
+    "day_of_week": 6,
+    "temp_ext": 25.4,
+    "humidity": 30.7,
+    "flow": 226.42,
+    "energy": 171.69,
+    "level": 59.19
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 22,
+    "day_of_week": 6,
+    "temp_ext": 26.8,
+    "humidity": 19.8,
+    "flow": 146.49,
+    "energy": 112.65,
+    "level": 48.74
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 23,
+    "day_of_week": 6,
+    "temp_ext": 27.5,
+    "humidity": 27.4,
+    "flow": 157.07,
+    "energy": 114.47,
+    "level": 47.09
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 0,
+    "day_of_week": 0,
+    "temp_ext": 23.3,
+    "humidity": 27.2,
+    "flow": 162.96,
+    "energy": 95.6,
+    "level": 62.74
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 1,
+    "day_of_week": 0,
+    "temp_ext": 23.8,
+    "humidity": 45.3,
+    "flow": 156.0,
+    "energy": 118.0,
+    "level": 66.79
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 2,
+    "day_of_week": 0,
+    "temp_ext": 23.4,
+    "humidity": 28.1,
+    "flow": 137.56,
+    "energy": 100.14,
+    "level": 71.08
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 3,
+    "day_of_week": 0,
+    "temp_ext": 21.8,
+    "humidity": 33.9,
+    "flow": 164.68,
+    "energy": 118.69,
+    "level": 57.51
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 4,
+    "day_of_week": 0,
+    "temp_ext": 20,
+    "humidity": 28.8,
+    "flow": 159.42,
+    "energy": 151.78,
+    "level": 63.07
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 5,
+    "day_of_week": 0,
+    "temp_ext": 21.4,
+    "humidity": 24.4,
+    "flow": 143.08,
+    "energy": 107.25,
+    "level": 66.24
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 6,
+    "day_of_week": 0,
+    "temp_ext": 20.6,
+    "humidity": 38.6,
+    "flow": 200.47,
+    "energy": 162.62,
+    "level": 76.35
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 7,
+    "day_of_week": 0,
+    "temp_ext": 28.6,
+    "humidity": 23.7,
+    "flow": 208.08,
+    "energy": 178.34,
+    "level": 76.27
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 8,
+    "day_of_week": 0,
+    "temp_ext": 29.7,
+    "humidity": 36.6,
+    "flow": 204.14,
+    "energy": 153.17,
+    "level": 67.05
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 9,
+    "day_of_week": 0,
+    "temp_ext": 29.6,
+    "humidity": 24.8,
+    "flow": 134.1,
+    "energy": 103.79,
+    "level": 80.2
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 10,
+    "day_of_week": 0,
+    "temp_ext": 27.9,
+    "humidity": 28.8,
+    "flow": 138.56,
+    "energy": 120.56,
+    "level": 71.88
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 11,
+    "day_of_week": 0,
+    "temp_ext": 29.2,
+    "humidity": 26.5,
+    "flow": 153.65,
+    "energy": 132.01,
+    "level": 79.22
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 12,
+    "day_of_week": 0,
+    "temp_ext": 33.2,
+    "humidity": 38.6,
+    "flow": 162.24,
+    "energy": 133.21,
+    "level": 81.46
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 13,
+    "day_of_week": 0,
+    "temp_ext": 32.7,
+    "humidity": 38.0,
+    "flow": 197.83,
+    "energy": 140.41,
+    "level": 60.08
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 14,
+    "day_of_week": 0,
+    "temp_ext": 33.4,
+    "humidity": 22.3,
+    "flow": 189.91,
+    "energy": 168.48,
+    "level": 53.12
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 15,
+    "day_of_week": 0,
+    "temp_ext": 32.6,
+    "humidity": 21.3,
+    "flow": 151.56,
+    "energy": 130.55,
+    "level": 60.25
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 16,
+    "day_of_week": 0,
+    "temp_ext": 32.6,
+    "humidity": 39.4,
+    "flow": 163.8,
+    "energy": 108.23,
+    "level": 64.95
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 17,
+    "day_of_week": 0,
+    "temp_ext": 25.5,
+    "humidity": 37.4,
+    "flow": 174.51,
+    "energy": 132.51,
+    "level": 62.63
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 18,
+    "day_of_week": 0,
+    "temp_ext": 25.0,
+    "humidity": 33.9,
+    "flow": 238.17,
+    "energy": 178.98,
+    "level": 63.93
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 19,
+    "day_of_week": 0,
+    "temp_ext": 26.5,
+    "humidity": 29.6,
+    "flow": 209.18,
+    "energy": 168.67,
+    "level": 56.53
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 20,
+    "day_of_week": 0,
+    "temp_ext": 28.4,
+    "humidity": 22.2,
+    "flow": 225.06,
+    "energy": 181.3,
+    "level": 62.73
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 21,
+    "day_of_week": 0,
+    "temp_ext": 24.9,
+    "humidity": 33.1,
+    "flow": 205.92,
+    "energy": 168.24,
+    "level": 53.08
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 22,
+    "day_of_week": 0,
+    "temp_ext": 26.9,
+    "humidity": 32.1,
+    "flow": 142.22,
+    "energy": 108.52,
+    "level": 55.83
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 23,
+    "day_of_week": 0,
+    "temp_ext": 26.8,
+    "humidity": 23.0,
+    "flow": 182.97,
+    "energy": 149.78,
+    "level": 51.0
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 0,
+    "day_of_week": 1,
+    "temp_ext": 25.0,
+    "humidity": 48.6,
+    "flow": 148.39,
+    "energy": 103.41,
+    "level": 66.4
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 1,
+    "day_of_week": 1,
+    "temp_ext": 23.4,
+    "humidity": 24.2,
+    "flow": 142.44,
+    "energy": 120.72,
+    "level": 63.03
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 2,
+    "day_of_week": 1,
+    "temp_ext": 22.4,
+    "humidity": 42.2,
+    "flow": 161.95,
+    "energy": 128.59,
+    "level": 56.59
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 3,
+    "day_of_week": 1,
+    "temp_ext": 24.0,
+    "humidity": 26.4,
+    "flow": 154.57,
+    "energy": 93.62,
+    "level": 65.12
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 4,
+    "day_of_week": 1,
+    "temp_ext": 22.9,
+    "humidity": 34.5,
+    "flow": 186.19,
+    "energy": 146.53,
+    "level": 62.14
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 5,
+    "day_of_week": 1,
+    "temp_ext": 23.9,
+    "humidity": 32.2,
+    "flow": 158.58,
+    "energy": 146.17,
+    "level": 66.98
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 6,
+    "day_of_week": 1,
+    "temp_ext": 23.3,
+    "humidity": 39.0,
+    "flow": 206.55,
+    "energy": 150.83,
+    "level": 77.42
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 7,
+    "day_of_week": 1,
+    "temp_ext": 29.5,
+    "humidity": 26.7,
+    "flow": 187.24,
+    "energy": 155.56,
+    "level": 81.38
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 8,
+    "day_of_week": 1,
+    "temp_ext": 28.3,
+    "humidity": 37.9,
+    "flow": 192.79,
+    "energy": 159.46,
+    "level": 77.81
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 9,
+    "day_of_week": 1,
+    "temp_ext": 31.0,
+    "humidity": 28.4,
+    "flow": 148.56,
+    "energy": 117.64,
+    "level": 76.04
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 10,
+    "day_of_week": 1,
+    "temp_ext": 30.0,
+    "humidity": 37.3,
+    "flow": 136.94,
+    "energy": 99.86,
+    "level": 80.19
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 11,
+    "day_of_week": 1,
+    "temp_ext": 29.8,
+    "humidity": 35.5,
+    "flow": 135.53,
+    "energy": 119.32,
+    "level": 79.71
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 12,
+    "day_of_week": 1,
+    "temp_ext": 35.6,
+    "humidity": 17.9,
+    "flow": 155.04,
+    "energy": 136.75,
+    "level": 63.69
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 13,
+    "day_of_week": 1,
+    "temp_ext": 34.9,
+    "humidity": 35.0,
+    "flow": 128.99,
+    "energy": 107.34,
+    "level": 63.35
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 14,
+    "day_of_week": 1,
+    "temp_ext": 34.2,
+    "humidity": 17.3,
+    "flow": 167.1,
+    "energy": 118.31,
+    "level": 60.33
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 15,
+    "day_of_week": 1,
+    "temp_ext": 34.7,
+    "humidity": 20.9,
+    "flow": 127.51,
+    "energy": 106.74,
+    "level": 63.33
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 16,
+    "day_of_week": 1,
+    "temp_ext": 34.1,
+    "humidity": 19.9,
+    "flow": 168.38,
+    "energy": 135.98,
+    "level": 64.02
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 17,
+    "day_of_week": 1,
+    "temp_ext": 26.3,
+    "humidity": 33.9,
+    "flow": 173.2,
+    "energy": 150.66,
+    "level": 64.27
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 18,
+    "day_of_week": 1,
+    "temp_ext": 28.9,
+    "humidity": 36.2,
+    "flow": 219.28,
+    "energy": 166.53,
+    "level": 69.72
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 19,
+    "day_of_week": 1,
+    "temp_ext": 27.1,
+    "humidity": 30.2,
+    "flow": 202.04,
+    "energy": 179.11,
+    "level": 51.4
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 20,
+    "day_of_week": 1,
+    "temp_ext": 26.5,
+    "humidity": 22.0,
+    "flow": 240.44,
+    "energy": 192.94,
+    "level": 60.62
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 21,
+    "day_of_week": 1,
+    "temp_ext": 27.9,
+    "humidity": 34.9,
+    "flow": 213.16,
+    "energy": 161.6,
+    "level": 55.62
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 22,
+    "day_of_week": 1,
+    "temp_ext": 29.0,
+    "humidity": 19.3,
+    "flow": 164.68,
+    "energy": 133.4,
+    "level": 50.21
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 23,
+    "day_of_week": 1,
+    "temp_ext": 27.8,
+    "humidity": 37.3,
+    "flow": 161.69,
+    "energy": 141.56,
+    "level": 57.67
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 0,
+    "day_of_week": 2,
+    "temp_ext": 20,
+    "humidity": 27.7,
+    "flow": 149.25,
+    "energy": 137.75,
+    "level": 52.84
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 1,
+    "day_of_week": 2,
+    "temp_ext": 21.8,
+    "humidity": 52.2,
+    "flow": 131.37,
+    "energy": 111.03,
+    "level": 58.06
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 2,
+    "day_of_week": 2,
+    "temp_ext": 20.0,
+    "humidity": 40.0,
+    "flow": 163.51,
+    "energy": 128.65,
+    "level": 57.44
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 3,
+    "day_of_week": 2,
+    "temp_ext": 20,
+    "humidity": 35.3,
+    "flow": 123.75,
+    "energy": 92.94,
+    "level": 55.01
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 4,
+    "day_of_week": 2,
+    "temp_ext": 20.5,
+    "humidity": 27.8,
+    "flow": 153.63,
+    "energy": 112.11,
+    "level": 65.51
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 5,
+    "day_of_week": 2,
+    "temp_ext": 20.7,
+    "humidity": 43.1,
+    "flow": 132.15,
+    "energy": 98.37,
+    "level": 48.26
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 6,
+    "day_of_week": 2,
+    "temp_ext": 23.0,
+    "humidity": 38.5,
+    "flow": 197.69,
+    "energy": 170.14,
+    "level": 75.01
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 7,
+    "day_of_week": 2,
+    "temp_ext": 28.9,
+    "humidity": 20.9,
+    "flow": 196.88,
+    "energy": 159.31,
+    "level": 76.32
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 8,
+    "day_of_week": 2,
+    "temp_ext": 26.4,
+    "humidity": 38.9,
+    "flow": 196.34,
+    "energy": 158.34,
+    "level": 77.37
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 9,
+    "day_of_week": 2,
+    "temp_ext": 27.6,
+    "humidity": 29.3,
+    "flow": 152.63,
+    "energy": 118.13,
+    "level": 72.45
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 10,
+    "day_of_week": 2,
+    "temp_ext": 28.4,
+    "humidity": 15.2,
+    "flow": 175.26,
+    "energy": 145.64,
+    "level": 75.46
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 11,
+    "day_of_week": 2,
+    "temp_ext": 29.1,
+    "humidity": 39.7,
+    "flow": 122.32,
+    "energy": 98.59,
+    "level": 77.82
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 12,
+    "day_of_week": 2,
+    "temp_ext": 31.8,
+    "humidity": 25.4,
+    "flow": 113.98,
+    "energy": 69.24,
+    "level": 76.03
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 13,
+    "day_of_week": 2,
+    "temp_ext": 31.5,
+    "humidity": 35.5,
+    "flow": 140.46,
+    "energy": 112.53,
+    "level": 71.01
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 14,
+    "day_of_week": 2,
+    "temp_ext": 31.8,
+    "humidity": 32.3,
+    "flow": 170.65,
+    "energy": 127.63,
+    "level": 57.82
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 15,
+    "day_of_week": 2,
+    "temp_ext": 31.8,
+    "humidity": 25.2,
+    "flow": 163.71,
+    "energy": 140.76,
+    "level": 76.12
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 16,
+    "day_of_week": 2,
+    "temp_ext": 31.2,
+    "humidity": 15.9,
+    "flow": 120.06,
+    "energy": 86.45,
+    "level": 64.03
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 17,
+    "day_of_week": 2,
+    "temp_ext": 26.7,
+    "humidity": 24.6,
+    "flow": 139.74,
+    "energy": 99.16,
+    "level": 65.25
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 18,
+    "day_of_week": 2,
+    "temp_ext": 27.4,
+    "humidity": 37.1,
+    "flow": 220.0,
+    "energy": 184.44,
+    "level": 62.46
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 19,
+    "day_of_week": 2,
+    "temp_ext": 24.9,
+    "humidity": 19.8,
+    "flow": 187.71,
+    "energy": 149.26,
+    "level": 42.08
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 20,
+    "day_of_week": 2,
+    "temp_ext": 27.2,
+    "humidity": 36.4,
+    "flow": 211.06,
+    "energy": 174.39,
+    "level": 58.02
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 21,
+    "day_of_week": 2,
+    "temp_ext": 24.2,
+    "humidity": 23.0,
+    "flow": 218.83,
+    "energy": 173.63,
+    "level": 50.16
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 22,
+    "day_of_week": 2,
+    "temp_ext": 24.8,
+    "humidity": 39.0,
+    "flow": 145.52,
+    "energy": 111.18,
+    "level": 44.83
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 23,
+    "day_of_week": 2,
+    "temp_ext": 27.9,
+    "humidity": 33.0,
+    "flow": 141.41,
+    "energy": 121.94,
+    "level": 53.62
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 0,
+    "day_of_week": 3,
+    "temp_ext": 23.0,
+    "humidity": 41.6,
+    "flow": 134.98,
+    "energy": 85.54,
+    "level": 57.87
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 1,
+    "day_of_week": 3,
+    "temp_ext": 22.0,
+    "humidity": 47.3,
+    "flow": 162.52,
+    "energy": 132.33,
+    "level": 62.74
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 2,
+    "day_of_week": 3,
+    "temp_ext": 24.4,
+    "humidity": 31.8,
+    "flow": 164.28,
+    "energy": 122.35,
+    "level": 58.78
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 3,
+    "day_of_week": 3,
+    "temp_ext": 21.9,
+    "humidity": 44.4,
+    "flow": 142.67,
+    "energy": 121.61,
+    "level": 60.51
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 4,
+    "day_of_week": 3,
+    "temp_ext": 22.9,
+    "humidity": 41.3,
+    "flow": 102.77,
+    "energy": 95.75,
+    "level": 55.98
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 5,
+    "day_of_week": 3,
+    "temp_ext": 21.4,
+    "humidity": 27.8,
+    "flow": 157.19,
+    "energy": 126.63,
+    "level": 60.3
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 6,
+    "day_of_week": 3,
+    "temp_ext": 22.9,
+    "humidity": 29.3,
+    "flow": 207.77,
+    "energy": 164.93,
+    "level": 77.44
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 7,
+    "day_of_week": 3,
+    "temp_ext": 28.7,
+    "humidity": 20.8,
+    "flow": 192.06,
+    "energy": 149.64,
+    "level": 66.57
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 8,
+    "day_of_week": 3,
+    "temp_ext": 30.5,
+    "humidity": 25.8,
+    "flow": 190.98,
+    "energy": 149.19,
+    "level": 73.23
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 9,
+    "day_of_week": 3,
+    "temp_ext": 28.5,
+    "humidity": 20.8,
+    "flow": 156.95,
+    "energy": 134.97,
+    "level": 69.74
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 10,
+    "day_of_week": 3,
+    "temp_ext": 30.1,
+    "humidity": 23.3,
+    "flow": 140.52,
+    "energy": 101.52,
+    "level": 81.17
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 11,
+    "day_of_week": 3,
+    "temp_ext": 28.3,
+    "humidity": 25.1,
+    "flow": 149.91,
+    "energy": 131.56,
+    "level": 70.69
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 12,
+    "day_of_week": 3,
+    "temp_ext": 33.3,
+    "humidity": 31.2,
+    "flow": 142.96,
+    "energy": 107.29,
+    "level": 65.25
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 13,
+    "day_of_week": 3,
+    "temp_ext": 33.7,
+    "humidity": 26.8,
+    "flow": 127.41,
+    "energy": 101.97,
+    "level": 66.11
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 14,
+    "day_of_week": 3,
+    "temp_ext": 34.2,
+    "humidity": 17.7,
+    "flow": 160.17,
+    "energy": 124.52,
+    "level": 70.7
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 15,
+    "day_of_week": 3,
+    "temp_ext": 34.9,
+    "humidity": 24.6,
+    "flow": 179.99,
+    "energy": 132.91,
+    "level": 65.54
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 16,
+    "day_of_week": 3,
+    "temp_ext": 32.9,
+    "humidity": 26.1,
+    "flow": 134.11,
+    "energy": 98.51,
+    "level": 65.15
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 17,
+    "day_of_week": 3,
+    "temp_ext": 28.7,
+    "humidity": 17.4,
+    "flow": 147.12,
+    "energy": 144.85,
+    "level": 61.99
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 18,
+    "day_of_week": 3,
+    "temp_ext": 28.7,
+    "humidity": 37.7,
+    "flow": 219.81,
+    "energy": 170.72,
+    "level": 53.66
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 19,
+    "day_of_week": 3,
+    "temp_ext": 29.4,
+    "humidity": 33.1,
+    "flow": 208.53,
+    "energy": 151.02,
+    "level": 55.45
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 20,
+    "day_of_week": 3,
+    "temp_ext": 29.3,
+    "humidity": 36.1,
+    "flow": 215.73,
+    "energy": 192.65,
+    "level": 54.23
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 21,
+    "day_of_week": 3,
+    "temp_ext": 26.3,
+    "humidity": 20.6,
+    "flow": 216.37,
+    "energy": 173.43,
+    "level": 49.95
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 22,
+    "day_of_week": 3,
+    "temp_ext": 27.6,
+    "humidity": 35.7,
+    "flow": 138.4,
+    "energy": 108.51,
+    "level": 57.37
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 23,
+    "day_of_week": 3,
+    "temp_ext": 26.6,
+    "humidity": 28.3,
+    "flow": 153.36,
+    "energy": 142.92,
+    "level": 54.97
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 0,
+    "day_of_week": 4,
+    "temp_ext": 20.1,
+    "humidity": 29.9,
+    "flow": 134.88,
+    "energy": 92.94,
+    "level": 65.34
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 1,
+    "day_of_week": 4,
+    "temp_ext": 20,
+    "humidity": 42.5,
+    "flow": 147.96,
+    "energy": 130.66,
+    "level": 66.88
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 2,
+    "day_of_week": 4,
+    "temp_ext": 20,
+    "humidity": 33.4,
+    "flow": 188.59,
+    "energy": 151.46,
+    "level": 60.49
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 3,
+    "day_of_week": 4,
+    "temp_ext": 20.7,
+    "humidity": 30.2,
+    "flow": 149.16,
+    "energy": 119.34,
+    "level": 59.47
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 4,
+    "day_of_week": 4,
+    "temp_ext": 20,
+    "humidity": 28.1,
+    "flow": 144.48,
+    "energy": 121.52,
+    "level": 64.38
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 5,
+    "day_of_week": 4,
+    "temp_ext": 20,
+    "humidity": 29.0,
+    "flow": 176.88,
+    "energy": 133.06,
+    "level": 47.4
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 6,
+    "day_of_week": 4,
+    "temp_ext": 20,
+    "humidity": 47.2,
+    "flow": 200.76,
+    "energy": 162.95,
+    "level": 71.68
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 7,
+    "day_of_week": 4,
+    "temp_ext": 25.7,
+    "humidity": 32.2,
+    "flow": 202.98,
+    "energy": 176.74,
+    "level": 82.03
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 8,
+    "day_of_week": 4,
+    "temp_ext": 24.6,
+    "humidity": 15.1,
+    "flow": 199.78,
+    "energy": 143.72,
+    "level": 71.45
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 9,
+    "day_of_week": 4,
+    "temp_ext": 24.1,
+    "humidity": 37.8,
+    "flow": 183.76,
+    "energy": 153.19,
+    "level": 74.21
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 10,
+    "day_of_week": 4,
+    "temp_ext": 26.7,
+    "humidity": 32.0,
+    "flow": 143.0,
+    "energy": 106.32,
+    "level": 80.13
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 11,
+    "day_of_week": 4,
+    "temp_ext": 25.0,
+    "humidity": 35.2,
+    "flow": 136.15,
+    "energy": 116.8,
+    "level": 80.51
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 12,
+    "day_of_week": 4,
+    "temp_ext": 29.7,
+    "humidity": 25.9,
+    "flow": 132.98,
+    "energy": 94.7,
+    "level": 76.9
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 13,
+    "day_of_week": 4,
+    "temp_ext": 29.8,
+    "humidity": 27.9,
+    "flow": 139.26,
+    "energy": 104.1,
+    "level": 72.75
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 14,
+    "day_of_week": 4,
+    "temp_ext": 29.3,
+    "humidity": 35.1,
+    "flow": 130.75,
+    "energy": 95.35,
+    "level": 63.47
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 15,
+    "day_of_week": 4,
+    "temp_ext": 32.0,
+    "humidity": 19.8,
+    "flow": 187.69,
+    "energy": 154.62,
+    "level": 69.23
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 16,
+    "day_of_week": 4,
+    "temp_ext": 30.3,
+    "humidity": 20.9,
+    "flow": 141.62,
+    "energy": 90.86,
+    "level": 76.81
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 17,
+    "day_of_week": 4,
+    "temp_ext": 23.7,
+    "humidity": 35.0,
+    "flow": 143.17,
+    "energy": 98.36,
+    "level": 60.82
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 18,
+    "day_of_week": 4,
+    "temp_ext": 24.2,
+    "humidity": 15.6,
+    "flow": 235.38,
+    "energy": 192.86,
+    "level": 64.98
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 19,
+    "day_of_week": 4,
+    "temp_ext": 24.5,
+    "humidity": 32.8,
+    "flow": 211.18,
+    "energy": 164.86,
+    "level": 62.4
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 20,
+    "day_of_week": 4,
+    "temp_ext": 24.5,
+    "humidity": 16.9,
+    "flow": 188.56,
+    "energy": 158.07,
+    "level": 63.35
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 21,
+    "day_of_week": 4,
+    "temp_ext": 25.3,
+    "humidity": 26.4,
+    "flow": 224.73,
+    "energy": 160.6,
+    "level": 57.47
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 22,
+    "day_of_week": 4,
+    "temp_ext": 24.7,
+    "humidity": 38.4,
+    "flow": 143.28,
+    "energy": 99.28,
+    "level": 55.6
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 23,
+    "day_of_week": 4,
+    "temp_ext": 24.4,
+    "humidity": 33.6,
+    "flow": 127.0,
+    "energy": 107.27,
+    "level": 52.14
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 0,
+    "day_of_week": 5,
+    "temp_ext": 22.4,
+    "humidity": 33.1,
+    "flow": 140.83,
+    "energy": 116.27,
+    "level": 55.44
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 1,
+    "day_of_week": 5,
+    "temp_ext": 22.5,
+    "humidity": 38.6,
+    "flow": 149.14,
+    "energy": 117.97,
+    "level": 57.08
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 2,
+    "day_of_week": 5,
+    "temp_ext": 23.1,
+    "humidity": 43.0,
+    "flow": 122.02,
+    "energy": 104.35,
+    "level": 66.6
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 3,
+    "day_of_week": 5,
+    "temp_ext": 20.8,
+    "humidity": 35.3,
+    "flow": 166.14,
+    "energy": 129.94,
+    "level": 55.91
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 4,
+    "day_of_week": 5,
+    "temp_ext": 22.1,
+    "humidity": 46.3,
+    "flow": 190.69,
+    "energy": 152.03,
+    "level": 66.04
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 5,
+    "day_of_week": 5,
+    "temp_ext": 22.4,
+    "humidity": 43.8,
+    "flow": 124.72,
+    "energy": 97.88,
+    "level": 66.02
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 6,
+    "day_of_week": 5,
+    "temp_ext": 23.6,
+    "humidity": 47.2,
+    "flow": 186.16,
+    "energy": 139.92,
+    "level": 72.92
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 7,
+    "day_of_week": 5,
+    "temp_ext": 27.0,
+    "humidity": 27.6,
+    "flow": 216.08,
+    "energy": 167.4,
+    "level": 66.77
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 8,
+    "day_of_week": 5,
+    "temp_ext": 29.8,
+    "humidity": 30.0,
+    "flow": 212.79,
+    "energy": 143.85,
+    "level": 77.2
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 9,
+    "day_of_week": 5,
+    "temp_ext": 28.4,
+    "humidity": 27.4,
+    "flow": 128.69,
+    "energy": 96.49,
+    "level": 74.22
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 10,
+    "day_of_week": 5,
+    "temp_ext": 29.0,
+    "humidity": 30.3,
+    "flow": 147.57,
+    "energy": 115.78,
+    "level": 79.52
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 11,
+    "day_of_week": 5,
+    "temp_ext": 28.6,
+    "humidity": 30.6,
+    "flow": 145.21,
+    "energy": 109.79,
+    "level": 74.26
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 12,
+    "day_of_week": 5,
+    "temp_ext": 32.5,
+    "humidity": 36.4,
+    "flow": 140.7,
+    "energy": 102.42,
+    "level": 74.63
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 13,
+    "day_of_week": 5,
+    "temp_ext": 32.1,
+    "humidity": 34.5,
+    "flow": 176.7,
+    "energy": 134.7,
+    "level": 67.54
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 14,
+    "day_of_week": 5,
+    "temp_ext": 34.9,
+    "humidity": 31.3,
+    "flow": 142.21,
+    "energy": 126.39,
+    "level": 67.78
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 15,
+    "day_of_week": 5,
+    "temp_ext": 32.4,
+    "humidity": 15.7,
+    "flow": 105.8,
+    "energy": 75.8,
+    "level": 68.23
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 16,
+    "day_of_week": 5,
+    "temp_ext": 32.9,
+    "humidity": 19.8,
+    "flow": 156.15,
+    "energy": 139.76,
+    "level": 61.71
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 17,
+    "day_of_week": 5,
+    "temp_ext": 26.5,
+    "humidity": 29.8,
+    "flow": 172.31,
+    "energy": 135.18,
+    "level": 66.35
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 18,
+    "day_of_week": 5,
+    "temp_ext": 27.8,
+    "humidity": 16.2,
+    "flow": 206.28,
+    "energy": 177.93,
+    "level": 68.41
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 19,
+    "day_of_week": 5,
+    "temp_ext": 26.4,
+    "humidity": 20.3,
+    "flow": 218.33,
+    "energy": 170.07,
+    "level": 50.98
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 20,
+    "day_of_week": 5,
+    "temp_ext": 28.9,
+    "humidity": 20.6,
+    "flow": 218.83,
+    "energy": 189.0,
+    "level": 55.05
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 21,
+    "day_of_week": 5,
+    "temp_ext": 27.9,
+    "humidity": 16.5,
+    "flow": 224.71,
+    "energy": 159.57,
+    "level": 54.31
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 22,
+    "day_of_week": 5,
+    "temp_ext": 29.0,
+    "humidity": 36.5,
+    "flow": 127.54,
+    "energy": 96.58,
+    "level": 59.9
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 23,
+    "day_of_week": 5,
+    "temp_ext": 25.4,
+    "humidity": 39.8,
+    "flow": 115.94,
+    "energy": 121.42,
+    "level": 60.6
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 0,
+    "day_of_week": 6,
+    "temp_ext": 23.3,
+    "humidity": 35.9,
+    "flow": 120.62,
+    "energy": 99.08,
+    "level": 61.82
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 1,
+    "day_of_week": 6,
+    "temp_ext": 20.6,
+    "humidity": 38.5,
+    "flow": 176.03,
+    "energy": 144.86,
+    "level": 57.62
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 2,
+    "day_of_week": 6,
+    "temp_ext": 23.5,
+    "humidity": 38.2,
+    "flow": 139.12,
+    "energy": 106.89,
+    "level": 59.38
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 3,
+    "day_of_week": 6,
+    "temp_ext": 20.7,
+    "humidity": 28.8,
+    "flow": 144.76,
+    "energy": 117.79,
+    "level": 59.39
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 4,
+    "day_of_week": 6,
+    "temp_ext": 23.1,
+    "humidity": 27.8,
+    "flow": 148.36,
+    "energy": 119.15,
+    "level": 60.76
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 5,
+    "day_of_week": 6,
+    "temp_ext": 22.5,
+    "humidity": 24.6,
+    "flow": 132.7,
+    "energy": 118.52,
+    "level": 58.61
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 6,
+    "day_of_week": 6,
+    "temp_ext": 22.9,
+    "humidity": 34.3,
+    "flow": 197.0,
+    "energy": 154.89,
+    "level": 73.15
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 7,
+    "day_of_week": 6,
+    "temp_ext": 28.3,
+    "humidity": 26.8,
+    "flow": 188.87,
+    "energy": 139.92,
+    "level": 77.59
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 8,
+    "day_of_week": 6,
+    "temp_ext": 28.0,
+    "humidity": 15.4,
+    "flow": 189.98,
+    "energy": 161.35,
+    "level": 74.54
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 9,
+    "day_of_week": 6,
+    "temp_ext": 29.4,
+    "humidity": 24.9,
+    "flow": 147.92,
+    "energy": 126.75,
+    "level": 72.48
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 10,
+    "day_of_week": 6,
+    "temp_ext": 30.1,
+    "humidity": 38.3,
+    "flow": 138.03,
+    "energy": 120.91,
+    "level": 78.98
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 11,
+    "day_of_week": 6,
+    "temp_ext": 30.2,
+    "humidity": 15.1,
+    "flow": 156.2,
+    "energy": 117.55,
+    "level": 72.37
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 12,
+    "day_of_week": 6,
+    "temp_ext": 34.9,
+    "humidity": 35.8,
+    "flow": 131.0,
+    "energy": 94.39,
+    "level": 84.09
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 13,
+    "day_of_week": 6,
+    "temp_ext": 34.5,
+    "humidity": 34.1,
+    "flow": 153.29,
+    "energy": 134.08,
+    "level": 71.87
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 14,
+    "day_of_week": 6,
+    "temp_ext": 33.7,
+    "humidity": 31.9,
+    "flow": 200.21,
+    "energy": 155.81,
+    "level": 58.11
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 15,
+    "day_of_week": 6,
+    "temp_ext": 32.9,
+    "humidity": 32.7,
+    "flow": 129.39,
+    "energy": 94.62,
+    "level": 69.04
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 16,
+    "day_of_week": 6,
+    "temp_ext": 34.3,
+    "humidity": 20.0,
+    "flow": 153.1,
+    "energy": 117.88,
+    "level": 66.17
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 17,
+    "day_of_week": 6,
+    "temp_ext": 26.9,
+    "humidity": 29.8,
+    "flow": 152.18,
+    "energy": 116.69,
+    "level": 72.73
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 18,
+    "day_of_week": 6,
+    "temp_ext": 26.3,
+    "humidity": 29.6,
+    "flow": 214.51,
+    "energy": 169.62,
+    "level": 66.58
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 19,
+    "day_of_week": 6,
+    "temp_ext": 28.0,
+    "humidity": 16.1,
+    "flow": 237.25,
+    "energy": 183.13,
+    "level": 55.99
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 20,
+    "day_of_week": 6,
+    "temp_ext": 27.7,
+    "humidity": 38.1,
+    "flow": 229.54,
+    "energy": 195.94,
+    "level": 51.0
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 21,
+    "day_of_week": 6,
+    "temp_ext": 29.3,
+    "humidity": 24.8,
+    "flow": 217.77,
+    "energy": 169.71,
+    "level": 53.83
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 22,
+    "day_of_week": 6,
+    "temp_ext": 28.9,
+    "humidity": 35.3,
+    "flow": 188.9,
+    "energy": 148.27,
+    "level": 60.77
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 23,
+    "day_of_week": 6,
+    "temp_ext": 26.8,
+    "humidity": 29.4,
+    "flow": 139.35,
+    "energy": 111.58,
+    "level": 53.9
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 0,
+    "day_of_week": 0,
+    "temp_ext": 27.3,
+    "humidity": 34.0,
+    "flow": 177.79,
+    "energy": 132.48,
+    "level": 57.41
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 1,
+    "day_of_week": 0,
+    "temp_ext": 26.9,
+    "humidity": 25.4,
+    "flow": 143.74,
+    "energy": 117.24,
+    "level": 52.77
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 2,
+    "day_of_week": 0,
+    "temp_ext": 26.7,
+    "humidity": 52.4,
+    "flow": 167.98,
+    "energy": 141.84,
+    "level": 56.48
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 3,
+    "day_of_week": 0,
+    "temp_ext": 24.5,
+    "humidity": 40.7,
+    "flow": 139.67,
+    "energy": 99.85,
+    "level": 52.22
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 4,
+    "day_of_week": 0,
+    "temp_ext": 24.4,
+    "humidity": 29.0,
+    "flow": 160.34,
+    "energy": 142.56,
+    "level": 64.68
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 5,
+    "day_of_week": 0,
+    "temp_ext": 24.3,
+    "humidity": 30.6,
+    "flow": 156.07,
+    "energy": 125.12,
+    "level": 53.0
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 6,
+    "day_of_week": 0,
+    "temp_ext": 23.7,
+    "humidity": 28.8,
+    "flow": 192.83,
+    "energy": 161.39,
+    "level": 75.29
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 7,
+    "day_of_week": 0,
+    "temp_ext": 31.2,
+    "humidity": 30.3,
+    "flow": 190.54,
+    "energy": 157.26,
+    "level": 65.84
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 8,
+    "day_of_week": 0,
+    "temp_ext": 32.0,
+    "humidity": 22.4,
+    "flow": 196.69,
+    "energy": 171.53,
+    "level": 79.81
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 9,
+    "day_of_week": 0,
+    "temp_ext": 31.0,
+    "humidity": 29.2,
+    "flow": 165.14,
+    "energy": 144.91,
+    "level": 71.39
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 10,
+    "day_of_week": 0,
+    "temp_ext": 31.3,
+    "humidity": 35.2,
+    "flow": 124.08,
+    "energy": 109.9,
+    "level": 81.86
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 11,
+    "day_of_week": 0,
+    "temp_ext": 30.9,
+    "humidity": 15.6,
+    "flow": 145.49,
+    "energy": 127.27,
+    "level": 77.01
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 12,
+    "day_of_week": 0,
+    "temp_ext": 37.9,
+    "humidity": 36.8,
+    "flow": 168.25,
+    "energy": 129.95,
+    "level": 71.1
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 13,
+    "day_of_week": 0,
+    "temp_ext": 36.7,
+    "humidity": 35.8,
+    "flow": 174.74,
+    "energy": 132.42,
+    "level": 65.18
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 14,
+    "day_of_week": 0,
+    "temp_ext": 37.4,
+    "humidity": 37.6,
+    "flow": 181.08,
+    "energy": 146.29,
+    "level": 71.91
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 15,
+    "day_of_week": 0,
+    "temp_ext": 37.3,
+    "humidity": 29.8,
+    "flow": 149.5,
+    "energy": 114.17,
+    "level": 68.96
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 16,
+    "day_of_week": 0,
+    "temp_ext": 36.3,
+    "humidity": 36.7,
+    "flow": 173.78,
+    "energy": 172.2,
+    "level": 55.98
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 17,
+    "day_of_week": 0,
+    "temp_ext": 30.6,
+    "humidity": 37.9,
+    "flow": 155.37,
+    "energy": 116.41,
+    "level": 62.43
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 18,
+    "day_of_week": 0,
+    "temp_ext": 31.3,
+    "humidity": 36.2,
+    "flow": 215.64,
+    "energy": 176.96,
+    "level": 71.95
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 19,
+    "day_of_week": 0,
+    "temp_ext": 31.0,
+    "humidity": 27.8,
+    "flow": 220.98,
+    "energy": 165.56,
+    "level": 57.85
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 20,
+    "day_of_week": 0,
+    "temp_ext": 30.0,
+    "humidity": 32.0,
+    "flow": 196.57,
+    "energy": 177.1,
+    "level": 56.65
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 21,
+    "day_of_week": 0,
+    "temp_ext": 31.4,
+    "humidity": 16.2,
+    "flow": 231.88,
+    "energy": 177.28,
+    "level": 56.94
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 22,
+    "day_of_week": 0,
+    "temp_ext": 30.3,
+    "humidity": 22.0,
+    "flow": 154.88,
+    "energy": 108.57,
+    "level": 57.89
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 23,
+    "day_of_week": 0,
+    "temp_ext": 31.2,
+    "humidity": 29.0,
+    "flow": 172.31,
+    "energy": 150.73,
+    "level": 52.2
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 0,
+    "day_of_week": 1,
+    "temp_ext": 23.4,
+    "humidity": 43.7,
+    "flow": 149.99,
+    "energy": 124.39,
+    "level": 54.75
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 1,
+    "day_of_week": 1,
+    "temp_ext": 23.5,
+    "humidity": 42.4,
+    "flow": 158.35,
+    "energy": 128.92,
+    "level": 61.19
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 2,
+    "day_of_week": 1,
+    "temp_ext": 22.7,
+    "humidity": 45.1,
+    "flow": 151.1,
+    "energy": 129.43,
+    "level": 58.68
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 3,
+    "day_of_week": 1,
+    "temp_ext": 22.3,
+    "humidity": 42.7,
+    "flow": 146.93,
+    "energy": 106.76,
+    "level": 58.9
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 4,
+    "day_of_week": 1,
+    "temp_ext": 24.6,
+    "humidity": 35.1,
+    "flow": 160.72,
+    "energy": 128.34,
+    "level": 63.1
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 5,
+    "day_of_week": 1,
+    "temp_ext": 22.5,
+    "humidity": 26.4,
+    "flow": 127.15,
+    "energy": 92.72,
+    "level": 62.24
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 6,
+    "day_of_week": 1,
+    "temp_ext": 24.9,
+    "humidity": 42.8,
+    "flow": 193.47,
+    "energy": 165.68,
+    "level": 74.56
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 7,
+    "day_of_week": 1,
+    "temp_ext": 29.0,
+    "humidity": 19.8,
+    "flow": 195.32,
+    "energy": 166.15,
+    "level": 76.94
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 8,
+    "day_of_week": 1,
+    "temp_ext": 30.1,
+    "humidity": 21.2,
+    "flow": 200.37,
+    "energy": 157.38,
+    "level": 74.0
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 9,
+    "day_of_week": 1,
+    "temp_ext": 30.0,
+    "humidity": 17.5,
+    "flow": 146.84,
+    "energy": 96.38,
+    "level": 72.02
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 10,
+    "day_of_week": 1,
+    "temp_ext": 30.9,
+    "humidity": 28.9,
+    "flow": 135.54,
+    "energy": 105.58,
+    "level": 68.89
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 11,
+    "day_of_week": 1,
+    "temp_ext": 30.3,
+    "humidity": 24.4,
+    "flow": 151.74,
+    "energy": 123.13,
+    "level": 73.56
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 12,
+    "day_of_week": 1,
+    "temp_ext": 33.8,
+    "humidity": 19.7,
+    "flow": 136.04,
+    "energy": 120.01,
+    "level": 78.23
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 13,
+    "day_of_week": 1,
+    "temp_ext": 35.8,
+    "humidity": 26.0,
+    "flow": 167.03,
+    "energy": 135.47,
+    "level": 60.09
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 14,
+    "day_of_week": 1,
+    "temp_ext": 35.8,
+    "humidity": 29.1,
+    "flow": 154.27,
+    "energy": 140.33,
+    "level": 67.83
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 15,
+    "day_of_week": 1,
+    "temp_ext": 34.5,
+    "humidity": 34.8,
+    "flow": 143.3,
+    "energy": 104.81,
+    "level": 65.19
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 16,
+    "day_of_week": 1,
+    "temp_ext": 35.1,
+    "humidity": 19.7,
+    "flow": 163.28,
+    "energy": 124.17,
+    "level": 67.03
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 17,
+    "day_of_week": 1,
+    "temp_ext": 27.2,
+    "humidity": 36.1,
+    "flow": 127.52,
+    "energy": 96.34,
+    "level": 72.49
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 18,
+    "day_of_week": 1,
+    "temp_ext": 27.1,
+    "humidity": 17.5,
+    "flow": 174.92,
+    "energy": 146.02,
+    "level": 67.22
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 19,
+    "day_of_week": 1,
+    "temp_ext": 29.6,
+    "humidity": 23.5,
+    "flow": 184.81,
+    "energy": 164.42,
+    "level": 52.53
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 20,
+    "day_of_week": 1,
+    "temp_ext": 28.2,
+    "humidity": 22.2,
+    "flow": 211.54,
+    "energy": 163.31,
+    "level": 50.34
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 21,
+    "day_of_week": 1,
+    "temp_ext": 27.8,
+    "humidity": 18.2,
+    "flow": 218.18,
+    "energy": 172.95,
+    "level": 68.81
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 22,
+    "day_of_week": 1,
+    "temp_ext": 26.7,
+    "humidity": 30.0,
+    "flow": 120.82,
+    "energy": 112.32,
+    "level": 54.09
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 23,
+    "day_of_week": 1,
+    "temp_ext": 28.4,
+    "humidity": 31.3,
+    "flow": 160.98,
+    "energy": 142.34,
+    "level": 58.76
+  }
+]

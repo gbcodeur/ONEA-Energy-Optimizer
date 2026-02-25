@@ -1,0 +1,242 @@
+[
+  {
+    "date": "2026-02-26",
+    "hour": 0,
+    "pump_action": "POMPER_MAX",
+    "pump_rate": 100,
+    "price_kwh": 54,
+    "energy_used": 115.91,
+    "cost_fcfa": 6259.14,
+    "level_after": 68.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 1,
+    "pump_action": "POMPER_MAX",
+    "pump_rate": 100,
+    "price_kwh": 54,
+    "energy_used": 124.82,
+    "cost_fcfa": 6740.28,
+    "level_after": 72.2
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 2,
+    "pump_action": "POMPER_MAX",
+    "pump_rate": 100,
+    "price_kwh": 54,
+    "energy_used": 130.8,
+    "cost_fcfa": 7063.2,
+    "level_after": 75.8
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 3,
+    "pump_action": "POMPER_MAX",
+    "pump_rate": 100,
+    "price_kwh": 54,
+    "energy_used": 122.24,
+    "cost_fcfa": 6600.96,
+    "level_after": 79.4
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 4,
+    "pump_action": "POMPER_MAX",
+    "pump_rate": 100,
+    "price_kwh": 54,
+    "energy_used": 116.84,
+    "cost_fcfa": 6309.36,
+    "level_after": 83.0
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 5,
+    "pump_action": "POMPER_MAX",
+    "pump_rate": 100,
+    "price_kwh": 54,
+    "energy_used": 115.79,
+    "cost_fcfa": 6252.66,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 6,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 112.9,
+    "cost_fcfa": 6096.76,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 7,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 111.96,
+    "cost_fcfa": 6045.73,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 8,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 111.58,
+    "cost_fcfa": 6025.32,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 9,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 79.72,
+    "cost_fcfa": 4304.66,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 10,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 80.29,
+    "cost_fcfa": 4335.66,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 11,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 78.35,
+    "cost_fcfa": 4230.95,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 12,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 81.05,
+    "cost_fcfa": 4376.86,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 13,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 80.95,
+    "cost_fcfa": 4371.57,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 14,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 79.95,
+    "cost_fcfa": 4317.52,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 15,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 90.98,
+    "cost_fcfa": 4912.87,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 16,
+    "pump_action": "POMPER_NORMAL",
+    "pump_rate": 70,
+    "price_kwh": 54,
+    "energy_used": 77.37,
+    "cost_fcfa": 4178.03,
+    "level_after": 86.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 17,
+    "pump_action": "POMPER_MIN",
+    "pump_rate": 25,
+    "price_kwh": 118,
+    "energy_used": 30.41,
+    "cost_fcfa": 3588.09,
+    "level_after": 79.4
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 18,
+    "pump_action": "POMPER_MIN",
+    "pump_rate": 25,
+    "price_kwh": 118,
+    "energy_used": 42.64,
+    "cost_fcfa": 5031.23,
+    "level_after": 72.2
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 19,
+    "pump_action": "POMPER_MIN",
+    "pump_rate": 25,
+    "price_kwh": 118,
+    "energy_used": 42.35,
+    "cost_fcfa": 4997.6,
+    "level_after": 65.0
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 20,
+    "pump_action": "POMPER_MIN",
+    "pump_rate": 25,
+    "price_kwh": 118,
+    "energy_used": 42.52,
+    "cost_fcfa": 5017.36,
+    "level_after": 57.8
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 21,
+    "pump_action": "POMPER_MIN",
+    "pump_rate": 25,
+    "price_kwh": 118,
+    "energy_used": 44.3,
+    "cost_fcfa": 5227.99,
+    "level_after": 50.6
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 22,
+    "pump_action": "POMPER_MIN",
+    "pump_rate": 25,
+    "price_kwh": 118,
+    "energy_used": 32.73,
+    "cost_fcfa": 3861.84,
+    "level_after": 43.4
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 23,
+    "pump_action": "POMPER_MIN",
+    "pump_rate": 25,
+    "price_kwh": 118,
+    "energy_used": 32.9,
+    "cost_fcfa": 3882.5,
+    "level_after": 36.2
+  }
+]

@@ -1,0 +1,264 @@
+{
+  "algorithm_name": "Classement et Benchmarking des Stations ONEA",
+  "type": "Analyse Comparative Multi-Critères",
+  "version": "1.0",
+  "description": "Algorithme de classement et comparaison des performances énergétiques des stations de pompage pour identifier les priorités d'optimisation",
+  
+  "stations_analyzed": {
+    "count": 6,
+    "list": [
+      {
+        "id": "STATION_01",
+        "name": "Ouagadougou Centre",
+        "capacity": 500,
+        "unit": "m3/h"
+      },
+      {
+        "id": "STATION_02",
+        "name": "Ouaga Nord",
+        "capacity": 400,
+        "unit": "m3/h"
+      },
+      {
+        "id": "STATION_03",
+        "name": "Ouaga Sud",
+        "capacity": 350,
+        "unit": "m3/h"
+      },
+      {
+        "id": "STATION_04",
+        "name": "Bobo-Dioulasso",
+        "capacity": 450,
+        "unit": "m3/h"
+      },
+      {
+        "id": "STATION_05",
+        "name": "Koudougou",
+        "capacity": 300,
+        "unit": "m3/h"
+      },
+      {
+        "id": "STATION_06",
+        "name": "Banfora",
+        "capacity": 250,
+        "unit": "m3/h"
+      }
+    ]
+  },
+  
+  "metriques_calculees": {
+    "total_energy_kwh": {
+      "description": "Consommation énergétique totale sur période",
+      "unit": "kWh",
+      "period": "7 jours",
+      "calcul": "Somme de l'énergie horaire sur 7 jours"
+    },
+    "total_flow_m3": {
+      "description": "Volume d'eau pompé total",
+      "unit": "m3",
+      "period": "7 jours",
+      "calcul": "Somme du débit horaire sur 7 jours"
+    },
+    "total_cost_fcfa": {
+      "description": "Coût énergétique total",
+      "unit": "FCFA",
+      "calcul": "total_energy × prix_moyen_kwh (75 FCFA)"
+    },
+    "avg_energy_per_m3": {
+      "description": "Efficacité énergétique spécifique",
+      "unit": "kWh/m3",
+      "calcul": "total_energy / total_flow",
+      "benchmark": "0.8 kWh/m3 (optimal)"
+    },
+    "anomaly_count": {
+      "description": "Nombre d'anomalies détectées",
+      "unit": "count",
+      "period": "7 jours"
+    },
+    "efficiency_score": {
+      "description": "Score d'efficacité global (0-100)",
+      "unit": "points",
+      "calcul": "max(0, 100 - (avg_energy_per_m3 - 0.8) × 100)",
+      "interpretation": {
+        "90-100": "Excellent",
+        "70-89": "Bon",
+        "50-69": "Moyen",
+        "0-49": "À améliorer"
+      }
+    }
+  },
+  
+  "criteres_classement": {
+    "by_energy_consumption": {
+      "nom": "Classement par consommation énergétique",
+      "metric": "total_energy_kwh",
+      "order": "descendant (du plus énergivore au moins)",
+      "categories": {
+        "TRES_ENERGIVORE": "Rang 1-2",
+        "ENERGIVORE": "Rang 3-4",
+        "NORMAL": "Rang 5-6"
+      },
+      "action": "Stations TRES_ENERGIVORE = audit énergétique prioritaire"
+    },
+    
+    "by_cost": {
+      "nom": "Classement par coût total",
+      "metric": "total_cost_fcfa",
+      "order": "descendant",
+      "action": "Identifier stations avec plus fort impact financier"
+    },
+    
+    "by_efficiency": {
+      "nom": "Classement par efficacité énergétique",
+      "metric": "efficiency_score",
+      "order": "descendant (meilleur score en premier)",
+      "categories": {
+        "EXCELLENT": "Rang 1-2 (score 90+)",
+        "BON": "Rang 3-4 (score 70-89)",
+        "A_AMELIORER": "Rang 5-6 (score <70)"
+      },
+      "action": "Stations A_AMELIORER = modernisation équipements"
+    },
+    
+    "by_anomalies": {
+      "nom": "Classement par nombre d'anomalies",
+      "metric": "anomaly_count",
+      "order": "descendant",
+      "categories": {
+        "URGENTE": "Rang 1-2 (beaucoup d'anomalies)",
+        "MOYENNE": "Rang 3-4",
+        "FAIBLE": "Rang 5-6"
+      },
+      "action": "Priorité URGENTE = inspection technique immédiate"
+    }
+  },
+  
+  "logic": {
+    "step1": "Générer ou collecter données pour chaque station (7 jours)",
+    "step2": "Pour chaque station:",
+    "step2a": "  - Calculer total_energy (somme 7j × 24h)",
+    "step2b": "  - Calculer total_flow (somme 7j × 24h)",
+    "step2c": "  - Calculer total_cost (energy × prix_moyen)",
+    "step2d": "  - Calculer avg_energy_per_m3 (efficacité)",
+    "step2e": "  - Compter anomalies sur période",
+    "step2f": "  - Calculer efficiency_score",
+    "step3": "Trier les stations selon chaque critère:",
+    "step3a": "  - Par consommation totale (descendant)",
+    "step3b": "  - Par coût total (descendant)",
+    "step3c": "  - Par efficacité (descendant = meilleur d'abord)",
+    "step3d": "  - Par anomalies (descendant = plus problématique d'abord)",
+    "step4": "Assigner rang et catégorie à chaque station",
+    "step5": "Générer plan d'action basé sur classements",
+    "step6": "Retourner résultats en JSON"
+  },
+  
+  "plan_action_generation": {
+    "regles": [
+      {
+        "condition": "Station dans top 2 consommation",
+        "action_type": "REDUCTION_ENERGIE",
+        "priority": "HAUTE",
+        "action": "Audit énergétique complet requis",
+        "savings_potential": "15-25%"
+      },
+      {
+        "condition": "Station dans bottom 2 efficacité",
+        "action_type": "AMELIORATION_EFFICACITE",
+        "priority": "MOYENNE",
+        "action": "Moderniser équipement (pompes, variateurs)",
+        "savings_potential": "10-20%"
+      },
+      {
+        "condition": "Station dans top 2 anomalies",
+        "action_type": "MAINTENANCE",
+        "priority": "URGENTE ou MOYENNE",
+        "action": "Inspection technique et maintenance",
+        "savings_potential": "5-15%"
+      }
+    ]
+  },
+  
+  "output_format": {
+    "by_energy_consumption": {
+      "type": "array",
+      "fields": [
+        "rank (1-6)",
+        "station_id",
+        "station_name",
+        "total_energy_kwh",
+        "category (TRES_ENERGIVORE/ENERGIVORE/NORMAL)"
+      ]
+    },
+    "by_cost": {
+      "type": "array",
+      "fields": [
+        "rank",
+        "station_id",
+        "station_name",
+        "total_cost_fcfa"
+      ]
+    },
+    "by_efficiency": {
+      "type": "array",
+      "fields": [
+        "rank",
+        "station_id",
+        "station_name",
+        "efficiency_score",
+        "category (EXCELLENT/BON/A_AMELIORER)"
+      ]
+    },
+    "by_anomalies": {
+      "type": "array",
+      "fields": [
+        "rank",
+        "station_id",
+        "station_name",
+        "anomaly_count",
+        "priority (URGENTE/MOYENNE/FAIBLE)"
+      ]
+    },
+    "detailed_data": {
+      "type": "array",
+      "description": "Toutes les métriques pour chaque station"
+    }
+  },
+  
+  "benchmarking": {
+    "reference_values": {
+      "avg_energy_per_m3_optimal": 0.8,
+      "avg_energy_per_m3_acceptable": 1.0,
+      "avg_energy_per_m3_poor": 1.2,
+      "efficiency_score_excellent": 90,
+      "efficiency_score_good": 70,
+      "anomaly_count_acceptable": 5
+    },
+    "comparison": {
+      "internal": "Comparer stations ONEA entre elles",
+      "external": "Comparer avec standards internationaux",
+      "temporal": "Comparer avec historique (évolution)"
+    }
+  },
+  
+  "kpi_dashboard": {
+    "station_la_plus_energivore": "Rang 1 by_energy_consumption",
+    "station_la_plus_efficace": "Rang 1 by_efficiency",
+    "station_prioritaire": "Rang 1 by_anomalies si URGENTE",
+    "economies_potentielles_totales": "Somme savings_potential de toutes actions"
+  },
+  
+  "extensions_futures": {
+    "multi_period": "Analyser tendances sur plusieurs mois",
+    "seasonal_analysis": "Identifier variations saisonnières",
+    "predictive_ranking": "Prévoir évolution performances futures",
+    "optimization_tracking": "Suivre impact des optimisations dans le temps"
+  },
+  
+  "implementation": {
+    "language": "Python 3.x",
+    "libraries": ["numpy", "json"],
+    "file": "modules/module4_ranking.py",
+    "execution_frequency": "hebdomadaire",
+    "data_period": "7 jours glissants"
+  }
+}

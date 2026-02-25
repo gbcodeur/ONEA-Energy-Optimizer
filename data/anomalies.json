@@ -1,0 +1,591 @@
+[
+  {
+    "date": "2026-02-16",
+    "hour": 0,
+    "flow": 162.96,
+    "energy": 95.6,
+    "level": 62.74,
+    "alerts": [
+      "CONSO_ANORMALE",
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE"
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 19,
+    "flow": 206.92,
+    "energy": 165.86,
+    "level": 51.72,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 19,
+    "flow": 210.3,
+    "energy": 163.83,
+    "level": 48.94,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 18,
+    "flow": 233.56,
+    "energy": 196.5,
+    "level": 75.7,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 19,
+    "flow": 214.68,
+    "energy": 169.98,
+    "level": 54.49,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 19,
+    "flow": 201.25,
+    "energy": 180.46,
+    "level": 46.41,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 22,
+    "flow": 142.56,
+    "energy": 108.07,
+    "level": 39.73,
+    "alerts": [
+      "NIVEAU_BAS"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 19,
+    "flow": 230.4,
+    "energy": 182.9,
+    "level": 51.03,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 20,
+    "flow": 214.26,
+    "energy": 167.62,
+    "level": 65.32,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 19,
+    "flow": 226.72,
+    "energy": 178.58,
+    "level": 52.44,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 19,
+    "flow": 202.04,
+    "energy": 179.11,
+    "level": 51.4,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 20,
+    "flow": 211.06,
+    "energy": 174.39,
+    "level": 58.02,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 19,
+    "flow": 218.33,
+    "energy": 170.07,
+    "level": 50.98,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 21,
+    "flow": 218.18,
+    "energy": 172.95,
+    "level": 68.81,
+    "alerts": [
+      "VARIATION_BRUTALE",
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 7,
+    "flow": 205.94,
+    "energy": 147.93,
+    "level": 74.21,
+    "alerts": [
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 0,
+    "flow": 166.95,
+    "energy": 132.35,
+    "level": 63.71,
+    "alerts": [
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 6,
+    "flow": 193.36,
+    "energy": 161.03,
+    "level": 75.69,
+    "alerts": [
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-01-27",
+    "hour": 8,
+    "flow": 213.68,
+    "energy": 170.43,
+    "level": 81.49,
+    "alerts": [
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 23,
+    "flow": 193.91,
+    "energy": 139.08,
+    "level": 41.99,
+    "alerts": [
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 0,
+    "flow": 149.31,
+    "energy": 93.46,
+    "level": 58.5,
+    "alerts": [
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 2,
+    "flow": 133.49,
+    "energy": 110.2,
+    "level": 46.21,
+    "alerts": [
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 6,
+    "flow": 197.76,
+    "energy": 170.03,
+    "level": 79.28,
+    "alerts": [
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 6,
+    "flow": 192.23,
+    "energy": 144.95,
+    "level": 76.58,
+    "alerts": [
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 15,
+    "flow": 121.18,
+    "energy": 98.04,
+    "level": 54.93,
+    "alerts": [
+      "VARIATION_BRUTALE"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE"
+  },
+  {
+    "date": "2026-01-26",
+    "hour": 18,
+    "flow": 229.29,
+    "energy": 184.51,
+    "level": 70.57,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-01-28",
+    "hour": 21,
+    "flow": 218.14,
+    "energy": 170.36,
+    "level": 48.45,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-01-30",
+    "hour": 18,
+    "flow": 236.89,
+    "energy": 196.18,
+    "level": 66.59,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-01-31",
+    "hour": 21,
+    "flow": 240.25,
+    "energy": 187.6,
+    "level": 60.16,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-02",
+    "hour": 19,
+    "flow": 214.09,
+    "energy": 167.2,
+    "level": 62.22,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 20,
+    "flow": 212.45,
+    "energy": 174.19,
+    "level": 60.71,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 18,
+    "flow": 214.05,
+    "energy": 172.36,
+    "level": 67.03,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 19,
+    "flow": 210.81,
+    "energy": 181.68,
+    "level": 50.83,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 20,
+    "flow": 214.52,
+    "energy": 177.85,
+    "level": 55.17,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 18,
+    "flow": 218.15,
+    "energy": 167.71,
+    "level": 69.58,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 18,
+    "flow": 221.05,
+    "energy": 167.0,
+    "level": 65.7,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 19,
+    "flow": 222.43,
+    "energy": 173.71,
+    "level": 51.32,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 18,
+    "flow": 222.98,
+    "energy": 175.66,
+    "level": 62.39,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 21,
+    "flow": 236.5,
+    "energy": 180.25,
+    "level": 60.42,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 20,
+    "flow": 225.06,
+    "energy": 181.3,
+    "level": 62.73,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 21,
+    "flow": 205.92,
+    "energy": 168.24,
+    "level": 53.08,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 18,
+    "flow": 219.28,
+    "energy": 166.53,
+    "level": 69.72,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 20,
+    "flow": 240.44,
+    "energy": 192.94,
+    "level": 60.62,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 21,
+    "flow": 213.16,
+    "energy": 161.6,
+    "level": 55.62,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 21,
+    "flow": 218.83,
+    "energy": 173.63,
+    "level": 50.16,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 19,
+    "flow": 208.53,
+    "energy": 151.02,
+    "level": 55.45,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 18,
+    "flow": 235.38,
+    "energy": 192.86,
+    "level": 64.98,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 19,
+    "flow": 220.98,
+    "energy": 165.56,
+    "level": 57.85,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 20,
+    "flow": 211.54,
+    "energy": 163.31,
+    "level": 50.34,
+    "alerts": [
+      "POMPAGE_HEURE_POINTE"
+    ],
+    "severity_score": 1,
+    "severity": "FAIBLE"
+  }
+]
