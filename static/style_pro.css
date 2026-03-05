@@ -1,0 +1,620 @@
+/* ============================================
+   ONEA Energy Optimizer - Dashboard Professional V2 (Mix Énergétique)
+   Design corporate sobre et fonctionnel
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    /* Couleurs corporate ONEA */
+    --primary-dark: #1e3a8a;       /* Bleu marine */
+    --primary: #3b82f6;            /* Bleu SONABEL */
+    --primary-light: #60a5fa;      /* Bleu clair */
+    --accent: #06b6d4;             /* Cyan (eau) */
+    
+    /* Couleurs Mix Énergétique & Statuts */
+    --success: #10b981;            /* Vert (Réseau OK, Économies) */
+    --warning: #f59e0b;            /* Orange / Jaune (Solaire, Alertes) */
+    --danger: #ef4444;             /* Rouge (Gasoil, CO2, Coupures) */
+    
+    /* Neutrals */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-tertiary: #f1f5f9;
+    --border: #e2e8f0;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', -apple-system, system-ui, sans-serif;
+    font-size: 14px;
+    color: var(--text-primary);
+    background: var(--bg-secondary);
+    line-height: 1.5;
+}
+
+/* ============================================
+   LAYOUT PRINCIPAL & SIDEBAR
+   ============================================ */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 260px;
+    background: var(--primary-dark);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow-lg);
+    z-index: 100;
+}
+
+.sidebar-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.sidebar-logo svg {
+    width: 32px;
+    height: 32px;
+}
+
+.sidebar-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+}
+
+.sidebar-subtitle {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 0.25rem;
+}
+
+.sidebar-nav {
+    flex: 1;
+    padding: 1rem 0;
+    overflow-y: auto;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.875rem 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.2s;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+}
+
+.nav-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+}
+
+.nav-item.active {
+    background: rgba(59, 130, 246, 0.2);
+    color: white;
+    border-left-color: var(--accent);
+}
+
+.nav-item svg { width: 20px; height: 20px; }
+
+.nav-item-badge {
+    margin-left: auto;
+    background: var(--danger);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.125rem 0.5rem;
+    border-radius: 10px;
+}
+
+.sidebar-footer {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* ============================================
+   MAIN CONTENT & TOPBAR
+   ============================================ */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: var(--bg-secondary);
+}
+
+.topbar {
+    background: white;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.topbar-left h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.topbar-left p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+}
+
+.topbar-actions {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    background: white;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn:hover {
+    background: var(--bg-secondary);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+    border-color: var(--primary-dark);
+    color: white;
+}
+
+.btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+.content-area {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+/* ============================================
+   KPI CARDS (Mise à jour Mix Énergétique)
+   ============================================ */
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.kpi-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s;
+}
+
+.kpi-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-light);
+    transform: translateY(-2px);
+}
+
+.kpi-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.kpi-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.kpi-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kpi-icon.blue { background: rgba(59, 130, 246, 0.1); color: var(--primary); }
+.kpi-icon.green { background: rgba(16, 185, 129, 0.1); color: var(--success); }
+.kpi-icon.orange { background: rgba(245, 158, 11, 0.1); color: var(--warning); }
+.kpi-icon.red { background: rgba(239, 68, 68, 0.1); color: var(--danger); }
+.kpi-icon svg { width: 20px; height: 20px; }
+
+.kpi-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.kpi-change {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.kpi-change.positive { color: var(--success); }
+.kpi-change.negative { color: var(--danger); }
+
+/* ============================================
+   SECTIONS & SYSTEM STATUS
+   ============================================ */
+.section {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.section-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Status Cards */
+.status-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.status-card {
+    padding: 1rem;
+    background: var(--bg-tertiary);
+    border-radius: 6px;
+    border-left: 4px solid var(--border);
+}
+
+.status-card.status-ok { border-left-color: var(--success); }
+.status-card.status-warning { border-left-color: var(--warning); }
+.status-card.status-danger { border-left-color: var(--danger); }
+.status-card.status-info { border-left-color: var(--primary); }
+
+.status-label {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.25rem;
+}
+
+.status-val {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+.status-val.success { color: var(--success); }
+.status-val.danger { color: var(--danger); }
+.status-val.warning { color: var(--warning); }
+.status-val.primary { color: var(--primary); }
+
+/* ============================================
+   GAUGE (Correction largeur et hauteur incluses)
+   ============================================ */
+.gauge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.gauge-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.gauge-svg { 
+    transform: rotate(-90deg); 
+    width: 100%;
+    height: 100%;
+}
+
+.gauge-background {
+    fill: none;
+    stroke: var(--bg-tertiary);
+    stroke-width: 12;
+}
+
+.gauge-progress {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 12;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 1s ease;
+}
+
+.gauge-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gauge-value {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* ============================================
+   TABLEAUX & CLASSEMENT (V2)
+   ============================================ */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead { background: var(--bg-tertiary); }
+
+th {
+    padding: 0.75rem;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--border);
+}
+
+td {
+    padding: 0.875rem 0.75rem;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.875rem;
+    color: var(--text-primary);
+}
+
+tr:hover { background: var(--bg-secondary); }
+
+/* Feedback visuel sur le tableau */
+#anomalies-table th:hover {
+    background-color: var(--bg-secondary);
+    color: var(--primary);
+}
+
+#anomalies-tbody tr {
+    transition: background 0.2s;
+}
+
+#anomalies-tbody tr:hover {
+    background-color: rgba(59, 130, 246, 0.05) !important;
+}
+
+/* Grille spécifique pour l'onglet Classement (2 colonnes) */
+.ranking-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.ranking-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* ============================================
+   BADGES & ANIMATIONS (V2)
+   ============================================ */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.badge-success { background: rgba(16, 185, 129, 0.1); color: var(--success); }
+.badge-warning { background: rgba(245, 158, 11, 0.1); color: var(--warning); }
+.badge-danger { background: rgba(239, 68, 68, 0.1); color: var(--danger); }
+.badge-info { background: rgba(59, 130, 246, 0.1); color: var(--primary); }
+
+/* Animation de pulso pour les coupures critiques */
+@keyframes pulse-danger {
+    0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+    70% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+.badge-danger.pulse {
+    animation: pulse-danger 2s infinite;
+}
+
+/* Utilitaires pour le texte des sources d'énergie */
+.text-solar { color: var(--warning); font-weight: 600; }
+.text-sonabel { color: var(--primary); font-weight: 600; }
+.text-gasoil { color: var(--danger); font-weight: 600; }
+
+/* ============================================
+   CHARTS
+   ============================================ */
+.chart-container {
+    position: relative;
+    height: 350px;
+    margin-top: 1rem;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 1024px) {
+    .sidebar { width: 220px; }
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    .ranking-grid { grid-template-columns: 1fr; gap: 1rem; }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        left: -260px;
+        transition: left 0.3s;
+        z-index: 200;
+    }
+    .kpi-grid { grid-template-columns: 1fr; }
+    .status-grid { grid-template-columns: 1fr; }
+}
+
+/* ============================================
+   SYSTÈME MODAL
+   ============================================ */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none; /* Caché par défaut */
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    backdrop-filter: blur(4px);
+}
+
+.modal-overlay.active {
+    display: flex; /* Affiché quand actif */
+}
+
+.modal {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.modal-header {
+    padding: 1.25rem 1.5rem;
+    background: var(--bg-tertiary);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+
+.modal-body { padding: 1.5rem; }
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.detail-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; }
+.detail-value { font-size: 1.1rem; font-weight: 700; margin-top: 2px; }
+
+.diagnosis-box {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--border);
+    font-size: 0.95rem;
+}
+
+#modal-causes { border-left-color: var(--danger); }
+#modal-actions { border-left-color: var(--success); }
+
+.modal-footer {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid var(--border);
+    text-align: right;
+}

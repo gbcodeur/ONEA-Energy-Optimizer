@@ -1,0 +1,178 @@
+{
+  "by_carbon_footprint": [
+    {
+      "rank": 1,
+      "station_name": "Ouaga Ziga",
+      "co2_emissions_kg": 5172.0,
+      "gasoil_liters": 1989.0,
+      "alert": "URGENCE_TRANSITION_SOLAIRE"
+    },
+    {
+      "rank": 2,
+      "station_name": "Koudougou",
+      "co2_emissions_kg": 3758.0,
+      "gasoil_liters": 1446.0,
+      "alert": "URGENCE_TRANSITION_SOLAIRE"
+    },
+    {
+      "rank": 3,
+      "station_name": "Ouaga Sud",
+      "co2_emissions_kg": 2776.0,
+      "gasoil_liters": 1068.0,
+      "alert": "NORMAL"
+    },
+    {
+      "rank": 4,
+      "station_name": "Banfora",
+      "co2_emissions_kg": 2441.0,
+      "gasoil_liters": 939.0,
+      "alert": "NORMAL"
+    },
+    {
+      "rank": 5,
+      "station_name": "Bobo Nasso",
+      "co2_emissions_kg": 1786.0,
+      "gasoil_liters": 687.0,
+      "alert": "NORMAL"
+    },
+    {
+      "rank": 6,
+      "station_name": "Ouagadougou Pissy",
+      "co2_emissions_kg": 943.0,
+      "gasoil_liters": 363.0,
+      "alert": "NORMAL"
+    }
+  ],
+  "by_solar_efficiency": [
+    {
+      "rank": 1,
+      "station_name": "Ouaga Ziga",
+      "solar_coverage_pct": 29.4
+    },
+    {
+      "rank": 2,
+      "station_name": "Ouagadougou Pissy",
+      "solar_coverage_pct": 22.1
+    },
+    {
+      "rank": 3,
+      "station_name": "Bobo Nasso",
+      "solar_coverage_pct": 18.0
+    },
+    {
+      "rank": 4,
+      "station_name": "Ouaga Sud",
+      "solar_coverage_pct": 0
+    },
+    {
+      "rank": 5,
+      "station_name": "Koudougou",
+      "solar_coverage_pct": 0
+    },
+    {
+      "rank": 6,
+      "station_name": "Banfora",
+      "solar_coverage_pct": 0
+    }
+  ],
+  "by_cost_efficiency": [
+    {
+      "rank": 1,
+      "station_name": "Ouaga Sud",
+      "cost_per_m3": 96.59
+    },
+    {
+      "rank": 2,
+      "station_name": "Koudougou",
+      "cost_per_m3": 94.0
+    },
+    {
+      "rank": 3,
+      "station_name": "Banfora",
+      "cost_per_m3": 91.1
+    },
+    {
+      "rank": 4,
+      "station_name": "Bobo Nasso",
+      "cost_per_m3": 68.01
+    },
+    {
+      "rank": 5,
+      "station_name": "Ouaga Ziga",
+      "cost_per_m3": 65.07
+    },
+    {
+      "rank": 6,
+      "station_name": "Ouagadougou Pissy",
+      "cost_per_m3": 64.39
+    }
+  ],
+  "detailed_data": [
+    {
+      "id": "ST_01",
+      "name": "Ouagadougou Pissy",
+      "total_flow_m3": 52397.0,
+      "total_energy_kwh": 48636.0,
+      "solar_coverage_pct": 22.1,
+      "gasoil_liters": 363.0,
+      "co2_emissions_kg": 943.0,
+      "total_cost_fcfa": 3373875.0,
+      "cost_per_m3": 64.39
+    },
+    {
+      "id": "ST_02",
+      "name": "Ouaga Ziga",
+      "total_flow_m3": 122879.0,
+      "total_energy_kwh": 119369.0,
+      "solar_coverage_pct": 29.4,
+      "gasoil_liters": 1989.0,
+      "co2_emissions_kg": 5172.0,
+      "total_cost_fcfa": 7996098.0,
+      "cost_per_m3": 65.07
+    },
+    {
+      "id": "ST_03",
+      "name": "Ouaga Sud",
+      "total_flow_m3": 38311.0,
+      "total_energy_kwh": 38258.0,
+      "solar_coverage_pct": 0,
+      "gasoil_liters": 1068.0,
+      "co2_emissions_kg": 2776.0,
+      "total_cost_fcfa": 3700423.0,
+      "cost_per_m3": 96.59
+    },
+    {
+      "id": "ST_04",
+      "name": "Bobo Nasso",
+      "total_flow_m3": 82869.0,
+      "total_energy_kwh": 76694.0,
+      "solar_coverage_pct": 18.0,
+      "gasoil_liters": 687.0,
+      "co2_emissions_kg": 1786.0,
+      "total_cost_fcfa": 5636011.0,
+      "cost_per_m3": 68.01
+    },
+    {
+      "id": "ST_05",
+      "name": "Koudougou",
+      "total_flow_m3": 36672.0,
+      "total_energy_kwh": 33412.0,
+      "solar_coverage_pct": 0,
+      "gasoil_liters": 1446.0,
+      "co2_emissions_kg": 3758.0,
+      "total_cost_fcfa": 3447103.0,
+      "cost_per_m3": 94.0
+    },
+    {
+      "id": "ST_06",
+      "name": "Banfora",
+      "total_flow_m3": 28009.0,
+      "total_energy_kwh": 25378.0,
+      "solar_coverage_pct": 0,
+      "gasoil_liters": 939.0,
+      "co2_emissions_kg": 2441.0,
+      "total_cost_fcfa": 2551478.0,
+      "cost_per_m3": 91.1
+    }
+  ]
+}

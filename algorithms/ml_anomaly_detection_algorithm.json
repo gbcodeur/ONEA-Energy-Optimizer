@@ -1,0 +1,226 @@
+{
+  "algorithm_name": "Isolation Forest pour Détection d'Anomalies",
+  "algorithm_type": "Machine Learning Non-Supervisé",
+  "category": "Anomaly Detection",
+  "module": "Module 3 - Détection Anomalies (Complément ML)",
+  "version": "2.0",
+  "last_updated": "2026-02-25",
+  
+  "description": "Isolation Forest est un algorithme de Machine Learning non-supervisé qui détecte automatiquement les patterns anormaux dans les données. Il complète les règles métier en découvrant des anomalies qu'on n'aurait pas imaginées.",
+  
+  "why_isolation_forest": {
+    "principle": "L'algorithme crée des arbres de décision aléatoires et isole les points. Les anomalies sont isolées rapidement (peu de splits nécessaires) car elles sont différentes de la majorité.",
+    "advantages": [
+      "Ne nécessite pas de données labellisées (non-supervisé)",
+      "Détecte des anomalies nouvelles et inconnues",
+      "Rapide et efficace même avec beaucoup de données",
+      "Complète parfaitement les règles métier",
+      "Peu sensible au bruit dans les données"
+    ],
+    "use_case": "Détecter des patterns anormaux dans les données de pompage que les règles explicites n'auraient pas capturés"
+  },
+  
+  "input_data": {
+    "source": "data/historical_data.json",
+    "features": [
+      {
+        "name": "flow",
+        "type": "numeric",
+        "unit": "m³/h",
+        "description": "Débit d'eau pompé"
+      },
+      {
+        "name": "energy",
+        "type": "numeric",
+        "unit": "kWh",
+        "description": "Énergie consommée"
+      },
+      {
+        "name": "level",
+        "type": "numeric",
+        "unit": "%",
+        "description": "Niveau du réservoir"
+      },
+      {
+        "name": "hour",
+        "type": "numeric",
+        "unit": "0-23",
+        "description": "Heure de la journée"
+      }
+    ],
+    "format": "Array de shape (n_samples, 4)"
+  },
+  
+  "algorithm_parameters": {
+    "contamination": {
+      "value": 0.1,
+      "unit": "ratio",
+      "description": "Proportion attendue d'anomalies dans les données (~10%)",
+      "justification": "En pratique, environ 10% des observations peuvent être anormales (pics, incidents, etc.)"
+    },
+    "n_estimators": {
+      "value": 100,
+      "unit": "trees",
+      "description": "Nombre d'arbres dans la forêt",
+      "justification": "100 arbres offrent un bon équilibre précision/performance"
+    },
+    "random_state": {
+      "value": 42,
+      "description": "Graine aléatoire pour reproductibilité",
+      "justification": "Assure des résultats cohérents entre exécutions"
+    },
+    "max_samples": {
+      "value": "auto",
+      "description": "Nombre d'échantillons pour construire chaque arbre",
+      "note": "Auto = min(256, n_samples)"
+    }
+  },
+  
+  "logic": {
+    "step1": "Charger les données historiques (flow, energy, level, hour)",
+    "step2": "Préparer la matrice de features X de shape (n_samples, 4)",
+    "step3": "Initialiser IsolationForest avec paramètres",
+    "step4": "Entraîner le modèle: model.fit(X)",
+    "step5": "Faire les prédictions: predictions = model.predict(X)",
+    "step6": "Calculer les scores d'anomalie: scores = model.score_samples(X)",
+    "step7": "Identifier les anomalies:",
+    "step7a": "  - prediction = -1 → anomalie",
+    "step7b": "  - prediction = 1 → normal",
+    "step7c": "  - score plus négatif → anomalie plus sévère",
+    "step8": "Créer liste des anomalies ML détectées",
+    "step9": "Combiner avec anomalies détectées par règles",
+    "step10": "Marquer chaque anomalie:",
+    "step10a": "  - RULE_BASED: détectée uniquement par règles",
+    "step10b": "  - MACHINE_LEARNING: détectée uniquement par ML",
+    "step10c": "  - BOTH: détectée par règles ET ML (confirmation)"
+  },
+  
+  "output_format": {
+    "anomaly_prediction": {
+      "values": [-1, 1],
+      "meaning": "-1 = anomalie, 1 = normal"
+    },
+    "anomaly_score": {
+      "range": "[-0.5, 0.0] typically",
+      "meaning": "Plus négatif = plus anormal",
+      "example": "-0.25 = modérément anormal, -0.45 = très anormal"
+    },
+    "detection_method": {
+      "values": ["RULE_BASED", "MACHINE_LEARNING", "BOTH"],
+      "description": "Indique quelle méthode a détecté l'anomalie"
+    }
+  },
+  
+  "integration_with_rules": {
+    "approach": "Approche hybride à 2 niveaux",
+    "level1": {
+      "name": "Règles métier (7 règles)",
+      "role": "Détecter anomalies CONNUES",
+      "examples": ["Fuite", "Niveau critique", "Consommation anormale"],
+      "advantage": "Explicable, basé sur expertise"
+    },
+    "level2": {
+      "name": "Machine Learning (Isolation Forest)",
+      "role": "Détecter anomalies INCONNUES",
+      "examples": ["Patterns inhabituels", "Combinaisons étranges de paramètres"],
+      "advantage": "Découvre des anomalies non anticipées"
+    },
+    "combination_logic": {
+      "step1": "Exécuter détection par règles",
+      "step2": "Exécuter détection ML",
+      "step3": "Identifier anomalies détectées par ML MAIS PAS par règles",
+      "step4": "Ajouter ces nouvelles anomalies (étiquetées ML)",
+      "step5": "Marquer anomalies détectées par BOTH comme confirmées"
+    },
+    "benefit": "Double filet de sécurité: expertise humaine + découverte automatique"
+  },
+  
+  "performance_metrics": {
+    "detection_rate": "Détecte ~10% des observations comme anormales",
+    "false_positive_rate": "Faible (<5% avec contamination=0.1)",
+    "computational_cost": "O(n log n) - très efficace",
+    "training_time": "< 1 seconde pour 700+ observations",
+    "incremental_learning": "Non (nécessite réentraînement complet)"
+  },
+  
+  "interpretation": {
+    "how_to_read_results": {
+      "anomaly_alone": "Détectée par règles OU ML seul",
+      "anomaly_both": "Détectée par règles ET ML → Très probablement un vrai problème",
+      "ml_only": "Pattern inhabituel non couvert par les règles → À investiguer"
+    },
+    "example_scenario": {
+      "situation": "ML détecte anomalie à 14h avec flow=180, energy=155, level=65",
+      "rule_analysis": "Aucune règle ne se déclenche (ratios OK, niveau OK, pas de fuite)",
+      "ml_analysis": "Cette combinaison de paramètres est inhabituelle par rapport à l'historique",
+      "action": "Investiguer pourquoi cette combinaison est anormale → Peut révéler problème subtil"
+    }
+  },
+  
+  "comparison_with_other_methods": {
+    "vs_supervised_ml": {
+      "supervised": "Nécessite données labellisées (anomalie/normal)",
+      "isolation_forest": "Fonctionne sans labels → Parfait pour notre cas"
+    },
+    "vs_statistical_methods": {
+      "statistical": "Z-score, IQR - Assumes distribution normale",
+      "isolation_forest": "Ne suppose aucune distribution → Plus robuste"
+    },
+    "vs_deep_learning": {
+      "deep_learning": "Autoencoder - Nécessite beaucoup de données",
+      "isolation_forest": "Fonctionne bien avec peu de données (700 observations OK)"
+    }
+  },
+  
+  "limitations": {
+    "not_explainable": "Ne donne pas la raison exacte de l'anomalie (boîte noire)",
+    "contamination_parameter": "Nécessite d'estimer le taux d'anomalies à l'avance",
+    "no_incremental_learning": "Doit être réentraîné complètement avec nouvelles données",
+    "mitigation": "C'est pourquoi on le combine avec des règles explicables"
+  },
+  
+  "future_improvements": {
+    "v2_0": [
+      "Ajuster contamination dynamiquement selon historique",
+      "Combiner avec d'autres algos (Local Outlier Factor)",
+      "Utiliser feature importance pour expliquer anomalies",
+      "Clustering des anomalies ML pour identifier types"
+    ],
+    "v3_0": [
+      "Autoencoder avec Deep Learning pour patterns très complexes",
+      "Online learning pour adaptation temps réel",
+      "Explainabilité avec SHAP values"
+    ]
+  },
+  
+  "references": {
+    "paper": "Liu, F.T., Ting, K.M. and Zhou, Z.H. (2008). Isolation Forest. IEEE International Conference on Data Mining",
+    "sklearn_doc": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html",
+    "book": "Aggarwal, C.C. (2017). Outlier Analysis. Springer",
+    "application": "Widely used in fraud detection, network security, and industrial anomaly detection"
+  },
+  
+  "real_world_validation": {
+    "industry_usage": "Isolation Forest est utilisé par:",
+    "examples": [
+      "Microsoft Azure - Anomaly Detector service",
+      "AWS - Amazon Lookout for Metrics",
+      "Industrial IoT - Predictive maintenance systems",
+      "Financial services - Fraud detection"
+    ],
+    "why_trusted": "Algorithme mature (2008), bien documenté, largement testé en production"
+  },
+  
+  "deployment_considerations": {
+    "retraining_frequency": "Hebdomadaire recommandé (apprend patterns récents)",
+    "monitoring": "Tracker le nombre d'anomalies détectées par semaine",
+    "alert_fatigue": "Si trop d'alertes ML → Augmenter contamination à 0.15",
+    "integration_onea": "S'intègre transparent dans le workflow existant"
+  },
+  
+  "conclusion": "Isolation Forest apporte une couche supplémentaire de détection intelligente qui complète parfaitement les règles métier. C'est l'approche hybride recommandée par l'industrie pour les systèmes critiques.",
+  
+  "implementation_language": "Python (scikit-learn)",
+  "code_complexity": "Faible (30 lignes de code)",
+  "maintainability": "Excellente (librairie standard bien maintenue)"
+}

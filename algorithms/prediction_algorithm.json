@@ -1,0 +1,161 @@
+{
+  "algorithm_name": "Prévision Énergétique ONEA - Smart City",
+  "type": "Machine Learning - Régression",
+  "model": "Random Forest Regressor",
+  "version": "2.0 - Avec intégration météorologique",
+  "description": "Algorithme de prévision de la consommation énergétique des stations de pompage basé sur des données historiques, features temporelles ET données météorologiques. Dimension Smart City: anticipation des pics de chaleur pour optimiser le stockage d'eau.",
+  
+  "input_features": {
+    "hour": {
+      "type": "integer",
+      "range": [0, 23],
+      "description": "Heure de la journée (0-23h)"
+    },
+    "day_of_week": {
+      "type": "integer",
+      "range": [0, 6],
+      "description": "Jour de la semaine (0=Lundi, 6=Dimanche)"
+    },
+    "temp_ext": {
+      "type": "float",
+      "unit": "°C",
+      "range": [20, 45],
+      "description": "Température extérieure en degrés Celsius",
+      "smart_city": "Donnée météorologique pour anticiper pics de chaleur",
+      "correlation": "Température > 35°C → Augmentation consommation d'eau (+3 m³/h par degré)"
+    },
+    "humidity": {
+      "type": "float",
+      "unit": "%",
+      "range": [10, 95],
+      "description": "Taux d'humidité relative en pourcentage",
+      "smart_city": "Donnée météorologique complémentaire",
+      "correlation": "Saison sèche (15-40%) vs saison pluies (60-85%)"
+    }
+  },
+  
+  "output": {
+    "energy": {
+      "type": "float",
+      "unit": "kWh",
+      "description": "Consommation énergétique prévue en kilowattheures"
+    }
+  },
+  
+  "model_parameters": {
+    "n_estimators": 100,
+    "random_state": 42,
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "criterion": "squared_error"
+  },
+  
+  "training": {
+    "data_period": "30 jours",
+    "total_samples": 720,
+    "train_test_split": 0.8,
+    "validation_method": "train_test_split"
+  },
+  
+  "performance_metrics": {
+    "target_r2_score": 0.95,
+    "target_mape": 10,
+    "retraining_frequency": "mensuelle"
+  },
+  
+  "logic": {
+    "step1": "Collecte des données historiques (30 jours) avec météo",
+    "step1a": "  - Données opérationnelles: débit, énergie, niveau réservoir",
+    "step1b": "  - Données météo: température extérieure, humidité",
+    "step1c": "  - Corrélation chaleur: si temp > 35°C → +3 m³/h par degré",
+    "step2": "Préparation des features pour Machine Learning",
+    "step2a": "  - Features temporelles: hour, day_of_week",
+    "step2b": "  - Features météo: temp_ext, humidity (SMART CITY)",
+    "step3": "Entraînement du modèle Random Forest",
+    "step3a": "  - Input: [hour, day_of_week, temp_ext, humidity]",
+    "step3b": "  - Output: energy (kWh)",
+    "step3c": "  - Validation croisée et calcul du score R²",
+    "step4": "Génération prévisions météo pour demain",
+    "step4a": "  - Cycle journalier température (nuit fraîche, pic 15h)",
+    "step4b": "  - Patterns saisonniers (saison chaude vs pluies)",
+    "step4c": "  - Alerte canicule si temp > 38°C",
+    "step5": "Pour chaque heure future (0-23):",
+    "step5a": "  - Estimer temp_ext et humidity",
+    "step5b": "  - Prédire energy avec modèle ML",
+    "step5c": "  - Ajouter flag heat_alert si température élevée",
+    "step6": "Retourner prévisions 24h avec alertes météo",
+    "smart_city_value": "L'IA anticipe les pics de chaleur pour optimiser le stockage d'eau AVANT la hausse de demande"
+  },
+  
+  "decision_rules": {
+    "morning_peak": {
+      "hours": [6, 7, 8],
+      "flow_adjustment": "+20 à +50 m3/h",
+      "reason": "Pic de consommation matinale"
+    },
+    "evening_peak": {
+      "hours": [18, 19, 20, 21],
+      "flow_adjustment": "+30 à +70 m3/h",
+      "reason": "Pic de consommation en soirée"
+    },
+    "night_low": {
+      "hours": [0, 1, 2, 3, 4, 5],
+      "flow_adjustment": "normal",
+      "reason": "Consommation réduite nocturne"
+    },
+    "heat_wave_adjustment": {
+      "condition": "temp_ext > 35°C",
+      "flow_adjustment": "+3 m3/h par degré au-dessus de 35°C",
+      "reason": "SMART CITY: Forte chaleur augmente consommation d'eau",
+      "example": "À 40°C → +15 m3/h de débit supplémentaire",
+      "alert": "Si temp_ext > 38°C → ALERTE CANICULE → Anticiper stockage"
+    },
+    "seasonal_patterns": {
+      "hot_season": {
+        "months": [3, 4, 5],
+        "temp_base": "38°C",
+        "humidity": "15-40%",
+        "impact": "Consommation maximale"
+      },
+      "rainy_season": {
+        "months": [6, 7, 8, 9],
+        "temp_base": "30°C",
+        "humidity": "60-85%",
+        "impact": "Consommation modérée"
+      },
+      "dry_season": {
+        "months": [10, 11, 12, 1, 2],
+        "temp_base": "33°C",
+        "humidity": "15-40%",
+        "impact": "Consommation normale à élevée"
+      }
+    }
+  },
+  
+  "output_format": {
+    "type": "JSON array",
+    "fields": [
+      "date (YYYY-MM-DD)",
+      "hour (0-23)",
+      "temp_ext_predicted (°C)",
+      "humidity_predicted (%)",
+      "energy_predicted (kWh)",
+      "heat_alert (OUI/NON) - SMART CITY: Alerte si temp > 38°C"
+    ],
+    "smart_city_feature": "Le champ heat_alert permet d'anticiper les périodes de forte demande"
+  },
+  
+  "usage": {
+    "frequency": "quotidienne",
+    "horizon": "24 heures",
+    "update": "chaque nuit à 00h00"
+  },
+  
+  "implementation": {
+    "language": "Python 3.x",
+    "libraries": ["scikit-learn", "pandas", "numpy"],
+    "file": "modules/module1_prediction.py",
+    "model_storage": "models/energy_model.pkl"
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "date": "2026-03-06",
+    "hour": 0,
+    "temp_ext_predicted": 35.8,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 106.94,
+    "flow_estimated": 150,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 1,
+    "temp_ext_predicted": 35.8,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 106.29,
+    "flow_estimated": 150,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 2,
+    "temp_ext_predicted": 36.1,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 108.52,
+    "flow_estimated": 150,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 3,
+    "temp_ext_predicted": 39.0,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 114.15,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 4,
+    "temp_ext_predicted": 39.8,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 116.21,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 5,
+    "temp_ext_predicted": 41.0,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 125.48,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 6,
+    "temp_ext_predicted": 41.6,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 167.32,
+    "flow_estimated": 220,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 7,
+    "temp_ext_predicted": 41.6,
+    "solar_capacity_predicted": 33.7,
+    "grid_status_predicted": 1,
+    "energy_predicted": 167.78,
+    "flow_estimated": 220,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 8,
+    "temp_ext_predicted": 41.6,
+    "solar_capacity_predicted": 34.0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 162.81,
+    "flow_estimated": 220,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 9,
+    "temp_ext_predicted": 46.7,
+    "solar_capacity_predicted": 34.3,
+    "grid_status_predicted": 1,
+    "energy_predicted": 126.95,
+    "flow_estimated": 220,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 10,
+    "temp_ext_predicted": 43.9,
+    "solar_capacity_predicted": 34.6,
+    "grid_status_predicted": 1,
+    "energy_predicted": 126.9,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 11,
+    "temp_ext_predicted": 43.8,
+    "solar_capacity_predicted": 69.8,
+    "grid_status_predicted": 1,
+    "energy_predicted": 127.66,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 12,
+    "temp_ext_predicted": 44.2,
+    "solar_capacity_predicted": 70.4,
+    "grid_status_predicted": 1,
+    "energy_predicted": 128.07,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 13,
+    "temp_ext_predicted": 43.2,
+    "solar_capacity_predicted": 71.0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 139.69,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 14,
+    "temp_ext_predicted": 41.2,
+    "solar_capacity_predicted": 71.6,
+    "grid_status_predicted": 1,
+    "energy_predicted": 117.51,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 15,
+    "temp_ext_predicted": 40.8,
+    "solar_capacity_predicted": 36.1,
+    "grid_status_predicted": 1,
+    "energy_predicted": 121.57,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 16,
+    "temp_ext_predicted": 41.9,
+    "solar_capacity_predicted": 36.4,
+    "grid_status_predicted": 1,
+    "energy_predicted": 136.37,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 17,
+    "temp_ext_predicted": 38.0,
+    "solar_capacity_predicted": 36.7,
+    "grid_status_predicted": 1,
+    "energy_predicted": 112.83,
+    "flow_estimated": 150,
+    "heat_alert": "NON"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 18,
+    "temp_ext_predicted": 41.2,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 189.13,
+    "flow_estimated": 220,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 19,
+    "temp_ext_predicted": 38.6,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 0,
+    "energy_predicted": 190.94,
+    "flow_estimated": 220,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 20,
+    "temp_ext_predicted": 42.6,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 181.66,
+    "flow_estimated": 220,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 21,
+    "temp_ext_predicted": 38.5,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 177.83,
+    "flow_estimated": 220,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 22,
+    "temp_ext_predicted": 39.5,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 134.43,
+    "flow_estimated": 150,
+    "heat_alert": "OUI"
+  },
+  {
+    "date": "2026-03-06",
+    "hour": 23,
+    "temp_ext_predicted": 34.1,
+    "solar_capacity_predicted": 0,
+    "grid_status_predicted": 1,
+    "energy_predicted": 116.38,
+    "flow_estimated": 150,
+    "heat_alert": "NON"
+  }
+]

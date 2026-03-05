@@ -1,0 +1,183 @@
+{
+  "algorithm_name": "Optimisation du Pompage ONEA",
+  "type": "Optimisation Heuristique",
+  "version": "1.0",
+  "description": "Algorithme d'optimisation du planning de pompage basé sur les tarifs horaires de l'électricité et les contraintes opérationnelles",
+  
+  "input_data": {
+    "predictions": {
+      "source": "module1_prediction.py",
+      "fields": ["hour", "flow_estimated", "level_estimated", "energy_predicted"]
+    },
+    "current_level": {
+      "type": "float",
+      "unit": "%",
+      "default": 65,
+      "description": "Niveau actuel du réservoir"
+    }
+  },
+  
+  "tarif_electrique": {
+    "source": "SONABEL - Grille tarifaire du 1er octobre 2023",
+    "categorie": "Type E2 Industriel (Moyenne Tension)",
+    "heures_pleines": {
+      "period": "00h-17h",
+      "prix_kwh": 54,
+      "unit": "FCFA/kWh",
+      "strategy": "POMPER_MAX",
+      "note": "Tarif avantageux - maximiser le pompage durant cette période"
+    },
+    "heures_pointe": {
+      "period": "17h-24h",
+      "prix_kwh": 118,
+      "unit": "FCFA/kWh",
+      "strategy": "POMPER_MIN",
+      "note": "Tarif très élevé (+118% vs heures pleines) - minimiser drastiquement"
+    },
+    "prime_fixe_mensuelle": {
+      "montant": 5366,
+      "unit": "FCFA/kW de puissance souscrite",
+      "description": "Coût fixe mensuel basé sur la puissance souscrite",
+      "optimisation": "Lissage de charge pour réduire la puissance souscrite nécessaire"
+    },
+    "note_importante": "Il n'existe PAS d'heures creuses pour la catégorie E2 Industriel"
+  },
+  
+  "strategies_pompage": {
+    "POMPER_MAX": {
+      "pump_rate": 100,
+      "unit": "%",
+      "description": "Pompage à capacité maximale",
+      "condition": "Heures pleines (avant 17h) ET niveau < 85%",
+      "flow_multiplier": 1.3,
+      "justification": "Profiter du tarif avantageux à 54 FCFA/kWh pour remplir le réservoir"
+    },
+    "POMPER_NORMAL": {
+      "pump_rate": 70,
+      "unit": "%",
+      "description": "Pompage à capacité normale",
+      "condition": "Transition ou niveau optimal (entre 60-85%)",
+      "flow_multiplier": 1.0,
+      "justification": "Maintien du niveau en conditions normales"
+    },
+    "POMPER_MIN": {
+      "pump_rate": 25,
+      "unit": "%",
+      "description": "Pompage à capacité minimale",
+      "condition": "Heures de pointe (après 17h) ET niveau > 25%",
+      "flow_multiplier": 0.4,
+      "justification": "Éviter au maximum le tarif de 118 FCFA/kWh (+118% vs heures pleines)"
+    },
+    "POMPER_URGENCE": {
+      "pump_rate": 60,
+      "unit": "%",
+      "description": "Pompage d'urgence pour sécurité",
+      "condition": "Heures de pointe MAIS niveau critique <= 25%",
+      "flow_multiplier": 0.8,
+      "justification": "Assurer continuité service même si tarif élevé - sécurité prioritaire"
+    }
+  },
+  
+  "contraintes_operationnelles": {
+    "niveau_min": {
+      "value": 25,
+      "unit": "%",
+      "action": "ALERTE CRITIQUE et pompage urgence même si heures de pointe"
+    },
+    "niveau_max": {
+      "value": 95,
+      "unit": "%",
+      "action": "Réduction pompage"
+    },
+    "niveau_optimal": {
+      "range": [60, 85],
+      "unit": "%",
+      "description": "Zone de fonctionnement optimal - viser 85% avant 17h"
+    },
+    "strategie_generale": "Remplir au maximum avant 17h pour éviter pompage aux heures de pointe (118 FCFA/kWh)"
+  },
+  
+  "logic": {
+    "step1": "Charger les prévisions énergétiques du module 1",
+    "step2": "Pour chaque heure (0-23):",
+    "step2a": "  - Déterminer le prix de l'électricité selon l'heure (SONABEL E2):",
+    "step2a1": "    * 00h-17h: 54 FCFA/kWh (HEURES PLEINES)",
+    "step2a2": "    * 17h-24h: 118 FCFA/kWh (HEURES DE POINTE - +118% !)",
+    "step2b": "  - Évaluer le niveau actuel du réservoir",
+    "step2c": "  - Appliquer la stratégie de pompage appropriée:",
+    "step2c1": "    * Si heures pleines (avant 17h) ET niveau < 85% → POMPER_MAX",
+    "step2c2": "    * Si heures pointe (après 17h) ET niveau > 25% → POMPER_MIN",
+    "step2c3": "    * Si heures pointe ET niveau <= 25% → POMPER_URGENCE (sécurité)",
+    "step2c4": "    * Sinon → POMPER_NORMAL",
+    "step2d": "  - Calculer l'énergie utilisée = energy_predicted × (pump_rate/100)",
+    "step2e": "  - Calculer le coût = energy_used × prix_kwh",
+    "step2f": "  - Mettre à jour le niveau du réservoir (min 25%, max 95%)",
+    "step3": "Générer le planning de pompage pour 24h",
+    "step4": "Calculer les économies vs pompage non optimisé",
+    "step5": "Retourner le planning en JSON",
+    "strategie_cle": "L'écart de 118% entre heures pleines et pointe justifie une optimisation agressive"
+  },
+  
+  "calculs": {
+    "energy_used": "energy_predicted × (pump_rate / 100)",
+    "cost": "energy_used × prix_kwh",
+    "level_change": "(flow_actual - consommation_moyenne) / 10",
+    "new_level": "min(95, max(30, current_level + level_change))"
+  },
+  
+  "objectif_optimisation": {
+    "primary": "Minimiser le coût total d'énergie",
+    "secondary": "Maintenir le niveau réservoir dans zone optimale",
+    "constraint": "Assurer continuité du service 24h/24"
+  },
+  
+  "output_format": {
+    "type": "JSON array",
+    "fields": [
+      "date",
+      "hour",
+      "pump_action (POMPER_MAX/NORMAL/MIN)",
+      "pump_rate (%)",
+      "price_kwh (FCFA)",
+      "energy_used (kWh)",
+      "cost_fcfa (FCFA)",
+      "level_after (%)"
+    ]
+  },
+  
+  "performance_expected": {
+    "cost_reduction": "20-30%",
+    "cost_reduction_details": {
+      "heures_pleines": "Maximisation pompage à 54 FCFA/kWh",
+      "heures_pointe": "Réduction drastique à 118 FCFA/kWh (-70% volume)",
+      "impact": "Économies majeures dues à l'écart tarifaire de +118%"
+    },
+    "peak_hour_reduction": "60-70%",
+    "peak_hour_details": "Réduction volume pompé 17h-24h grâce à remplissage avant 17h",
+    "optimal_level_maintenance": ">90%",
+    "service_continuity": "100%",
+    "prime_fixe_optimization": {
+      "levier": "Lissage de charge",
+      "montant_unitaire": "5 366 FCFA/kW/mois",
+      "strategie": "Éviter pics de puissance pour réduire puissance souscrite nécessaire",
+      "economie_potentielle": "10-15% sur prime fixe via lissage optimal",
+      "exemple": "Si puissance souscrite réduite de 100 kW → économie 536 600 FCFA/mois"
+    },
+    "note_importante": "Avec tarif SONABEL réel, les économies sont encore plus importantes que simulation initiale"
+  },
+  
+  "adaptations_possibles": {
+    "tarifs_dynamiques": "Ajuster prix selon contrat SONABEL",
+    "multi_stations": "Répartition charge entre plusieurs stations",
+    "storage_batteries": "Intégration stockage énergie",
+    "maintenance_schedule": "Éviter pompage durant maintenance programmée"
+  },
+  
+  "implementation": {
+    "language": "Python 3.x",
+    "libraries": ["numpy", "json"],
+    "file": "modules/module2_optimization.py",
+    "execution_frequency": "quotidienne",
+    "execution_time": "23h00 pour jour suivant"
+  }
+}

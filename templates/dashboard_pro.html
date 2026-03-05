@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONEA Energy Optimizer - Dashboard Pro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_pro.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    <div>
+                        <div class="sidebar-title">ONEA</div>
+                        <div class="sidebar-subtitle">Pilotage Mix Énergétique</div>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active" data-tab="overview">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> Vue d'ensemble
+                </a>
+                <a href="#" class="nav-item" data-tab="predictions">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 6l-9.5 9.5-5-5L1 18"/><path d="M17 6h6v6"/></svg> Prévisions
+                </a>
+                <a href="#" class="nav-item" data-tab="optimization">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Optimisation
+                </a>
+                <a href="#" class="nav-item" data-tab="anomalies">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg> Anomalies
+                    <span class="nav-item-badge" id="anomalies-count">0</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="stations">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg> Stations
+                </a>
+            </nav>
+            <div class="sidebar-footer">
+                <div>Version 2.0 (Intégration RSE/Mix)</div>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <div class="topbar">
+                <div class="topbar-left">
+                    <h1 id="page-title">Vue d'ensemble</h1>
+                    <p id="page-subtitle">Tableau de bord de performance et d'impact environnemental</p>
+                </div>
+                <div class="topbar-actions">
+                    <button class="btn" onclick="refreshData()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+                        </svg>
+                        Actualiser
+                    </button>
+                    <button class="btn btn-primary" onclick="exportPDF()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                        </svg>
+                        Exporter PDF
+                    </button>
+                </div>
+            </div>
+            
+            <div class="content-area">
+                <div id="tab-overview" class="tab-content active">
+                    <div class="kpi-grid">
+                        <div class="kpi-card">
+                            <div class="kpi-header">
+                                <div><div class="kpi-label">Coût Global (24h)</div></div>
+                                <div class="kpi-icon blue">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                                </div>
+                            </div>
+                            <div class="kpi-value" id="kpi-cost">-- FCFA</div>
+                            <div class="kpi-change positive" id="kpi-savings-percent">-- économisé</div>
+                        </div>
+                        
+                        <div class="kpi-card">
+                            <div class="kpi-header">
+                                <div><div class="kpi-label">Apport Solaire Gratuit</div></div>
+                                <div class="kpi-icon orange">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                                </div>
+                            </div>
+                            <div class="kpi-value" id="kpi-solar">-- kWh</div>
+                            <div class="kpi-change positive">Rendement 100% propre</div>
+                        </div>
+                        
+                        <div class="kpi-card">
+                            <div class="kpi-header">
+                                <div><div class="kpi-label">Empreinte CO2 / Gasoil</div></div>
+                                <div class="kpi-icon red">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                                </div>
+                            </div>
+                            <div class="kpi-value" id="kpi-co2">-- kg</div>
+                            <div class="kpi-change negative" id="kpi-gasoil">-- Litres consommés</div>
+                        </div>
+                        
+                        <div class="kpi-card">
+                            <div class="kpi-header">
+                                <div><div class="kpi-label">Anomalies & Alertes</div></div>
+                                <div class="kpi-icon orange">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg>
+                                </div>
+                            </div>
+                            <div class="kpi-value" id="kpi-anomalies-total">--</div>
+                            <div class="kpi-change negative" id="kpi-anomalies-critical">--</div>
+                        </div>
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1.5rem;">
+                        <div class="section">
+                            <div class="section-header">
+                                <div class="section-title">Niveau Réservoir</div>
+                            </div>
+                            <div class="gauge-container">
+                                <div class="gauge-wrapper">
+                                    <svg class="gauge-svg" viewBox="0 0 200 200">
+                                        <circle class="gauge-background" cx="100" cy="100" r="90"/>
+                                        <circle class="gauge-progress" id="gauge-circle" cx="100" cy="100" r="90" stroke-dasharray="565.48" stroke-dashoffset="141.37"/>
+                                    </svg>
+                                    <div class="gauge-center">
+                                        <div class="gauge-value" id="gauge-value">65%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="section-header">
+                                <div class="section-title">Statut Système & Réseau SONABEL</div>
+                            </div>
+                            <div id="system-summary"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-predictions" class="tab-content" style="display: none;">
+                    <div class="section">
+                        <div class="section-header"><div class="section-title">Prévisions (Consommation vs Solaire)</div></div>
+                        <div class="chart-container"><canvas id="predictionsChart"></canvas></div>
+                    </div>
+                </div>
+                
+                <div id="tab-optimization" class="tab-content" style="display: none;">
+                    <div class="section">
+                        <div class="section-header"><div class="section-title">Répartition du Mix Énergétique</div></div>
+                        <div class="chart-container"><canvas id="scheduleChart"></canvas></div>
+                    </div>
+                    <div class="section">
+                        <div class="table-wrapper">
+                            <table id="schedule-table">
+                                <thead>
+                                    <tr>
+                                        <th>Heure</th>
+                                        <th>Statut Réseau</th>
+                                        <th>Solaire (kWh)</th>
+                                        <th>SONABEL (kWh)</th>
+                                        <th>Groupe (Gasoil)</th>
+                                        <th>Action</th>
+                                        <th>Coût</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="schedule-tbody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-anomalies" class="tab-content" style="display: none;">
+                    <div class="section">
+                        <div class="section-header"><div class="section-title">Détection d'Anomalies</div></div>
+                        <div class="table-wrapper">
+                            <table id="anomalies-table">
+                                <thead>
+                                    <tr>
+                                        <th>Date/Heure</th>
+                                        <th>Sévérité</th>
+                                        <th>Réseau</th>
+                                        <th>Débit</th>
+                                        <th>Alertes</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="anomalies-tbody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab-stations" class="tab-content" style="display: none;">
+                    <div class="section" id="ranking-content"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modal-title">Diagnostic de l'Anomalie</h2>
+                <button class="modal-close" onclick="closeModal()">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="detail-grid" id="modal-details-grid">
+                    </div>
+                <div style="margin-top: 1.5rem;">
+                    <h3 style="color: var(--danger); margin-bottom: 0.5rem;">🚨 Causes Probables</h3>
+                    <div id="modal-causes" style="background: var(--bg-secondary); padding: 1rem; border-radius: 6px;"></div>
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    <h3 style="color: var(--success); margin-bottom: 0.5rem;">✅ Actions Recommandées</h3>
+                    <div id="modal-actions" style="background: var(--bg-secondary); padding: 1rem; border-radius: 6px;"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="closeModal()">Bien reçu, fermer</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='dashboard_pro.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,2746 @@
+[
+  {
+    "date": "2026-02-03",
+    "hour": 12,
+    "flow": 137.89,
+    "energy": 115.82,
+    "level": 70.3,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 14,
+    "flow": 145.74,
+    "energy": 131.91,
+    "level": 68.97,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 16,
+    "flow": 145.05,
+    "energy": 116.14,
+    "level": 67.88,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 15,
+    "flow": 163.37,
+    "energy": 116.99,
+    "level": 69.1,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 18,
+    "flow": 224.76,
+    "energy": 171.87,
+    "level": 75.71,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 19,
+    "flow": 207.25,
+    "energy": 186.36,
+    "level": 59.64,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 21,
+    "flow": 211.67,
+    "energy": 178.7,
+    "level": 48.18,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 22,
+    "flow": 132.09,
+    "energy": 101.63,
+    "level": 48.31,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 2,
+    "flow": 163.47,
+    "energy": 136.01,
+    "level": 61.37,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 21,
+    "flow": 202.31,
+    "energy": 167.3,
+    "level": 50.6,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 22,
+    "flow": 145.51,
+    "energy": 111.22,
+    "level": 63.39,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 5,
+    "flow": 134.25,
+    "energy": 105.23,
+    "level": 68.1,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 21,
+    "flow": 192.16,
+    "energy": 166.97,
+    "level": 54.44,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 22,
+    "flow": 156.14,
+    "energy": 143.73,
+    "level": 51.63,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 13,
+    "flow": 179.41,
+    "energy": 134.06,
+    "level": 55.49,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 3,
+    "flow": 142.99,
+    "energy": 123.89,
+    "level": 47.9,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 20,
+    "flow": 230.01,
+    "energy": 194.66,
+    "level": 53.04,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 22,
+    "flow": 164.15,
+    "energy": 124.7,
+    "level": 52.74,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 4,
+    "flow": 150.65,
+    "energy": 129.19,
+    "level": 65.75,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 18,
+    "flow": 202.26,
+    "energy": 160.62,
+    "level": 59.53,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 22,
+    "flow": 132.57,
+    "energy": 113.32,
+    "level": 50.66,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 2,
+    "flow": 184.14,
+    "energy": 136.24,
+    "level": 70.74,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 20,
+    "flow": 205.75,
+    "energy": 172.85,
+    "level": 57.23,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 19,
+    "flow": 200.53,
+    "energy": 154.55,
+    "level": 50.92,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 18,
+    "flow": 211.33,
+    "energy": 170.7,
+    "level": 55.14,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 22,
+    "flow": 157.35,
+    "energy": 122.91,
+    "level": 55.87,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 3,
+    "flow": 153.48,
+    "energy": 130.89,
+    "level": 53.94,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 7,
+    "flow": 186.67,
+    "energy": 153.6,
+    "level": 67.39,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 18,
+    "flow": 200.21,
+    "energy": 154.17,
+    "level": 58.13,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 8,
+    "flow": 198.01,
+    "energy": 158.85,
+    "level": 83.84,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-27",
+    "hour": 20,
+    "flow": 213.89,
+    "energy": 173.86,
+    "level": 62.46,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-28",
+    "hour": 17,
+    "flow": 158.84,
+    "energy": 138.07,
+    "level": 60.39,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-01",
+    "hour": 8,
+    "flow": 202.84,
+    "energy": 151.29,
+    "level": 74.19,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-01",
+    "hour": 18,
+    "flow": 228.63,
+    "energy": 175.28,
+    "level": 67.8,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-01",
+    "hour": 23,
+    "flow": 165.43,
+    "energy": 137.99,
+    "level": 57.19,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 7,
+    "flow": 227.02,
+    "energy": 184.62,
+    "level": 80.11,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 10,
+    "flow": 177.46,
+    "energy": 127.42,
+    "level": 79.56,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 19,
+    "flow": 238.46,
+    "energy": 199.74,
+    "level": 56.62,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 22,
+    "flow": 154.65,
+    "energy": 131.32,
+    "level": 51.69,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-03",
+    "hour": 16,
+    "flow": 190.31,
+    "energy": 158.92,
+    "level": 67.72,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 9,
+    "flow": 182.3,
+    "energy": 136.08,
+    "level": 82.04,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 14,
+    "flow": 176.64,
+    "energy": 122.7,
+    "level": 65.77,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 15,
+    "flow": 157.33,
+    "energy": 134.83,
+    "level": 64.64,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 22,
+    "flow": 158.53,
+    "energy": 148.18,
+    "level": 56.17,
+    "grid_status": 0,
+    "alerts": [
+      "GASPILLAGE_GASOIL_GROUPE_ELECTROGENE"
+    ],
+    "severity_score": 4,
+    "severity": "CRITIQUE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 18,
+    "flow": 226.07,
+    "energy": 165.08,
+    "level": 62.88,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 19,
+    "flow": 250.69,
+    "energy": 216.29,
+    "level": 52.88,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 20,
+    "flow": 209.83,
+    "energy": 161.31,
+    "level": 53.66,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 21,
+    "flow": 240.61,
+    "energy": 194.06,
+    "level": 64.66,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 18,
+    "flow": 236.11,
+    "energy": 189.08,
+    "level": 61.6,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 19,
+    "flow": 244.21,
+    "energy": 197.07,
+    "level": 62.0,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 20,
+    "flow": 238.69,
+    "energy": 187.19,
+    "level": 57.12,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 21,
+    "flow": 217.72,
+    "energy": 181.02,
+    "level": 65.44,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 18,
+    "flow": 203.16,
+    "energy": 159.34,
+    "level": 53.6,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 19,
+    "flow": 257.02,
+    "energy": 218.4,
+    "level": 54.15,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 20,
+    "flow": 210.11,
+    "energy": 174.21,
+    "level": 62.5,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 21,
+    "flow": 234.56,
+    "energy": 193.8,
+    "level": 57.52,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 18,
+    "flow": 218.07,
+    "energy": 164.82,
+    "level": 66.68,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 19,
+    "flow": 215.85,
+    "energy": 189.33,
+    "level": 52.21,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 20,
+    "flow": 203.25,
+    "energy": 151.84,
+    "level": 49.64,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 21,
+    "flow": 216.81,
+    "energy": 163.23,
+    "level": 55.37,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 18,
+    "flow": 241.56,
+    "energy": 207.15,
+    "level": 70.66,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 19,
+    "flow": 221.11,
+    "energy": 184.21,
+    "level": 54.19,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 21,
+    "flow": 245.58,
+    "energy": 194.12,
+    "level": 52.9,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 18,
+    "flow": 220.68,
+    "energy": 188.96,
+    "level": 75.9,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 19,
+    "flow": 229.61,
+    "energy": 190.34,
+    "level": 53.94,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 20,
+    "flow": 228.49,
+    "energy": 182.62,
+    "level": 58.76,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 18,
+    "flow": 237.66,
+    "energy": 207.05,
+    "level": 67.17,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 19,
+    "flow": 217.93,
+    "energy": 174.56,
+    "level": 52.58,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 20,
+    "flow": 206.77,
+    "energy": 155.5,
+    "level": 46.26,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-10",
+    "hour": 21,
+    "flow": 215.33,
+    "energy": 163.26,
+    "level": 49.54,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 18,
+    "flow": 216.05,
+    "energy": 180.51,
+    "level": 57.46,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 19,
+    "flow": 205.34,
+    "energy": 146.52,
+    "level": 62.83,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 21,
+    "flow": 231.54,
+    "energy": 185.91,
+    "level": 59.92,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 18,
+    "flow": 225.19,
+    "energy": 188.82,
+    "level": 64.79,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 19,
+    "flow": 216.71,
+    "energy": 163.78,
+    "level": 53.64,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 20,
+    "flow": 211.25,
+    "energy": 167.61,
+    "level": 56.43,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-12",
+    "hour": 21,
+    "flow": 232.99,
+    "energy": 183.35,
+    "level": 51.78,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 18,
+    "flow": 207.67,
+    "energy": 166.3,
+    "level": 65.99,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 19,
+    "flow": 226.27,
+    "energy": 172.78,
+    "level": 53.69,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 20,
+    "flow": 232.29,
+    "energy": 179.14,
+    "level": 58.22,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 18,
+    "flow": 210.05,
+    "energy": 166.21,
+    "level": 60.09,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 19,
+    "flow": 229.4,
+    "energy": 191.41,
+    "level": 62.54,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 20,
+    "flow": 211.41,
+    "energy": 174.34,
+    "level": 50.5,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 21,
+    "flow": 228.31,
+    "energy": 174.27,
+    "level": 49.74,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 18,
+    "flow": 217.27,
+    "energy": 163.48,
+    "level": 64.73,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 19,
+    "flow": 250.07,
+    "energy": 186.14,
+    "level": 44.84,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 21,
+    "flow": 215.99,
+    "energy": 172.55,
+    "level": 49.04,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 19,
+    "flow": 208.99,
+    "energy": 174.75,
+    "level": 56.56,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 20,
+    "flow": 224.78,
+    "energy": 175.02,
+    "level": 56.24,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 18,
+    "flow": 243.43,
+    "energy": 223.15,
+    "level": 57.43,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 19,
+    "flow": 203.91,
+    "energy": 159.77,
+    "level": 54.96,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-17",
+    "hour": 20,
+    "flow": 226.81,
+    "energy": 179.86,
+    "level": 52.22,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 18,
+    "flow": 215.53,
+    "energy": 180.4,
+    "level": 60.53,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 19,
+    "flow": 217.85,
+    "energy": 171.25,
+    "level": 53.52,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 20,
+    "flow": 221.7,
+    "energy": 173.13,
+    "level": 52.89,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 21,
+    "flow": 232.04,
+    "energy": 176.27,
+    "level": 55.07,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 19,
+    "flow": 227.05,
+    "energy": 192.87,
+    "level": 52.22,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 21,
+    "flow": 232.96,
+    "energy": 180.84,
+    "level": 59.69,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 18,
+    "flow": 203.43,
+    "energy": 161.82,
+    "level": 63.82,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 19,
+    "flow": 229.27,
+    "energy": 186.85,
+    "level": 68.47,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 20,
+    "flow": 215.48,
+    "energy": 165.27,
+    "level": 54.05,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-20",
+    "hour": 21,
+    "flow": 210.49,
+    "energy": 185.34,
+    "level": 59.17,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 18,
+    "flow": 225.32,
+    "energy": 173.09,
+    "level": 56.22,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 20,
+    "flow": 217.46,
+    "energy": 159.54,
+    "level": 52.88,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 21,
+    "flow": 207.08,
+    "energy": 158.84,
+    "level": 49.75,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 19,
+    "flow": 236.24,
+    "energy": 186.87,
+    "level": 56.49,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 20,
+    "flow": 244.63,
+    "energy": 213.05,
+    "level": 56.47,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 21,
+    "flow": 224.25,
+    "energy": 181.56,
+    "level": 53.47,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 19,
+    "flow": 226.27,
+    "energy": 186.89,
+    "level": 47.18,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 18,
+    "flow": 236.2,
+    "energy": 195.59,
+    "level": 60.58,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 19,
+    "flow": 223.1,
+    "energy": 157.6,
+    "level": 53.94,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 20,
+    "flow": 207.57,
+    "energy": 155.93,
+    "level": 57.46,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 21,
+    "flow": 202.08,
+    "energy": 151.92,
+    "level": 54.08,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-25",
+    "hour": 18,
+    "flow": 221.38,
+    "energy": 175.17,
+    "level": 67.53,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-25",
+    "hour": 19,
+    "flow": 223.01,
+    "energy": 186.91,
+    "level": 57.57,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-25",
+    "hour": 21,
+    "flow": 217.32,
+    "energy": 166.27,
+    "level": 59.28,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 18,
+    "flow": 215.46,
+    "energy": 173.49,
+    "level": 62.08,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 19,
+    "flow": 229.18,
+    "energy": 195.34,
+    "level": 50.65,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-26",
+    "hour": 20,
+    "flow": 226.22,
+    "energy": 190.3,
+    "level": 46.07,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-27",
+    "hour": 18,
+    "flow": 219.1,
+    "energy": 175.98,
+    "level": 62.03,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-27",
+    "hour": 19,
+    "flow": 216.33,
+    "energy": 183.89,
+    "level": 52.02,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-27",
+    "hour": 21,
+    "flow": 215.05,
+    "energy": 184.92,
+    "level": 61.01,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-28",
+    "hour": 18,
+    "flow": 218.74,
+    "energy": 168.95,
+    "level": 67.66,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-28",
+    "hour": 19,
+    "flow": 208.62,
+    "energy": 165.13,
+    "level": 53.92,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-28",
+    "hour": 20,
+    "flow": 203.37,
+    "energy": 155.37,
+    "level": 60.27,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-28",
+    "hour": 21,
+    "flow": 222.5,
+    "energy": 149.62,
+    "level": 57.3,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-01",
+    "hour": 19,
+    "flow": 233.97,
+    "energy": 193.67,
+    "level": 55.59,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-01",
+    "hour": 20,
+    "flow": 217.99,
+    "energy": 161.88,
+    "level": 51.41,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 18,
+    "flow": 248.14,
+    "energy": 201.0,
+    "level": 57.45,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 20,
+    "flow": 261.95,
+    "energy": 203.65,
+    "level": 60.74,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 21,
+    "flow": 217.12,
+    "energy": 195.59,
+    "level": 58.26,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-03",
+    "hour": 18,
+    "flow": 221.06,
+    "energy": 175.8,
+    "level": 63.7,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-03",
+    "hour": 19,
+    "flow": 241.93,
+    "energy": 202.66,
+    "level": 57.28,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-03",
+    "hour": 20,
+    "flow": 209.03,
+    "energy": 166.26,
+    "level": 50.82,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-03",
+    "hour": 21,
+    "flow": 221.34,
+    "energy": 193.36,
+    "level": 53.46,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 18,
+    "flow": 228.33,
+    "energy": 201.49,
+    "level": 66.82,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 19,
+    "flow": 232.56,
+    "energy": 179.48,
+    "level": 43.47,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 21,
+    "flow": 212.86,
+    "energy": 172.7,
+    "level": 52.41,
+    "grid_status": 1,
+    "alerts": [
+      "DEPASSEMENT_PUISSANCE_HEURE_POINTE"
+    ],
+    "severity_score": 3,
+    "severity": "MOYENNE",
+    "detection_method": "RULE_BASED"
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 12,
+    "flow": 137.89,
+    "energy": 115.82,
+    "level": 70.3,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6053752835728174
+  },
+  {
+    "date": "2026-02-03",
+    "hour": 14,
+    "flow": 145.74,
+    "energy": 131.91,
+    "level": 68.97,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6089940667110961
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 10,
+    "flow": 83.28,
+    "energy": 58.36,
+    "level": 73.95,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6770285337573243
+  },
+  {
+    "date": "2026-02-04",
+    "hour": 16,
+    "flow": 145.05,
+    "energy": 116.14,
+    "level": 67.88,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5791101639644228
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 5,
+    "flow": 96.1,
+    "energy": 69.75,
+    "level": 53.07,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5828095744180318
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 15,
+    "flow": 163.37,
+    "energy": 116.99,
+    "level": 69.1,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5912002965947067
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 18,
+    "flow": 224.76,
+    "energy": 171.87,
+    "level": 75.71,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6205674132193352
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 19,
+    "flow": 207.25,
+    "energy": 186.36,
+    "level": 59.64,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5922789904465343
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 21,
+    "flow": 211.67,
+    "energy": 178.7,
+    "level": 48.18,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6178796781054954
+  },
+  {
+    "date": "2026-02-05",
+    "hour": 22,
+    "flow": 132.09,
+    "energy": 101.63,
+    "level": 48.31,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6238693859207527
+  },
+  {
+    "date": "2026-02-06",
+    "hour": 2,
+    "flow": 163.47,
+    "energy": 136.01,
+    "level": 61.37,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5949586429776972
+  },
+  {
+    "date": "2026-02-07",
+    "hour": 22,
+    "flow": 113.26,
+    "energy": 95.42,
+    "level": 57.33,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6266039354882237
+  },
+  {
+    "date": "2026-02-08",
+    "hour": 18,
+    "flow": 241.56,
+    "energy": 207.15,
+    "level": 70.66,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.58118407410397
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 11,
+    "flow": 107.37,
+    "energy": 83.85,
+    "level": 78.56,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5707744483827767
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 21,
+    "flow": 202.31,
+    "energy": 167.3,
+    "level": 50.6,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5961433589098059
+  },
+  {
+    "date": "2026-02-09",
+    "hour": 22,
+    "flow": 145.51,
+    "energy": 111.22,
+    "level": 63.39,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.597482555433547
+  },
+  {
+    "date": "2026-02-11",
+    "hour": 22,
+    "flow": 116.41,
+    "energy": 102.07,
+    "level": 63.42,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6280029162968391
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 0,
+    "flow": 109.19,
+    "energy": 97.08,
+    "level": 57.28,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6483430056837906
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 5,
+    "flow": 134.25,
+    "energy": 105.23,
+    "level": 68.1,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6165502904799255
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 17,
+    "flow": 84.98,
+    "energy": 64.56,
+    "level": 65.91,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5951580542685131
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 21,
+    "flow": 192.16,
+    "energy": 166.97,
+    "level": 54.44,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5806991851788205
+  },
+  {
+    "date": "2026-02-13",
+    "hour": 22,
+    "flow": 156.14,
+    "energy": 143.73,
+    "level": 51.63,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.582414912818656
+  },
+  {
+    "date": "2026-02-14",
+    "hour": 13,
+    "flow": 179.41,
+    "energy": 134.06,
+    "level": 55.49,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6409197955736311
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 3,
+    "flow": 142.99,
+    "energy": 123.89,
+    "level": 47.9,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6266269953252075
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 10,
+    "flow": 103.72,
+    "energy": 78.7,
+    "level": 83.89,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.581617709399381
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 19,
+    "flow": 250.07,
+    "energy": 186.14,
+    "level": 44.84,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5847964676531361
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 20,
+    "flow": 230.01,
+    "energy": 194.66,
+    "level": 53.04,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.617929351593872
+  },
+  {
+    "date": "2026-02-15",
+    "hour": 22,
+    "flow": 164.15,
+    "energy": 124.7,
+    "level": 52.74,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5855563595377388
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 4,
+    "flow": 150.65,
+    "energy": 129.19,
+    "level": 65.75,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5969813000011074
+  },
+  {
+    "date": "2026-02-16",
+    "hour": 18,
+    "flow": 202.26,
+    "energy": 160.62,
+    "level": 59.53,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5721475185064258
+  },
+  {
+    "date": "2026-02-18",
+    "hour": 22,
+    "flow": 132.57,
+    "energy": 113.32,
+    "level": 50.66,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6023679390970741
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 2,
+    "flow": 184.14,
+    "energy": 136.24,
+    "level": 70.74,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6215083647248559
+  },
+  {
+    "date": "2026-02-19",
+    "hour": 20,
+    "flow": 205.75,
+    "energy": 172.85,
+    "level": 57.23,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5738988902664184
+  },
+  {
+    "date": "2026-02-21",
+    "hour": 19,
+    "flow": 200.53,
+    "energy": 154.55,
+    "level": 50.92,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.594632145739579
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 11,
+    "flow": 123.28,
+    "energy": 93.47,
+    "level": 82.9,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5740438759881336
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 14,
+    "flow": 116.46,
+    "energy": 78.19,
+    "level": 62.66,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.57029632393978
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 18,
+    "flow": 211.33,
+    "energy": 170.7,
+    "level": 55.14,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5720802247274814
+  },
+  {
+    "date": "2026-02-22",
+    "hour": 22,
+    "flow": 157.35,
+    "energy": 122.91,
+    "level": 55.87,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5848802212648594
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 3,
+    "flow": 153.48,
+    "energy": 130.89,
+    "level": 53.94,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5972932641330337
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 7,
+    "flow": 186.67,
+    "energy": 153.6,
+    "level": 67.39,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5918975888863715
+  },
+  {
+    "date": "2026-02-23",
+    "hour": 18,
+    "flow": 200.21,
+    "energy": 154.17,
+    "level": 58.13,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5691708478857188
+  },
+  {
+    "date": "2026-02-24",
+    "hour": 8,
+    "flow": 198.01,
+    "energy": 158.85,
+    "level": 83.84,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6226227316687272
+  },
+  {
+    "date": "2026-02-27",
+    "hour": 20,
+    "flow": 213.89,
+    "energy": 173.86,
+    "level": 62.46,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5747987575706504
+  },
+  {
+    "date": "2026-02-28",
+    "hour": 17,
+    "flow": 158.84,
+    "energy": 138.07,
+    "level": 60.39,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5809991328875929
+  },
+  {
+    "date": "2026-03-01",
+    "hour": 8,
+    "flow": 202.84,
+    "energy": 151.29,
+    "level": 74.19,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.599005315768629
+  },
+  {
+    "date": "2026-03-01",
+    "hour": 18,
+    "flow": 228.63,
+    "energy": 175.28,
+    "level": 67.8,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6164557726765041
+  },
+  {
+    "date": "2026-03-01",
+    "hour": 23,
+    "flow": 165.43,
+    "energy": 137.99,
+    "level": 57.19,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5725768724291687
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 7,
+    "flow": 227.02,
+    "energy": 184.62,
+    "level": 80.11,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.662587351617529
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 10,
+    "flow": 177.46,
+    "energy": 127.42,
+    "level": 79.56,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6023092705752179
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 12,
+    "flow": 208.97,
+    "energy": 172.29,
+    "level": 81.33,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5842197228830995
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 19,
+    "flow": 238.46,
+    "energy": 199.74,
+    "level": 56.62,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6182086465785159
+  },
+  {
+    "date": "2026-03-02",
+    "hour": 22,
+    "flow": 154.65,
+    "energy": 131.32,
+    "level": 51.69,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5794271654379527
+  },
+  {
+    "date": "2026-03-03",
+    "hour": 16,
+    "flow": 190.31,
+    "energy": 158.92,
+    "level": 67.72,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5958945583634471
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 1,
+    "flow": 89.28,
+    "energy": 64.71,
+    "level": 58.99,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5967833701281423
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 9,
+    "flow": 182.3,
+    "energy": 136.08,
+    "level": 82.04,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.6022114417222507
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 14,
+    "flow": 176.64,
+    "energy": 122.7,
+    "level": 65.77,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.628056319164318
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 15,
+    "flow": 157.33,
+    "energy": 134.83,
+    "level": 64.64,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.571858009457898
+  },
+  {
+    "date": "2026-03-04",
+    "hour": 22,
+    "flow": 158.53,
+    "energy": 148.18,
+    "level": 56.17,
+    "alerts": [
+      "COMPORTEMENT_INHABITUEL_ML"
+    ],
+    "severity_score": 2,
+    "severity": "MOYENNE",
+    "detection_method": "MACHINE_LEARNING",
+    "ml_anomaly_score": -0.5753750242978187
+  }
+]
